@@ -1,0 +1,77 @@
+/* شاشة الدخول: تستخدم نفس متغيرات الألوان فتدعم الوضع المظلم تلقائياً */
+.auth{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 16px}
+.auth-box{width:100%;max-width:400px;text-align:center}
+.auth-box .logo{width:68px;height:68px;margin:0 auto 10px;border-radius:20px;background:var(--board);color:var(--chalk);font:700 36px/68px var(--font);box-shadow:0 5px 0 #0f332d}
+.auth-box h1{margin:0;font-size:30px;color:var(--ink)}
+.auth-box .mu{margin:0 0 20px}
+.auth-card{text-align:right;padding:18px}
+.auth-card h2{margin:0 0 6px;font-size:20px}
+.auth-card p{margin:0 0 14px;font-size:15px;line-height:1.8;color:var(--mut)}
+.auth-card label{display:block;font-size:14px;font-weight:600;color:var(--mut);margin:0 0 12px}
+.auth-card input{display:block;width:100%;box-sizing:border-box;margin-top:4px;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:16px/1.4 inherit;font-family:inherit;text-align:left}
+.auth-card input:focus{outline:2px solid var(--ok);outline-offset:1px;border-color:var(--ok)}
+.auth-tabs{display:flex;gap:6px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:4px;margin:0 0 16px}
+.auth-tabs button{flex:1;border:0;border-radius:9px;padding:8px;background:none;color:var(--mut);font:700 15px inherit;font-family:inherit;cursor:pointer}
+.auth-tabs button[aria-selected=true]{background:var(--board);color:#fff}
+.auth-err{background:#d9482b1f;border:1px solid var(--bad);color:var(--bad)!important;border-radius:10px;padding:8px 12px;font-weight:600}
+.auth-note{margin:12px 0 0!important;font-size:13px!important;text-align:center}
+.splash{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:16px}
+/* بطاقة الحساب في الملف الشخصي */
+.acct{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.acct b{display:block;direction:ltr;text-align:right;word-break:break-all;font-size:15px}
+.acct small{display:block;color:var(--mut);font-size:13px;line-height:1.6;margin-top:2px}
+.acct .btn{flex:none}
+/* وضع الزائر */
+.auth-guest{display:block;width:100%;margin-top:14px;padding:12px;border:1px dashed var(--line);border-radius:14px;background:none;color:var(--ink);font:700 16px inherit;font-family:inherit;cursor:pointer}
+.auth-guest small{display:block;color:var(--mut);font-weight:400;font-size:13px}
+.auth-guest:hover{border-color:var(--ok)}
+.guestbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.guestbar b{display:block}
+.guestbar .mu{display:block;font-size:14px;line-height:1.7}
+.guestbar .btn{flex:none}
+.un.lock{opacity:.62}
+.un.lock .n{background:var(--line);color:var(--mut)}
+.un.lock .go{color:var(--mut)}
+.lockbg{position:fixed;inset:0;z-index:80;background:#0008;display:flex;align-items:center;justify-content:center;padding:20px}
+.lockbox{width:100%;max-width:360px;text-align:center;margin:0}
+.lockbox .lockico{font-size:40px;line-height:1.2}
+.lockbox h2{margin:4px 0 6px;font-size:20px}
+.lockbox p{margin:0 0 14px;font-size:15px;line-height:1.8;color:var(--mut)}
+.lockbox .gh{margin-top:6px}
+/* صفحة المعلم */
+body[data-v=teach] #tcv{display:block}
+.trow{margin-bottom:10px}
+.trow-h{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.trow-h b{font-size:15px;word-break:break-all}
+.trow-st{font-size:13px;font-weight:700;color:var(--mut)}
+.trow.done .trow-st{color:var(--ok)}
+.trow.error .trow-st,.trow.failed .trow-st{color:var(--bad)}
+.trow-t{margin:8px 0 0;font-size:15px}
+.trow-t small{color:var(--mut)}
+.trow-n{margin:6px 0 0;font-size:13px;color:var(--mut)}
+.trow-n.bad{color:var(--bad);font-weight:600}
+.trow-e{margin:8px 0 0;padding:0 18px 0 0;color:var(--bad);font-size:13px;line-height:1.8}
+.auth-link{display:block;width:100%;margin-top:10px;padding:8px;border:0;background:none;color:var(--ok);font:700 14px inherit;font-family:inherit;cursor:pointer;text-align:center}
+.auth-link:hover{text-decoration:underline}
+.auth-ver{margin:16px 0 0;font-size:12px;color:var(--mut);direction:ltr}
+/* إدارة الدروس الحالية */
+.tgroup{margin:18px 4px 8px;font-weight:700;color:var(--mut);font-size:14px}
+.lrow{margin-bottom:10px}
+.lrow.off{opacity:.7;border-style:dashed}
+.lrow-h{display:flex;align-items:center;gap:12px}
+.lrow-h b{display:block;font-size:16px}
+.lrow-h small{display:block;color:var(--mut)}
+.lrow-n{flex:none;min-width:64px;text-align:center;padding:4px 8px;border-radius:10px;background:var(--bg);border:1px solid var(--line);font:700 12px inherit;font-family:inherit;color:var(--mut)}
+.lrow-m{margin:8px 0;font-size:13px;color:var(--mut)}
+.tag.off{color:var(--bad)}
+.lrow-a{display:flex;flex-wrap:wrap;gap:8px}
+.lrow-a .btn{padding:6px 12px;font-size:13px}
+.lrow-a .btn.del{color:var(--bad)}
+.lrow-c{margin-top:10px;padding:10px;border:1px solid var(--bad);border-radius:12px}
+.lrow-c p{margin:0 0 10px;font-size:14px;line-height:1.8}
+.lrow-e{margin-top:10px}
+.lrow-e textarea{width:100%;box-sizing:border-box;min-height:300px;max-height:60vh;margin:6px 0 10px;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:13px/1.6 ui-monospace,Menlo,Consolas,monospace;resize:vertical}
+.lrow-e textarea:focus{outline:2px solid var(--ok);border-color:var(--ok)}
+.ver{margin:18px 0 0;text-align:center;font-size:12px;color:var(--mut);direction:ltr}
+.lrow-lock{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:6px 0 10px;font-size:13px;color:var(--mut)}
+.lrow-lock select{flex:1;min-width:180px;padding:7px 8px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:13px inherit;font-family:inherit}
