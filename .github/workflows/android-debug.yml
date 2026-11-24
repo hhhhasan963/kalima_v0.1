@@ -1,0 +1,49 @@
+# يبني APK تجريبي (debug) عند كل push إلى main، أو يدوياً من تبويب Actions.
+# الملف الناتج يُنصَّب مباشرة على أي جوال أندرويد (للتجربة فقط، لا يُرفع إلى Google Play).
+name: Android debug APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - run: npm ci
+
+      # ملف .env غير موجود في المستودع (مقصود)، فنمرّر إعدادات Supabase من أسرار المستودع.
+      # إن لم تضبطها يُبنى التطبيق بدون سيرفر (الدروس المضمّنة فقط).
+      - name: Build web
+        run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
+
+      - name: Sync Capacitor
+        run: npx cap sync android
+
+      - name: Build APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kalima-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 30
