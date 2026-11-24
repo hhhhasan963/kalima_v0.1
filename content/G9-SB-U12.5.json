@@ -1,0 +1,356 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 12.5,
+ "label": "Review 2",
+ "title": "How to be a Good Son or Daughter?",
+ "titleAr": "كيف تكون ابناً أو ابنة صالحاً؟",
+ "sentences": [
+  [
+   "It’s not always easy to be a good son.",
+   "ليس من السهل دائماً أن تكون ابناً صالحاً.",
+   0
+  ],
+  [
+   "Sometimes, you make a mistake and can’t find a way to fix it.",
+   "أحياناً، ترتكب خطأً ولا تجد طريقة لإصلاحه.",
+   0
+  ],
+  [
+   "Other times, you disagree with your parents and don’t know how to talk to them without starting a fight.",
+   "وأحياناً أخرى، تختلف مع والديك ولا تعرف كيف تتحدث إليهما دون أن تبدأ شجاراً.",
+   0
+  ],
+  [
+   "What shall you do?",
+   "ماذا ستفعل؟",
+   0
+  ],
+  [
+   "Show your love",
+   "أظهر حبك",
+   1,
+   "h"
+  ],
+  [
+   "Tell your parents what’s going on in your life.",
+   "أخبر والديك بما يجري في حياتك.",
+   2
+  ],
+  [
+   "Your parents love you and want to know what’s going on in your life.",
+   "والداك يحبانك ويريدان أن يعرفا ما يجري في حياتك.",
+   2
+  ],
+  [
+   "They need to know all of the daily details, but they would love to know what’s on your mind, from your struggles with your studies to any big problems you’re having with your friends.",
+   "يحتاجان إلى معرفة كل التفاصيل اليومية، لكنهما يحبان أن يعرفا ما يدور في ذهنك، من صعوباتك في دراستك إلى أي مشكلات كبيرة تواجهها مع أصدقائك.",
+   2
+  ],
+  [
+   "They really do care, and even if they can’t always help, they would just like to know what’s happening.",
+   "هما يهتمان حقاً، وحتى لو لم يستطيعا المساعدة دائماً، فكل ما يريدانه هو أن يعرفا ما يحدث.",
+   2
+  ],
+  [
+   "Don’t be afraid to ask for their advice.",
+   "لا تخف من طلب نصيحتهما.",
+   3
+  ],
+  [
+   "Believe it or not, your parents were once your age, and they’ve gone through the same struggles that you’re going through.",
+   "صدّق أو لا تصدق، كان والداك يوماً في سنك، ومرّا بالصعوبات نفسها التي تمرّ بها.",
+   3
+  ],
+  [
+   "They’ll appreciate that you value their opinion.",
+   "سيقدّران أنك تقدّر رأيهما.",
+   3
+  ],
+  [
+   "Be kind to your siblings",
+   "كن لطيفاً مع إخوتك",
+   4,
+   "h"
+  ],
+  [
+   "It’s sometimes difficult to get along with your siblings, whether they are older or younger, but you should try to develop relationships with them.",
+   "من الصعب أحياناً أن تتفاهم مع إخوتك، سواء كانوا أكبر أو أصغر، لكن عليك أن تحاول تطوير علاقات معهم.",
+   5
+  ],
+  [
+   "You can help your siblings do their schoolwork, or clean up.",
+   "يمكنك مساعدة إخوتك في واجباتهم المدرسية، أو في التنظيف.",
+   5
+  ],
+  [
+   "This will not only help you be a good example to your siblings, but it will also help your parents.",
+   "لن يساعدك هذا فقط على أن تكون قدوة حسنة لإخوتك، بل سيساعد والديك أيضاً.",
+   5
+  ],
+  [
+   "Do as well in school as you can",
+   "أبلِ في المدرسة أفضل ما تستطيع",
+   6,
+   "h"
+  ],
+  [
+   "Your parents will be happy if you respect your teachers, do your homework, and keep your grades up to the best of your ability.",
+   "سيكون والداك سعيدين إذا احترمت معلميك، وأنجزت واجباتك، وحافظت على علاماتك بأفضل ما تستطيع.",
+   7
+  ],
+  [
+   "If you need help in school, ask your teachers or your parents for help.",
+   "إذا احتجت إلى مساعدة في المدرسة، فاطلب المساعدة من معلميك أو والديك.",
+   7
+  ],
+  [
+   "This will put you on a path to succeed in your future, and it will also make life much easier for your parents.",
+   "سيضعك هذا على طريق النجاح في مستقبلك، وسيجعل الحياة أسهل بكثير على والديك.",
+   7
+  ],
+  [
+   "At the end of the day, the thing that will please your parents the most is to see their son/daughter growing into a happy, responsible adult.",
+   "في نهاية المطاف، أكثر ما سيُسعد والديك هو أن يروا ابنهما/ابنتهما ينمو ليصبح بالغاً سعيداً ومسؤولاً.",
+   8
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Sometimes, you make a mistake and can’t find a way to ___ it.",
+   "o": [
+    "hide",
+    "fix",
+    "forget",
+    "repeat"
+   ],
+   "a": 1,
+   "e": "النص: can’t find a way to fix it، أي لا تجد طريقة لإصلاحه."
+  },
+  {
+   "q": "Your parents would love to know what’s on your ___.",
+   "o": [
+    "table",
+    "list",
+    "mind",
+    "phone"
+   ],
+   "a": 2,
+   "e": "النص: they would love to know what’s on your mind، أي ما يدور في ذهنك."
+  },
+  {
+   "q": "Why should you ask your parents for advice?",
+   "o": [
+    "They never make mistakes.",
+    "They live far away.",
+    "They have more free time.",
+    "They have gone through the same struggles."
+   ],
+   "a": 3,
+   "e": "النص: your parents were once your age, and they’ve gone through the same struggles."
+  },
+  {
+   "q": "You can help your siblings do their ___ or clean up.",
+   "o": [
+    "shopping",
+    "schoolwork",
+    "cooking",
+    "travelling"
+   ],
+   "a": 1,
+   "e": "النص: You can help your siblings do their schoolwork, or clean up."
+  },
+  {
+   "q": "Your parents will be happy if you respect your teachers, do your homework, and ___.",
+   "o": [
+    "keep your grades up",
+    "stay home all day",
+    "stop asking questions",
+    "avoid your friends"
+   ],
+   "a": 0,
+   "e": "النص: keep your grades up to the best of your ability، أي حافظ على علاماتك."
+  },
+  {
+   "q": "The thing that will please your parents the most is to see their son/daughter growing into ___.",
+   "o": [
+    "a famous singer",
+    "a rich businessman",
+    "a happy, responsible adult",
+    "a strict teacher"
+   ],
+   "a": 2,
+   "e": "النص: growing into a happy, responsible adult، أي ينمو ليصبح بالغاً سعيداً ومسؤولاً."
+  },
+  {
+   "q": "Your parents don’t want to know what’s going on in your life.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Your parents love you and want to know what’s going on in your life."
+  },
+  {
+   "q": "The writer says it’s sometimes difficult to get along with your siblings.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: It’s sometimes difficult to get along with your siblings."
+  },
+  {
+   "q": "Helping your siblings will only help you, not your parents.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: it will also help your parents، أي سيساعد والديك أيضاً."
+  },
+  {
+   "q": "The writer advises you to ask your teachers or your parents for help if you need help in school.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: If you need help in school, ask your teachers or your parents for help."
+  }
+ ],
+ "words": {
+  "is": "يكون / هو",
+  "it": "هو / هي",
+  "not": "لا / ليس",
+  "always": "دائماً",
+  "easy": "سهل",
+  "to": "إلى / أن",
+  "be": "يكون",
+  "a": "أداة نكرة",
+  "good": "جيد / صالح",
+  "son": "ابن",
+  "sometimes": "أحياناً",
+  "you": "أنت",
+  "make": "يرتكب / يجعل",
+  "mistake": "خطأ",
+  "and": "و",
+  "can't": "لا تستطيع",
+  "find": "يجد",
+  "way": "طريقة",
+  "fix": "يصلح",
+  "other": "آخر",
+  "time": "مرة / وقت",
+  "disagree": "يختلف",
+  "with": "مع",
+  "your": "ك (ملكية)",
+  "parent": "والد / والدة",
+  "don't": "لا",
+  "know": "يعرف",
+  "how": "كيف",
+  "talk": "يتحدث",
+  "them": "هم / لهم",
+  "without": "دون",
+  "starting": "بدء",
+  "fight": "شجار",
+  "what": "ما / ماذا",
+  "shall": "سوف",
+  "do": "يفعل",
+  "show": "يُظهر",
+  "love": "حب / يحب",
+  "tell": "يخبر",
+  "going": "يجري (going on) / تمرّ بـ (going through)",
+  "on": "على / في",
+  "in": "في",
+  "life": "حياة",
+  "want": "يريد",
+  "they": "هم",
+  "need": "يحتاج",
+  "all": "كل / جميع",
+  "of": "من / لـ",
+  "the": "أداة تعريف",
+  "daily": "يومي",
+  "detail": "تفصيل",
+  "but": "لكن",
+  "would": "سوف / كان ليـ",
+  "mind": "ذهن / عقل",
+  "from": "من",
+  "struggle": "صعوبة / كفاح",
+  "studies": "دراسة",
+  "any": "أي",
+  "big": "كبير",
+  "problem": "مشكلة",
+  "you're": "أنت (مختصر are)",
+  "having": "تواجه / لديك",
+  "friend": "صديق",
+  "really": "حقاً",
+  "care": "يهتم",
+  "even": "حتى",
+  "if": "إذا",
+  "help": "يساعد / مساعدة",
+  "just": "فقط",
+  "like": "يحب / مثل",
+  "happening": "يحدث",
+  "afraid": "خائف",
+  "ask": "يطلب / يسأل",
+  "for": "لـ / على",
+  "their": "هم (ملكية)",
+  "advice": "نصيحة",
+  "believe": "يصدّق",
+  "or": "أو",
+  "were": "كانوا / كانت",
+  "once": "ذات مرة / يوماً",
+  "age": "سن / عمر",
+  "they've": "هم (قد)",
+  "gone": "مرّوا بـ (go through)",
+  "through": "مرّ بـ (go through)",
+  "same": "نفس",
+  "that": "أن / التي",
+  "they'll": "هم (سوف)",
+  "appreciate": "يقدّر",
+  "value": "يقدّر / قيمة",
+  "opinion": "رأي",
+  "kind": "لطيف",
+  "sibling": "أخ / أخت",
+  "difficult": "صعب",
+  "get": "يتفاهم (get along)",
+  "along": "يتفاهم (get along)",
+  "whether": "سواء",
+  "are": "يكونون / هم",
+  "older": "أكبر سناً",
+  "younger": "أصغر سناً",
+  "should": "يجب / ينبغي",
+  "try": "يحاول",
+  "develop": "يطوّر",
+  "relationship": "علاقة",
+  "can": "يستطيع / يمكن",
+  "schoolwork": "واجبات مدرسية",
+  "clean": "ينظّف (clean up)",
+  "up": "ينظّف (clean up) / يحافظ على (keep up)",
+  "this": "هذا",
+  "will": "سوف",
+  "only": "فقط",
+  "example": "مثال / قدوة",
+  "also": "أيضاً",
+  "as": "كـ / بقدر",
+  "well": "جيداً",
+  "school": "مدرسة",
+  "happy": "سعيد",
+  "respect": "يحترم",
+  "teacher": "معلم",
+  "homework": "واجب منزلي",
+  "keep": "يحافظ على (keep up)",
+  "grade": "علامة",
+  "best": "أفضل",
+  "ability": "قدرة (to the best of your ability = بأفضل ما تستطيع)",
+  "put": "يضع",
+  "path": "طريق",
+  "succeed": "ينجح",
+  "future": "المستقبل",
+  "much": "بكثير",
+  "easier": "أسهل",
+  "at": "في / عند",
+  "end": "نهاية المطاف (at the end of the day)",
+  "day": "في نهاية المطاف (at the end of the day)",
+  "thing": "شيء",
+  "please": "يُسعد / من فضلك",
+  "most": "الأكثر",
+  "see": "يرى",
+  "daughter": "ابنة",
+  "growing": "ينمو",
+  "into": "إلى / ليصبح",
+  "responsible": "مسؤول",
+  "adult": "بالغ"
+ }
+}

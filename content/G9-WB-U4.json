@@ -1,0 +1,306 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 4,
+ "label": "Unit 4",
+ "title": "Ecological Cities",
+ "titleAr": "المدن البيئية",
+ "sentences": [
+  [
+   "When we think about the future, we tend to assume that most things will stay the same.",
+   "عندما نفكر في المستقبل، نميل إلى أن نفترض أن معظم الأشياء ستبقى كما هي.",
+   0
+  ],
+  [
+   "This is almost never the case.",
+   "هذا ليس هو الحال تقريباً أبداً.",
+   0
+  ],
+  [
+   "We are experiencing a technological progress every month now.",
+   "نحن نشهد تقدماً تكنولوجياً كل شهر الآن.",
+   0
+  ],
+  [
+   "The world is changing and the changes are very dramatic.",
+   "العالم يتغير والتغيرات دراماتيكية جداً.",
+   0
+  ],
+  [
+   "Imagining future cities with modern technology appears as a dynamic solution to society’s recent problems.",
+   "إن تخيّل مدن المستقبل بتكنولوجيا حديثة يظهر كحل ديناميكي لمشكلات المجتمع الأخيرة.",
+   1
+  ],
+  [
+   "Some recent researches have suggested that we need to think about the way we imagine future cities, and to focus on some forms of alternative energy such as solar power, wind power, and water power which lead to environmental sustainability.",
+   "اقترحت بعض الأبحاث الحديثة أننا بحاجة إلى التفكير في الطريقة التي نتخيل بها مدن المستقبل، وإلى التركيز على بعض أشكال الطاقة البديلة مثل الطاقة الشمسية وطاقة الرياح وطاقة المياه التي تؤدي إلى الاستدامة البيئية.",
+   1
+  ],
+  [
+   "We need to answer questions about what can be sustained and what cannot, where cities can be located and where they cannot, and how we might travel in and between them and how we can physically live and work together.",
+   "نحتاج إلى الإجابة عن أسئلة حول ما يمكن إدامته وما لا يمكن، وأين يمكن إقامة المدن وأين لا يمكن، وكيف يمكننا التنقل داخلها وفيما بينها وكيف يمكننا أن نعيش ونعمل معاً فعلياً.",
+   1
+  ],
+  [
+   "We may want our future cities to prioritize environmental renewal.",
+   "قد نريد لمدننا المستقبلية أن تعطي الأولوية للتجدد البيئي.",
+   2
+  ],
+  [
+   "We need to prevent environmental degradation and stop the expansion of deserts.",
+   "نحتاج إلى منع التدهور البيئي ووقف توسع الصحارى.",
+   2
+  ],
+  [
+   "Future cities can collect water and use solar power to irrigate the dry land.",
+   "يمكن لمدن المستقبل أن تجمع المياه وتستخدم الطاقة الشمسية لري الأرض الجافة.",
+   2
+  ],
+  [
+   "Future cities should be surrounded by rivers and provided with renewable energy resources and green vehicles heading towards more ecological forms of public transport.",
+   "يجب أن تكون مدن المستقبل محاطة بالأنهار ومزودة بمصادر طاقة متجددة ومركبات خضراء تتجه نحو أشكال أكثر بيئية من النقل العام.",
+   2
+  ],
+  [
+   "Imagining these cities helps us understand how we want our future lives and tomorrow’s world to look like.",
+   "إن تخيّل هذه المدن يساعدنا على فهم كيف نريد لحياتنا المستقبلية ولعالم الغد أن تبدو.",
+   3
+  ],
+  [
+   "It will be better to rethink about our health, other species and the planet we share.",
+   "سيكون من الأفضل أن نعيد التفكير في صحتنا، والأنواع الأخرى والكوكب الذي نتشاركه.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "When we think about the future, we tend to assume that most things will ___.",
+   "o": [
+    "disappear",
+    "stay the same",
+    "become smaller",
+    "change completely"
+   ],
+   "a": 1,
+   "e": "النص: we tend to assume that most things will stay the same، أي نفترض أن معظم الأشياء ستبقى كما هي."
+  },
+  {
+   "q": "We are experiencing a technological progress every ___ now.",
+   "o": [
+    "day",
+    "week",
+    "month",
+    "year"
+   ],
+   "a": 2,
+   "e": "النص: a technological progress every month now، أي تقدماً تكنولوجياً كل شهر."
+  },
+  {
+   "q": "Which forms of alternative energy are mentioned in the text?",
+   "o": [
+    "Coal, oil and gas",
+    "Nuclear power only",
+    "Petrol and diesel",
+    "Solar power, wind power and water power"
+   ],
+   "a": 3,
+   "e": "النص: solar power, wind power, and water power، أي الطاقة الشمسية وطاقة الرياح وطاقة المياه."
+  },
+  {
+   "q": "Future cities can collect water and use solar power to ___ the dry land.",
+   "o": [
+    "irrigate",
+    "build",
+    "sell",
+    "paint"
+   ],
+   "a": 0,
+   "e": "النص: use solar power to irrigate the dry land، أي لري الأرض الجافة."
+  },
+  {
+   "q": "Future cities should be surrounded by ___.",
+   "o": [
+    "deserts",
+    "rivers",
+    "factories",
+    "mountains"
+   ],
+   "a": 1,
+   "e": "النص: Future cities should be surrounded by rivers، أي محاطة بالأنهار."
+  },
+  {
+   "q": "Imagining these cities helps us understand ___.",
+   "o": [
+    "how to make cars faster",
+    "how to stop all research",
+    "how we want our future lives and tomorrow’s world to look",
+    "how to avoid cities completely"
+   ],
+   "a": 2,
+   "e": "النص: helps us understand how we want our future lives and tomorrow’s world to look like."
+  },
+  {
+   "q": "The world is changing and the changes are very dramatic.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: The world is changing and the changes are very dramatic."
+  },
+  {
+   "q": "The text says we should ignore environmental degradation.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: We need to prevent environmental degradation، أي نحتاج إلى منع التدهور البيئي."
+  },
+  {
+   "q": "The text says future cities should depend only on old energy resources.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنها يجب أن تكون provided with renewable energy resources، أي مزودة بمصادر طاقة متجددة."
+  },
+  {
+   "q": "The writer says it will be better to rethink about our health, other species and the planet we share.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: هذه الجملة وردت في النص."
+  }
+ ],
+ "words": {
+  "when": "عندما",
+  "we": "نحن",
+  "think": "يفكر في (think about)",
+  "about": "عن / حول",
+  "the": "أداة تعريف",
+  "future": "المستقبل",
+  "tend": "يميل إلى (tend to)",
+  "to": "إلى / أن",
+  "assume": "يفترض",
+  "that": "أن / التي",
+  "most": "معظم",
+  "things": "أشياء",
+  "will": "سوف",
+  "stay": "يبقى",
+  "same": "نفس",
+  "this": "هذا",
+  "is": "يكون / هو",
+  "almost": "كاد / تقريباً",
+  "never": "أبداً",
+  "case": "الحال (the case)",
+  "are": "يكونون / هم",
+  "experiencing": "نشهد / نختبر",
+  "a": "أداة نكرة",
+  "technological": "تكنولوجي",
+  "progress": "تقدم",
+  "every": "كل",
+  "month": "شهر",
+  "now": "الآن",
+  "world": "العالم",
+  "changing": "يتغير",
+  "and": "و",
+  "change": "تغيّر / تغيرات",
+  "very": "جداً",
+  "dramatic": "دراماتيكي / جذري",
+  "imagining": "تخيّل",
+  "cities": "مدن",
+  "with": "مع / بـ",
+  "modern": "حديث",
+  "technology": "تكنولوجيا",
+  "appear": "يبدو كـ (appear as)",
+  "as": "كـ / مثل (such as)",
+  "dynamic": "ديناميكي",
+  "solution": "حل",
+  "society": "المجتمع",
+  "recent": "حديث / أخير",
+  "problem": "مشكلة",
+  "some": "بعض",
+  "researches": "أبحاث",
+  "have": "قد (مساعد) / يملك",
+  "suggested": "اقترحت / اقتُرح",
+  "need": "يحتاج",
+  "way": "طريقة",
+  "imagine": "يتخيل",
+  "focus": "يركز على (focus on)",
+  "on": "يركز على (focus on)",
+  "form": "شكل / أشكال",
+  "of": "من / لـ",
+  "alternative": "بديل",
+  "energy": "طاقة",
+  "such": "مثل (such as)",
+  "solar": "شمسي",
+  "power": "طاقة / قوة",
+  "wind": "رياح",
+  "water": "ماء",
+  "which": "التي / الذي",
+  "lead": "يؤدي إلى (lead to)",
+  "environmental": "بيئي",
+  "sustainability": "الاستدامة",
+  "answer": "يجيب عن",
+  "question": "سؤال",
+  "what": "ما / ماذا",
+  "can": "يستطيع",
+  "be": "يكون",
+  "sustained": "يُدام",
+  "cannot": "لا يمكن / لا نستطيع",
+  "where": "حيث / أين",
+  "located": "يُقام / يقع",
+  "they": "هم",
+  "how": "كيف",
+  "might": "قد / ربما",
+  "travel": "يتنقل / يسافر",
+  "in": "في",
+  "between": "بين",
+  "them": "هم / لهم",
+  "physically": "فعلياً / جسدياً",
+  "live": "يعيش / يسكن",
+  "work": "يعمل",
+  "together": "معاً",
+  "may": "قد",
+  "want": "يريد",
+  "our": "نا (ملكية)",
+  "prioritize": "يعطي الأولوية",
+  "renewal": "تجدد",
+  "prevent": "يمنع",
+  "degradation": "تدهور",
+  "stop": "يوقف",
+  "expansion": "توسع",
+  "desert": "صحراء",
+  "collect": "يجمع",
+  "use": "يستخدم",
+  "irrigate": "يروي / يسقي",
+  "dry": "جاف",
+  "land": "أرض",
+  "should": "ينبغي",
+  "surrounded": "محاط بـ (surrounded by)",
+  "by": "محاط بـ (surrounded by)",
+  "river": "نهر",
+  "provided": "مزوّد بـ (provided with)",
+  "renewable": "متجدد",
+  "resource": "مصدر / مورد",
+  "green": "أخضر",
+  "vehicle": "مركبة",
+  "heading": "متجهة نحو (heading towards)",
+  "towards": "نحو",
+  "more": "أكثر",
+  "ecological": "بيئي",
+  "public": "عام",
+  "transport": "نقل",
+  "these": "هذه",
+  "helps": "يساعد",
+  "us": "نحن / نا",
+  "understand": "يفهم",
+  "lives": "حياة / حيوات",
+  "tomorrow": "غداً",
+  "look": "يبدو (look like)",
+  "like": "يبدو (look like)",
+  "it": "هو / هي",
+  "better": "أفضل",
+  "rethink": "يعيد التفكير",
+  "health": "الصحة",
+  "other": "آخر",
+  "species": "أنواع / كائنات",
+  "planet": "كوكب",
+  "share": "نتشارك / يتشارك"
+ }
+}

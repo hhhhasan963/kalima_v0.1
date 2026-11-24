@@ -1,0 +1,278 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 2,
+ "label": "Unit 2",
+ "title": "Pay It Forward",
+ "titleAr": "مرِّر الخير",
+ "sentences": [
+  [
+   "On March 27, 2013, John Sweeney, a plumber from Ireland, started a Facebook page called Suspended Coffees.",
+   "في 27 آذار 2013، جون سويني، سبّاك من إيرلندا، أنشأ صفحة على فيسبوك تدعى القهوة المعلّقة.",
+   0
+  ],
+  [
+   "His message was simple: Buy a cup of coffee for a stranger, because an act of kindness can change a life and make a difference.",
+   "كانت رسالته بسيطة: اشترِ كوب قهوة لغريب، لأن عمل لطف يمكن أن يغيّر حياة ويحدث فرقاً.",
+   0
+  ],
+  [
+   "Eight hours later, the page had attracted more than 20,000 likes.",
+   "بعد ثماني ساعات، اجتذبت الصفحة أكثر من 20,000 إعجاب.",
+   0
+  ],
+  [
+   "Suspended coffee is a tradition that comes from Naples, Italy, and dates back to the 20th century.",
+   "القهوة المعلّقة تقليد يأتي من نابولي، إيطاليا، ويعود إلى القرن العشرين.",
+   1
+  ],
+  [
+   "When customers buy coffee, they also pay in advance for a cup to be given to somebody else; usually someone who otherwise couldn’t afford it.",
+   "عندما يشتري الزبائن قهوة، يدفعون أيضاً مقدماً ثمن كوب ليُعطى لشخص آخر؛ عادة شخص لم يكن ليستطيع تحمل ثمنه.",
+   1
+  ],
+  [
+   "This initiative was forgotten, but then it revived again in 2011.",
+   "نُسيت هذه المبادرة، لكنها عادت للحياة في 2011.",
+   1
+  ],
+  [
+   "That’s when “Suspended Coffee Day” started to be celebrated each December.",
+   "عندها “يوم القهوة المعلّقة” بدأ يُحتفل به كل كانون الأول.",
+   1
+  ],
+  [
+   "You can buy it for anyone in need.",
+   "يمكنك أن تشتريها لأي شخص محتاج.",
+   2
+  ],
+  [
+   "It can be for the homeless person you pass by every day on the street, a stressed student in the middle of exams.",
+   "يمكن أن تكون لشخص بلا مأوى تمرّ به كل يوم في الشارع، أو لطالب متوتر في منتصف الامتحانات.",
+   2
+  ],
+  [
+   "It may be a well-dressed man whom you may not think from his appearance that he’s in need but he may be in his third month of job hunting.",
+   "قد تكون لرجل حسن الهندام قد لا تظن من مظهره أنه محتاج لكنه قد يكون في شهره الثالث من البحث عن عمل.",
+   2
+  ],
+  [
+   "It’s not up to us to judge – if someone asks, then they’re in need – no CV required.",
+   "ليس لنا أن نحكم – إن سأل أحدهم، فهو محتاج – لا حاجة إلى سيرة ذاتية.",
+   2
+  ]
+ ],
+ "questions": [
+  {
+   "q": "John Sweeney is a plumber from ___.",
+   "o": [
+    "England",
+    "Ireland",
+    "Italy",
+    "Scotland"
+   ],
+   "a": 1,
+   "e": "النص: John Sweeney, a plumber from Ireland، أي سبّاك من إيرلندا."
+  },
+  {
+   "q": "John Sweeney started a Facebook page called ___.",
+   "o": [
+    "Hot Drinks",
+    "Coffee Time",
+    "Suspended Coffees",
+    "Pay It Forward"
+   ],
+   "a": 2,
+   "e": "النص: started a Facebook page called Suspended Coffees."
+  },
+  {
+   "q": "His message was: Buy a cup of coffee for a ___.",
+   "o": [
+    "friend",
+    "teacher",
+    "neighbour",
+    "stranger"
+   ],
+   "a": 3,
+   "e": "النص: Buy a cup of coffee for a stranger، أي اشترِ كوب قهوة لغريب."
+  },
+  {
+   "q": "Suspended coffee is a tradition that comes from ___.",
+   "o": [
+    "Naples, Italy",
+    "Paris, France",
+    "Cairo, Egypt",
+    "London, England"
+   ],
+   "a": 0,
+   "e": "النص: a tradition that comes from Naples, Italy."
+  },
+  {
+   "q": "Suspended Coffee Day started to be celebrated each ___.",
+   "o": [
+    "March",
+    "December",
+    "June",
+    "August"
+   ],
+   "a": 1,
+   "e": "النص: started to be celebrated each December، أي كل كانون الأول."
+  },
+  {
+   "q": "A suspended coffee can be bought for ___.",
+   "o": [
+    "only the owner of the café",
+    "anyone in need",
+    "only a friend",
+    "a famous person"
+   ],
+   "a": 1,
+   "e": "النص: You can buy it for anyone in need، أي لأي شخص محتاج."
+  },
+  {
+   "q": "The Facebook page attracted more than 20,000 likes after eight hours.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Eight hours later, the page had attracted more than 20,000 likes."
+  },
+  {
+   "q": "Suspended coffee is a very new idea that started in 2013.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنه تقليد يعود إلى القرن العشرين، وأعيد إحياؤه في 2011."
+  },
+  {
+   "q": "When customers buy coffee, they may also pay in advance for a cup for somebody else.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: they also pay in advance for a cup to be given to somebody else."
+  },
+  {
+   "q": "A well-dressed man can never be in need.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنه may be in his third month of job hunting، أي قد يكون محتاجاً."
+  }
+ ],
+ "words": {
+  "on": "على",
+  "march": "آذار",
+  "john": "جون (اسم)",
+  "sweeney": "سويني (اسم)",
+  "a": "أداة نكرة",
+  "plumber": "سبّاك",
+  "from": "من",
+  "ireland": "إيرلندا",
+  "started": "بدأ / بدأت",
+  "facebook": "فيسبوك",
+  "page": "صفحة",
+  "called": "يُدعى / تدعى",
+  "suspended": "معلّق / معلّقة",
+  "coffee": "قهوة",
+  "his": "ـه (ملكية)",
+  "message": "رسالة",
+  "was": "كان / كانت",
+  "simple": "بسيط",
+  "buy": "يشتري",
+  "cup": "كوب",
+  "of": "من / لـ",
+  "for": "لـ / على",
+  "stranger": "غريب",
+  "because": "بسبب / لأن",
+  "an": "أداة نكرة",
+  "act": "عمل / فعل",
+  "kindness": "اللطف",
+  "can": "يستطيع",
+  "change": "يغيّر / تغيير",
+  "life": "حياة",
+  "and": "و",
+  "make": "يُحدث فرقاً (make a difference)",
+  "difference": "فرق (make a difference)",
+  "eight": "ثمانية",
+  "hour": "ساعة",
+  "later": "بعد ذلك / لاحقاً",
+  "the": "أداة تعريف",
+  "had": "قد (مساعد) / كان لديه",
+  "attracted": "اجتذب",
+  "more": "أكثر",
+  "than": "من / ممّا",
+  "like": "إعجاب / مثل",
+  "is": "يكون / هو",
+  "tradition": "تقليد",
+  "that": "أن / التي",
+  "come": "يأتي من (come from)",
+  "naples": "نابولي (اسم)",
+  "italy": "إيطاليا",
+  "date": "يعود إلى (date back to)",
+  "back": "يعود إلى (date back to)",
+  "to": "إلى / أن",
+  "20th": "العشرون",
+  "century": "قرن",
+  "when": "عندما",
+  "customer": "زبون",
+  "they": "هم",
+  "also": "أيضاً",
+  "pay": "يدفع",
+  "in": "في",
+  "advance": "مقدماً (in advance)",
+  "be": "يكون",
+  "given": "يُعطى",
+  "somebody": "شخص ما",
+  "else": "آخر",
+  "usually": "عادة",
+  "someone": "شخص ما",
+  "who": "الذي / من",
+  "otherwise": "وإلا / بخلاف ذلك",
+  "couldn't": "لم يستطع / لا يستطيع",
+  "afford": "يتحمل تكلفة",
+  "it": "هو / هي",
+  "this": "هذا",
+  "initiative": "مبادرة",
+  "forgotten": "نُسيت",
+  "but": "لكن",
+  "then": "ثم",
+  "revived": "عادت للحياة",
+  "again": "مرة أخرى",
+  "day": "يوم",
+  "celebrated": "يُحتفل به",
+  "each": "كل",
+  "december": "كانون الأول",
+  "you": "أنت",
+  "anyone": "أي شخص",
+  "need": "محتاج (in need) / يحتاج",
+  "homeless": "بلا مأوى",
+  "person": "شخص",
+  "pass": "يمرّ بـ (pass by)",
+  "by": "يمرّ بـ (pass by)",
+  "every": "كل",
+  "street": "شارع",
+  "stressed": "متوتر",
+  "student": "طالب",
+  "middle": "في منتصف (in the middle of)",
+  "exam": "امتحان",
+  "may": "قد",
+  "well-dressed": "حسن الهندام",
+  "man": "رجل",
+  "whom": "الذي (مفعول)",
+  "not": "لا / ليس",
+  "think": "يعتقد / يفكر",
+  "appearance": "مظهر",
+  "he": "هو",
+  "third": "الثالث",
+  "month": "شهر",
+  "job": "وظيفة",
+  "hunting": "بحث / صيد",
+  "up": "متروك لـ (up to)",
+  "us": "نحن / نا",
+  "judge": "يحكم",
+  "if": "إذا",
+  "ask": "يسأل / يطرح",
+  "they're": "هم يكونون",
+  "no": "لا",
+  "cv": "سيرة ذاتية",
+  "required": "مطلوب"
+ }
+}

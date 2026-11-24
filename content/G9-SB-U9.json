@@ -1,0 +1,313 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 9,
+ "label": "Unit 9",
+ "title": "Who Deserves the Award?",
+ "titleAr": "مَن يستحق الجائزة؟",
+ "sentences": [
+  [
+   "Mariam was a teacher who wanted to motivate her students and make them do their best in the exam.",
+   "كانت مريم معلمة أرادت أن تحفّز طلابها وتجعلهم يبذلون قصارى جهدهم في الامتحان.",
+   0
+  ],
+  [
+   "So, she told them that she would give a gift, which was a new pair of shoes, to the one whose marks would be excellent.",
+   "لذلك أخبرتهم أنها ستعطي هدية، وكانت حذاءً جديداً، لمن ستكون علاماته ممتازة.",
+   0
+  ],
+  [
+   "Children rejoiced over this challenge and they all started writing diligently.",
+   "فرح الأطفال بهذا التحدي وبدؤوا جميعاً بالكتابة باجتهاد.",
+   0
+  ],
+  [
+   "After collecting the papers, the teacher was surprised to find that everyone had a full mark.",
+   "بعد جمع الأوراق، فوجئت المعلمة عندما وجدت أن الجميع حصلوا على العلامة الكاملة.",
+   1
+  ],
+  [
+   "Who would get the gift? she thought.",
+   "من سينال الهدية؟ فكّرت.",
+   1
+  ],
+  [
+   "The teacher thanked everyone for their effort but she was confused about who would deserve the award as everyone had got the full mark.",
+   "شكرت المعلمة الجميع على جهدهم لكنها كانت محتارة فيمن يستحق الجائزة إذ إن الجميع نالوا العلامة الكاملة.",
+   1
+  ],
+  [
+   "The teacher thought of a suitable solution with her students.",
+   "فكرت المعلمة في حل مناسب مع طلابها.",
+   2
+  ],
+  [
+   "The students’ opinion was that each of them would write his/her name on a folded paper and put it in a box from which the teacher would pick one.",
+   "كان رأي الطلاب أن يكتب كل منهم اسمه على ورقة مطوية ويضعها في صندوق تسحب منه المعلمة واحدة.",
+   2
+  ],
+  [
+   "So, the paper would reveal the name of the award’s winner.",
+   "وهكذا ستكشف الورقة اسم الفائز بالجائزة.",
+   2
+  ],
+  [
+   "Indeed, the teacher picked a paper in front of all students and read the child’s name [Nada], and said: “you are the owner of the award”.",
+   "بالفعل، سحبت المعلمة ورقة أمام جميع الطلاب وقرأت اسم الطفلة [ندى]، وقالت: “أنتِ صاحبة الجائزة”.",
+   3
+  ],
+  [
+   "With joy and tears in her eyes, Nada came forward where the shoes were.",
+   "بفرح ودموع في عينيها، تقدمت ندى نحو مكان الحذاء.",
+   3
+  ],
+  [
+   "She thanked everyone for this wonderful gift.",
+   "شكرت الجميع على هذه الهدية الرائعة.",
+   3
+  ],
+  [
+   "Her parents couldn’t afford to buy her new shoes because of their extreme poverty.",
+   "لم يكن أهلها قادرين على شراء حذاء جديد لها بسبب فقرهم الشديد.",
+   3
+  ],
+  [
+   "The teacher returned home crying and told her husband what had happened.",
+   "عادت المعلمة إلى البيت باكية وأخبرت زوجها بما حدث.",
+   4
+  ],
+  [
+   "He was surprised and wanted to know the reason of her tears.",
+   "فوجئ وأراد أن يعرف سبب دموعها.",
+   4
+  ],
+  [
+   "She said: “When I opened the rest of the papers, I found that all the students had written the same name [Nada]”.",
+   "قالت: “عندما فتحت بقية الأوراق، وجدت أن جميع الطلاب كتبوا الاسم نفسه [ندى]”.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Mariam wanted to ___ her students and make them do their best.",
+   "o": [
+    "motivate",
+    "punish",
+    "ignore",
+    "test twice"
+   ],
+   "a": 0,
+   "e": "النص: wanted to motivate her students، أي أرادت أن تحفّز طلابها."
+  },
+  {
+   "q": "The gift that the teacher promised was ___.",
+   "o": [
+    "a book",
+    "a new pair of shoes",
+    "a bag",
+    "some money"
+   ],
+   "a": 1,
+   "e": "النص: which was a new pair of shoes، أي حذاء جديد."
+  },
+  {
+   "q": "The teacher was surprised because ___.",
+   "o": [
+    "nobody wrote the exam",
+    "the exam was too short",
+    "everyone had a full mark",
+    "the papers were lost"
+   ],
+   "a": 2,
+   "e": "النص: everyone had a full mark، أي حصل الجميع على العلامة الكاملة."
+  },
+  {
+   "q": "How did the teacher choose the winner?",
+   "o": [
+    "She asked the headmaster.",
+    "She chose the oldest student.",
+    "She gave the gift to her friend.",
+    "She picked a folded paper from a box."
+   ],
+   "a": 3,
+   "e": "النص: write his/her name on a folded paper and put it in a box from which the teacher would pick one."
+  },
+  {
+   "q": "Which child did the teacher’s paper show as the winner?",
+   "o": [
+    "Mariam",
+    "Nada",
+    "Amal",
+    "Sara"
+   ],
+   "a": 1,
+   "e": "النص: read the child’s name [Nada]، أي قرأت اسم الطفلة ندى."
+  },
+  {
+   "q": "Nada’s parents couldn’t afford to buy her new shoes because of their ___.",
+   "o": [
+    "laziness",
+    "travel",
+    "extreme poverty",
+    "long holiday"
+   ],
+   "a": 2,
+   "e": "النص: because of their extreme poverty، أي بسبب فقرهم الشديد."
+  },
+  {
+   "q": "All the students had full marks in the exam.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: everyone had a full mark."
+  },
+  {
+   "q": "The teacher decided who would get the gift without asking her students.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: The teacher thought of a suitable solution with her students، أي فكرت في الحل مع طلابها."
+  },
+  {
+   "q": "The teacher returned home crying and told her husband what had happened.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: The teacher returned home crying and told her husband."
+  },
+  {
+   "q": "The students wrote different names on the papers.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: all the students had written the same name [Nada]، أي كتبوا الاسم نفسه."
+  }
+ ],
+ "words": {
+  "mariam": "مريم (اسم)",
+  "i": "أنا",
+  "students'": "الطلاب (ملكية)",
+  "was": "كان / كانت",
+  "a": "أداة نكرة",
+  "teacher": "معلمة / معلم",
+  "who": "الذي / من",
+  "wanted": "أراد",
+  "to": "إلى / أن",
+  "motivate": "يحفّز",
+  "her": "ها (ملكية) / لها",
+  "students": "طلاب",
+  "and": "و",
+  "make": "يجعل / يصنع",
+  "them": "هم / لهم",
+  "do": "يفعل",
+  "their": "هم (ملكية)",
+  "best": "الأفضل",
+  "in": "في",
+  "the": "أداة تعريف",
+  "exam": "امتحان",
+  "so": "لذلك",
+  "she": "هي",
+  "told": "أخبر",
+  "that": "أن / التي",
+  "would": "سوف / كان ليـ",
+  "give": "يعطي",
+  "gift": "هدية",
+  "which": "التي / الذي",
+  "new": "جديد",
+  "pair": "زوج",
+  "of": "من / لـ",
+  "shoes": "حذاء",
+  "one": "واحد / شخص",
+  "whose": "الذي / التي (ملكية)",
+  "marks": "علامات",
+  "be": "يكون",
+  "excellent": "ممتاز",
+  "children": "أطفال",
+  "rejoiced": "فرحوا",
+  "over": "بـ / على",
+  "this": "هذا",
+  "challenge": "تحدٍّ",
+  "they": "هم",
+  "all": "جميع / كل",
+  "started": "بدأ",
+  "writing": "الكتابة",
+  "diligently": "باجتهاد",
+  "after": "بعد",
+  "collecting": "جمع",
+  "paper": "ورقة",
+  "surprised": "فوجئ / متفاجئ",
+  "find": "يجد",
+  "everyone": "الجميع",
+  "had": "قد / كان لديه",
+  "full": "كامل",
+  "mark": "علامة",
+  "get": "ينال / يحصل",
+  "thought": "فكّرت / ظنّ",
+  "thanked": "شكرت",
+  "for": "على / لـ",
+  "effort": "جهد",
+  "but": "لكن",
+  "confused": "محتارة",
+  "about": "عن / حول",
+  "deserve": "يستحق",
+  "award": "جائزة",
+  "as": "إذ / بما أن",
+  "got": "نال / حصل",
+  "suitable": "مناسب",
+  "solution": "حل",
+  "with": "مع / بـ",
+  "opinion": "رأي",
+  "each": "كل",
+  "his": "ـه (ملكية)",
+  "write": "يكتب",
+  "name": "اسم",
+  "on": "على",
+  "folded": "مطوية",
+  "put": "يضع",
+  "it": "هو / هي",
+  "box": "صندوق",
+  "from": "من",
+  "pick": "يسحب / يختار",
+  "reveal": "يكشف",
+  "winner": "فائز",
+  "indeed": "بالفعل",
+  "picked": "سحبت / اختارت",
+  "front": "أمام",
+  "read": "قرأ / يقرأ",
+  "child": "طفل / طفلة",
+  "nada": "ندى (اسم)",
+  "said": "قال",
+  "you": "أنت",
+  "are": "يكونون / هم",
+  "owner": "صاحب",
+  "joy": "فرح",
+  "tears": "دموع",
+  "eyes": "عينان",
+  "came": "تقدّمت (came forward)",
+  "forward": "تقدّمت (came forward)",
+  "where": "حيث / أين",
+  "were": "كانوا / كانت",
+  "wonderful": "رائع",
+  "parents": "أهل / والدان",
+  "couldn't": "لم تستطع",
+  "afford": "تتحمل تكلفة",
+  "buy": "يشتري",
+  "because": "لأن",
+  "extreme": "شديد",
+  "poverty": "فقر",
+  "returned": "عادت",
+  "home": "البيت",
+  "crying": "باكية",
+  "husband": "زوج",
+  "what": "ما / ماذا",
+  "happened": "حدث",
+  "he": "هو",
+  "know": "يعرف",
+  "reason": "سبب",
+  "when": "عندما",
+  "opened": "فتحت",
+  "rest": "بقية",
+  "found": "وجدت",
+  "same": "نفس",
+  "written": "كتب"
+ }
+}

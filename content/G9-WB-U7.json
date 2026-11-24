@@ -1,0 +1,375 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 7,
+ "label": "Unit 7",
+ "title": "Back to Life",
+ "titleAr": "العودة إلى الحياة",
+ "sentences": [
+  [
+   "Frane Selak was born in Croatia in 1929.",
+   "وُلد فرانه سيلاك في كرواتيا عام 1929.",
+   0
+  ],
+  [
+   "He led a relatively unremarkable life as a music teacher.",
+   "عاش حياة عادية نسبياً كمدرس موسيقا.",
+   0
+  ],
+  [
+   "Selak’s near-death experiences began in January 1962 when he was travelling by a train from Sarajevo to Dubrovnik.",
+   "بدأت تجارب سيلاك القريبة من الموت في كانون الثاني 1962 عندما كان يسافر بقطار من سراييفو إلى دوبروفنيك.",
+   1
+  ],
+  [
+   "The train left its railway tracks and ended up in a river.",
+   "خرج القطار عن سكته الحديدية وانتهى به الأمر في نهر.",
+   1
+  ],
+  [
+   "Fortunately, an unknown person pulled him to be safe, while 17 other passengers drowned.",
+   "لحسن الحظ، شخص مجهول سحبه إلى بر الأمان، بينما غرق 17 راكباً آخر.",
+   1
+  ],
+  [
+   "The next year, Selak boarded a plane from Zagreb to Rijeka.",
+   "في السنة التالية، ركب سيلاك طائرة من زغرب إلى ريكا.",
+   2
+  ],
+  [
+   "Unfortunately, he was blown out of its door and luckily landed in a haystack; the plane crashed, killing 19 people but Selak survived.",
+   "للأسف، قُذف خارج بابها وهبط لحسن الحظ في كومة قش؛ تحطمت الطائرة، مما أودى بحياة 19 شخصاً لكن سيلاك نجا.",
+   2
+  ],
+  [
+   "Three years after that, in 1966, he got on a bus.",
+   "بعد ذلك بثلاث سنوات، في 1966، ركب حافلة.",
+   3
+  ],
+  [
+   "The bus skidded on the road and fell into a river, drowning four passengers, and by sheer luck Selak swam to the shore with only a few cuts and bruises.",
+   "انزلقت الحافلة على الطريق وسقطت في نهر، مما أغرق أربعة ركاب، وبحظ محض سبح سيلاك إلى الشاطئ بجروح وكدمات قليلة فقط.",
+   3
+  ],
+  [
+   "In 1970, the fuel in his car’s tank exploded on the motorway.",
+   "في 1970، وقود خزان سيارته انفجر على الطريق السريع.",
+   4
+  ],
+  [
+   "But Selak just escaped with his life.",
+   "لكن سيلاك نجا بحياته بالكاد.",
+   4
+  ],
+  [
+   "The final famous disaster was in 1996 when a truck came barreling towards his car as he was driving around a mountain road.",
+   "آخر كارثة مشهورة كانت في 1996 عندما جاءت شاحنة مندفعة نحو سيارته بينما كان يقود على طريق جبلي.",
+   4
+  ],
+  [
+   "Selak was ejected from the car but he managed to hold onto a tree, and watched his car in horror plummet down.",
+   "قُذف سيلاك من السيارة لكنه تمكن من التشبث بشجرة، وشاهد سيارته بذعر تهوي إلى الأسفل.",
+   4
+  ],
+  [
+   "In 2003, two days after his 73rd birthday, Selak won the lottery in Croatia.",
+   "في 2003، بعد يومين من عيد ميلاده الثالث والسبعين، ربح سيلاك اليانصيب في كرواتيا.",
+   5
+  ],
+  [
+   "With this, he bought a luxurious home.",
+   "بهذا، اشترى منزلاً فاخراً.",
+   5
+  ],
+  [
+   "Then he changed his mind, sold it in 2010 and lived a humble life with his fifth wife.",
+   "ثم غيّر رأيه، وباعه في 2010 وعاش حياة متواضعة مع زوجته الخامسة.",
+   5
+  ],
+  [
+   "What happened to Selak seems to be far more dramatic than anything Hollywood could cook up.",
+   "ما حدث لسيلاك يبدو أنه أكثر دراماتيكية بكثير من أي شيء تستطيع هوليوود اختلاقه.",
+   6
+  ],
+  [
+   "But was it true what happened to Selak?",
+   "لكن هل ما حدث لسيلاك صحيح؟",
+   6
+  ],
+  [
+   "Suppose it is true, still we can’t tell whether he is the luckiest or the unluckiest man in the world.",
+   "افترض أنه صحيح، ومع ذلك لا يمكننا أن نقول إن كان أكثر الرجال حظاً أم أقلهم حظاً في العالم.",
+   6
+  ],
+  [
+   "Whatever happened along the way, Frane’s story has a happy ending – or at least he thought it has.",
+   "مهما حدث على الطريق، قصة فرانه لها نهاية سعيدة – أو على الأقل ظن ذلك.",
+   6
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Frane Selak was born in Croatia in ___.",
+   "o": [
+    "1962",
+    "1929",
+    "1970",
+    "1996"
+   ],
+   "a": 1,
+   "e": "النص: Frane Selak was born in Croatia in 1929، أي وُلد عام 1929."
+  },
+  {
+   "q": "Frane Selak led a relatively unremarkable life as a ___.",
+   "o": [
+    "pilot",
+    "doctor",
+    "music teacher",
+    "farmer"
+   ],
+   "a": 2,
+   "e": "النص: as a music teacher، أي كمدرس موسيقا."
+  },
+  {
+   "q": "His first accident happened when he was travelling by ___.",
+   "o": [
+    "bus",
+    "plane",
+    "car",
+    "train"
+   ],
+   "a": 3,
+   "e": "النص: when he was travelling by a train from Sarajevo to Dubrovnik."
+  },
+  {
+   "q": "In the plane accident, Selak landed in a ___.",
+   "o": [
+    "haystack",
+    "river",
+    "lake",
+    "forest"
+   ],
+   "a": 0,
+   "e": "النص: luckily landed in a haystack، أي هبط في كومة قش."
+  },
+  {
+   "q": "In 1966, the bus fell into a ___.",
+   "o": [
+    "lake",
+    "river",
+    "valley",
+    "sea"
+   ],
+   "a": 1,
+   "e": "النص: The bus skidded on the road and fell into a river."
+  },
+  {
+   "q": "In 2003, Selak won the ___ in Croatia.",
+   "o": [
+    "race",
+    "cup",
+    "lottery",
+    "election"
+   ],
+   "a": 2,
+   "e": "النص: Selak won the lottery in Croatia، أي ربح اليانصيب."
+  },
+  {
+   "q": "An unknown person pulled Selak to be safe when the train ended up in a river.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: an unknown person pulled him to be safe."
+  },
+  {
+   "q": "The plane that Selak boarded landed safely and nobody died.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: the plane crashed, killing 19 people، أي تحطمت الطائرة وقُتل 19 شخصاً."
+  },
+  {
+   "q": "Selak is still living in his luxurious home today.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنه sold it in 2010 and lived a humble life، أي باعه وعاش حياة متواضعة."
+  },
+  {
+   "q": "The writer says we can’t tell whether Selak is the luckiest or the unluckiest man in the world.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: we can’t tell whether he is the luckiest or the unluckiest man in the world."
+  }
+ ],
+ "words": {
+  "frane": "فرانه (اسم)",
+  "selak": "سيلاك (اسم)",
+  "was": "كان / كانت",
+  "born": "وُلد",
+  "in": "في",
+  "croatia": "كرواتيا",
+  "he": "هو",
+  "led": "عاش / قاد",
+  "a": "أداة نكرة",
+  "relatively": "نسبياً",
+  "unremarkable": "عادية / غير لافتة",
+  "life": "حياة",
+  "as": "كـ / بصفتها",
+  "music": "الموسيقا",
+  "teacher": "معلم / معلمة",
+  "near-death": "قريبة من الموت",
+  "experience": "تجربة / خبرة",
+  "began": "بدأ",
+  "january": "كانون الثاني",
+  "when": "عندما",
+  "travelling": "يسافر / السفر",
+  "by": "بحلول / بواسطة",
+  "train": "قطار / يدرّب",
+  "from": "من",
+  "sarajevo": "سراييفو (اسم)",
+  "to": "إلى / أن",
+  "dubrovnik": "دوبروفنيك (اسم)",
+  "the": "أداة تعريف",
+  "left": "غادر / خرج عن",
+  "its": "له / لها (ملكية)",
+  "railway": "سكة حديد",
+  "track": "سكة / مسار",
+  "and": "و",
+  "ended": "انتهى به الأمر (end up)",
+  "up": "ينتهي به الأمر (end up) / يختلق (cook up)",
+  "river": "نهر",
+  "fortunately": "لحسن الحظ",
+  "an": "أداة نكرة",
+  "unknown": "مجهول",
+  "person": "شخص",
+  "pulled": "سحب",
+  "him": "له / هو",
+  "be": "يكون",
+  "safe": "آمن",
+  "while": "بينما",
+  "other": "آخر",
+  "passenger": "راكب",
+  "drowned": "غرقوا",
+  "next": "التالي / بعد ذلك",
+  "year": "عام / سنة",
+  "boarded": "ركب",
+  "plane": "طائرة",
+  "zagreb": "زغرب (اسم)",
+  "rijeka": "ريكا (اسم)",
+  "unfortunately": "للأسف",
+  "blown": "قُذف (blow out of)",
+  "out": "خارج (blow out of)",
+  "of": "من / لـ",
+  "door": "باب",
+  "luckily": "لحسن الحظ",
+  "landed": "هبط",
+  "haystack": "كومة قش",
+  "crashed": "تحطمت",
+  "killing": "مما أودى بحياة / قتل",
+  "people": "أشخاص / ناس",
+  "but": "لكن",
+  "survived": "نجا",
+  "three": "ثلاثة",
+  "after": "بعد",
+  "that": "أن / التي",
+  "got": "ركب (get on)",
+  "on": "على",
+  "bus": "حافلة",
+  "skidded": "انزلقت",
+  "road": "طريق",
+  "fell": "سقطت في (fall into)",
+  "into": "سقطت في (fall into)",
+  "drowning": "إغراق",
+  "four": "أربعة",
+  "sheer": "محض",
+  "luck": "حظ",
+  "swam": "سبح",
+  "shore": "شاطئ",
+  "with": "مع / بـ",
+  "only": "فقط",
+  "few": "قليل",
+  "cut": "جرح",
+  "bruise": "كدمة",
+  "fuel": "وقود",
+  "his": "ـه (ملكية)",
+  "car": "سيارة",
+  "tank": "خزان",
+  "exploded": "انفجر",
+  "motorway": "طريق سريع",
+  "just": "فقط",
+  "escaped": "نجا بحياته (escape with his life)",
+  "final": "نهائي",
+  "famous": "مشهور",
+  "disaster": "كارثة",
+  "truck": "شاحنة",
+  "came": "جاءت / عاد",
+  "barreling": "مندفعة",
+  "towards": "نحو",
+  "driving": "يقود",
+  "around": "حول",
+  "mountain": "جبلي / جبل",
+  "ejected": "قُذف",
+  "managed": "تمكن",
+  "hold": "يتشبث بـ (hold onto)",
+  "onto": "يتشبث بـ (hold onto)",
+  "tree": "شجرة",
+  "watched": "شاهد",
+  "horror": "برعب (in horror)",
+  "plummet": "يهوي (plummet down)",
+  "down": "يهوي (plummet down)",
+  "two": "اثنان",
+  "day": "يوم",
+  "73rd": "الثالث والسبعون",
+  "birthday": "عيد ميلاد",
+  "won": "ربح / فاز",
+  "lottery": "يانصيب",
+  "this": "هذا",
+  "bought": "اشترى",
+  "luxurious": "فاخر",
+  "home": "البيت / منزل",
+  "then": "ثم",
+  "changed": "غيّر رأيه (change one's mind)",
+  "mind": "غيّر رأيه (change one's mind)",
+  "sold": "باع",
+  "it": "هو / هي",
+  "lived": "عاش / عاشوا",
+  "humble": "متواضع",
+  "fifth": "الخامسة / خامساً",
+  "wife": "زوجة",
+  "what": "ما / ماذا",
+  "happened": "حدث",
+  "seem": "يبدو",
+  "far": "بكثير",
+  "more": "أكثر",
+  "dramatic": "دراماتيكي / جذري",
+  "than": "من / ممّا",
+  "anything": "أي شيء",
+  "hollywood": "هوليوود (اسم)",
+  "could": "يستطيع / قد",
+  "cook": "يختلق (cook up)",
+  "true": "حقيقي",
+  "suppose": "افترض",
+  "i": "أنا",
+  "still": "ما زال",
+  "we": "نحن",
+  "can't": "لا يمكن / لا نستطيع",
+  "tell": "يخبر / يقول",
+  "whether": "سواء",
+  "luckiest": "أكثر حظاً",
+  "or": "أو",
+  "unluckiest": "أقل حظاً",
+  "man": "رجل",
+  "world": "العالم",
+  "whatever": "مهما",
+  "along": "خلال (along the way)",
+  "way": "الطريق (along the way)",
+  "story": "قصة",
+  "has": "لديه / يملك",
+  "happy": "سعيد",
+  "ending": "نهاية",
+  "at": "على الأقل (at least)",
+  "least": "على الأقل (at least)",
+  "thought": "ظن / فكّر"
+ }
+}

@@ -1,0 +1,383 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 10,
+ "label": "Unit 10",
+ "title": "Killing Time is not a Murder!!!",
+ "titleAr": "قتل الوقت ليس جريمة قتل!!!",
+ "sentences": [
+  [
+   "Time is precious!",
+   "الوقت ثمين!",
+   0
+  ],
+  [
+   "We should never waste it in any way.",
+   "يجب ألا نضيعه بأي شكل.",
+   0
+  ],
+  [
+   "People can spend a lot of time doing various things, but they can never get back the time they had spent.",
+   "يستطيع الناس أن يقضوا وقتاً طويلاً في فعل أشياء مختلفة، لكنهم لا يستطيعون أبداً استعادة الوقت الذي قضوه.",
+   0
+  ],
+  [
+   "That is why most of successful people consider time more important and valuable than money.",
+   "لهذا يعتبر معظم الناجحين الوقت أهم وأثمن من المال.",
+   0
+  ],
+  [
+   "We all should use our time in productive ways.",
+   "علينا جميعاً أن نستخدم وقتنا بطرق منتجة.",
+   0
+  ],
+  [
+   "If you master the technique of managing time efficiently, you can achieve anything in your life.",
+   "إذا أتقنت أسلوب إدارة الوقت بكفاءة، يمكنك أن تحقق أي شيء في حياتك.",
+   1
+  ],
+  [
+   "Time management helps you to attain more with less effort.",
+   "تساعدك إدارة الوقت على تحقيق المزيد بجهد أقل.",
+   1
+  ],
+  [
+   "In the beginning, it will feel like a boring task, but when you do it regularly, you realize that it only helps you to increase your productivity.",
+   "في البداية، سيبدو الأمر مهمة مملة، لكن عندما تفعله بانتظام، تدرك أنه يساعدك فقط على زيادة إنتاجيتك.",
+   1
+  ],
+  [
+   "Eventually, this will encourage you to achieve more in life.",
+   "في النهاية، سيشجعك هذا على تحقيق المزيد في الحياة.",
+   1
+  ],
+  [
+   "Being productive doesn’t mean that we have to be involved in multiple tasks at the same time.",
+   "أن تكون منتجاً لا يعني أنه يجب أن ننخرط في مهام متعددة في الوقت نفسه.",
+   2
+  ],
+  [
+   "The proverb, “killing time is not a murder; it’s a suicide” is applicable for those who don’t understand the value of time and don’t respect it.",
+   "المثل القائل “قتل الوقت ليس جريمة قتل؛ إنه انتحار” ينطبق على أولئك الذين لا يفهمون قيمة الوقت ولا يحترمونه.",
+   2
+  ],
+  [
+   "People who say that they don’t have enough time to complete their work, don’t really know how to manage time.",
+   "الأشخاص الذين يقولون إنه ليس لديهم وقت كافٍ لإنجاز عملهم، لا يعرفون حقاً كيف يديرون الوقت.",
+   3
+  ],
+  [
+   "For those, here is an easy way to help them apply the “Do It Now” principle:",
+   "من أجل هؤلاء، إليكم طريقة سهلة لمساعدتهم على تطبيق مبدأ “افعلها الآن”:",
+   3
+  ],
+  [
+   "D = Divide what you have to do.",
+   "D = قسّم ما عليك فعله.",
+   4
+  ],
+  [
+   "O = Organise your materials.",
+   "O = نظّم موادك.",
+   5
+  ],
+  [
+   "I = Ignore interruption.",
+   "I = تجاهل المقاطعات.",
+   6
+  ],
+  [
+   "T = Take the time to learn how to do things yourself.",
+   "T = خذ وقتاً لتتعلم كيف تفعل الأشياء بنفسك.",
+   7
+  ],
+  [
+   "N = Now, not tomorrow.",
+   "N = الآن، ليس غداً.",
+   8
+  ],
+  [
+   "O = Opportunity is knocking.",
+   "O = الفرصة تطرق الباب.",
+   9
+  ],
+  [
+   "Take advantage of opportunities.",
+   "استفد من الفرص.",
+   9
+  ],
+  [
+   "W = Watch out for time stealers.",
+   "W = احذر من سارقي الوقت.",
+   10
+  ],
+  [
+   "Control how much time you spend on the Internet, reading and sending emails, watching TV, or talking on the phone.",
+   "تحكم في مقدار الوقت الذي تقضيه على الإنترنت، وفي قراءة الرسائل الإلكترونية وإرسالها، ومشاهدة التلفاز، أو التحدث على الهاتف.",
+   10
+  ],
+  [
+   "Time is the greatest gift of God.",
+   "الوقت هو أعظم هدية من الله.",
+   11
+  ],
+  [
+   "Therefore, we should know how to invest it.",
+   "لذلك، يجب أن نعرف كيف نستثمره.",
+   11
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Most successful people consider time more ___ than money.",
+   "o": [
+    "important and valuable",
+    "boring and long",
+    "cheap and easy",
+    "difficult and slow"
+   ],
+   "a": 0,
+   "e": "النص: consider time more important and valuable than money، أي الوقت أهم وأثمن من المال."
+  },
+  {
+   "q": "People can never get back ___.",
+   "o": [
+    "their money",
+    "the time they had spent",
+    "their old friends",
+    "their lost books"
+   ],
+   "a": 1,
+   "e": "النص: they can never get back the time they had spent، أي لا يستطيعون استعادة الوقت الذي قضوه."
+  },
+  {
+   "q": "If you master the technique of managing time, you can achieve ___.",
+   "o": [
+    "nothing",
+    "only small things",
+    "anything in your life",
+    "only school work"
+   ],
+   "a": 2,
+   "e": "النص: you can achieve anything in your life، أي تحقق أي شيء في حياتك."
+  },
+  {
+   "q": "In the beginning, time management will feel like ___.",
+   "o": [
+    "a game",
+    "a holiday",
+    "a gift",
+    "a boring task"
+   ],
+   "a": 3,
+   "e": "النص: it will feel like a boring task، أي مهمة مملة في البداية."
+  },
+  {
+   "q": "In the “Do It Now” principle, the letter D stands for ___.",
+   "o": [
+    "Do it again",
+    "Divide what you have to do",
+    "Decide to wait",
+    "Drink some water"
+   ],
+   "a": 1,
+   "e": "النص: D = Divide what you have to do، أي قسّم ما عليك فعله."
+  },
+  {
+   "q": "Which of these is mentioned as a time stealer?",
+   "o": [
+    "Sleeping early",
+    "Walking to school",
+    "Watching TV",
+    "Reading books"
+   ],
+   "a": 2,
+   "e": "النص يذكر من سارقي الوقت: watching TV، إلى جانب الإنترنت والرسائل الإلكترونية والهاتف."
+  },
+  {
+   "q": "The writer says time is the greatest gift of God.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Time is the greatest gift of God."
+  },
+  {
+   "q": "People who say they don’t have enough time really know how to manage time.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنهم don’t really know how to manage time، أي لا يعرفون حقاً كيف يديرون الوقت."
+  },
+  {
+   "q": "Being productive means that we have to be involved in multiple tasks at the same time.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Being productive doesn’t mean that we have to be involved in multiple tasks at the same time."
+  },
+  {
+   "q": "The proverb is applicable for those who don’t understand the value of time.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: applicable for those who don’t understand the value of time and don’t respect it."
+  }
+ ],
+ "words": {
+  "time": "الوقت",
+  "an": "أداة نكرة",
+  "is": "يكون / هو",
+  "precious": "ثمين",
+  "we": "نحن",
+  "should": "يجب / ينبغي",
+  "never": "أبداً",
+  "waste": "يضيّع",
+  "it": "هو / هي",
+  "in": "في",
+  "any": "أي",
+  "way": "طريقة / شكل",
+  "people": "ناس / أشخاص",
+  "can": "يستطيع / يمكن",
+  "spend": "يقضي / ينفق",
+  "a": "أداة نكرة",
+  "lot": "كثير",
+  "of": "من / لـ",
+  "doing": "فعل",
+  "various": "مختلف / متنوع",
+  "things": "أشياء",
+  "but": "لكن",
+  "they": "هم",
+  "get": "يستعيد (get back)",
+  "back": "يستعيد (get back)",
+  "the": "أداة تعريف",
+  "had": "قد / كان لديه",
+  "spent": "قضوا / أنفقوا",
+  "that": "أن / التي",
+  "why": "لماذا",
+  "most": "معظم",
+  "successful": "ناجح",
+  "consider": "يعتبر",
+  "more": "أكثر",
+  "important": "مهم",
+  "and": "و",
+  "valuable": "قيّم / ثمين",
+  "than": "من / ممّا",
+  "money": "مال",
+  "all": "جميع / كل",
+  "use": "يستخدم",
+  "our": "نا (ملكية)",
+  "productive": "منتج",
+  "ways": "طرق",
+  "if": "إذا",
+  "you": "أنت",
+  "master": "يتقن",
+  "technique": "أسلوب / تقنية",
+  "managing": "إدارة",
+  "efficiently": "بكفاءة",
+  "achieve": "يحقق",
+  "anything": "أي شيء",
+  "your": "ك (ملكية)",
+  "life": "حياة",
+  "management": "إدارة",
+  "helps": "يساعد",
+  "to": "إلى / أن",
+  "attain": "يحقق / ينال",
+  "with": "مع / بـ",
+  "less": "أقل",
+  "effort": "جهد",
+  "beginning": "البداية",
+  "will": "سوف",
+  "feel": "يشعر / يبدو",
+  "like": "مثل",
+  "boring": "ممل",
+  "task": "مهمة",
+  "when": "عندما",
+  "do": "يفعل",
+  "regularly": "بانتظام",
+  "realize": "يدرك",
+  "only": "فقط",
+  "increase": "يزيد",
+  "productivity": "الإنتاجية",
+  "eventually": "في النهاية",
+  "this": "هذا",
+  "encourage": "يشجع",
+  "being": "كون / أن تكون",
+  "doesn't": "لا",
+  "mean": "يعني",
+  "have": "يملك / عليه",
+  "be": "يكون",
+  "involved": "منخرط",
+  "multiple": "متعدد",
+  "tasks": "مهام",
+  "at": "في / عند",
+  "same": "نفس",
+  "proverb": "مثل (قول مأثور)",
+  "killing": "قتل",
+  "not": "لا / ليس",
+  "murder": "جريمة قتل",
+  "suicide": "انتحار",
+  "applicable": "ينطبق",
+  "those": "أولئك",
+  "who": "الذين / من",
+  "don't": "لا",
+  "understand": "يفهم",
+  "value": "قيمة",
+  "respect": "يحترم",
+  "say": "يقول",
+  "enough": "كافٍ",
+  "complete": "ينجز",
+  "their": "هم (ملكية)",
+  "work": "عمل",
+  "really": "حقاً",
+  "know": "يعرف",
+  "how": "كيف",
+  "manage": "يدير",
+  "for": "لـ / من أجل",
+  "here": "هنا",
+  "easy": "سهل",
+  "help": "يساعد",
+  "them": "هم / لهم",
+  "apply": "يطبق",
+  "now": "الآن",
+  "principle": "مبدأ",
+  "d": "الحرف D",
+  "divide": "يقسّم",
+  "what": "ما / ماذا",
+  "o": "الحرف O",
+  "organise": "ينظّم",
+  "materials": "مواد",
+  "i": "الحرف I",
+  "ignore": "يتجاهل",
+  "interruption": "مقاطعة",
+  "t": "الحرف T",
+  "take": "يأخذ / يستفيد من (take advantage of)",
+  "learn": "يتعلم",
+  "yourself": "نفسك",
+  "n": "الحرف N",
+  "tomorrow": "غداً",
+  "opportunity": "فرصة",
+  "knocking": "يطرق",
+  "advantage": "يستفيد من (take advantage of)",
+  "opportunities": "فرص",
+  "w": "الحرف W",
+  "watch": "يحذر (watch out for)",
+  "out": "يحذر (watch out for)",
+  "stealers": "سارقو",
+  "control": "يتحكم",
+  "much": "كثير",
+  "on": "على",
+  "internet": "الإنترنت",
+  "reading": "قراءة",
+  "sending": "إرسال",
+  "emails": "رسائل إلكترونية",
+  "watching": "مشاهدة",
+  "tv": "التلفاز",
+  "or": "أو",
+  "talking": "التحدث",
+  "phone": "هاتف",
+  "greatest": "أعظم",
+  "gift": "هدية",
+  "god": "الله",
+  "therefore": "لذلك",
+  "invest": "يستثمر"
+ }
+}

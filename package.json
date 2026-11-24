@@ -1,0 +1,34 @@
+{
+  "name": "kalima-react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/build-bundled.mjs && vite",
+    "build": "node tools/build-bundled.mjs && vite build",
+    "preview": "vite preview",
+    "validate:lessons": "node tools/import-lessons.mjs --dry-run",
+    "import:lessons": "node tools/import-lessons.mjs",
+    "bump": "node tools/bump-version.mjs",
+    "build:bundled": "node tools/build-bundled.mjs",
+    "cap:sync": "npm run build && cap sync",
+    "android": "npm run cap:sync && cap open android"
+  },
+  "dependencies": {
+    "@capacitor-community/text-to-speech": "^8.0.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4",
+    "@supabase/supabase-js": "^2.45.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

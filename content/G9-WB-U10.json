@@ -1,0 +1,357 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 10,
+ "label": "Unit 10",
+ "title": "Hurry up Before the Gates are Shut!",
+ "titleAr": "أسرع قبل أن تُغلق البوابات!",
+ "sentences": [
+  [
+   "Once, a king and a lazy man named Hani were very good friends.",
+   "ذات مرة، ملك ورجل كسول اسمه هاني كانا صديقين مقربين جداً.",
+   0
+  ],
+  [
+   "One morning, the king said, “Why don’t you work to earn some money?”",
+   "في صباح أحد الأيام، قال الملك: “لماذا لا تعمل لتكسب بعض المال؟”",
+   0
+  ],
+  [
+   "Hani said, “No one offers me a job.",
+   "قال هاني: “لا أحد يعرض علي وظيفة.",
+   0
+  ],
+  [
+   "My enemies told everyone that I never do any work in time.”",
+   "أعدائي أخبروا الجميع أنني لا أنجز أي عمل في وقته.”",
+   0
+  ],
+  [
+   "The kind king said, “You can go into my treasury and collect as much wealth as you can, but you have to finish before sunset.”",
+   "قال الملك اللطيف: “يمكنك أن تدخل خزينتي وتجمع من الثروة قدر ما تستطيع، لكن عليك أن تنتهي قبل غروب الشمس.”",
+   0
+  ],
+  [
+   "Hani was so happy and rushed home to tell his wife.",
+   "كان هاني سعيداً جداً وأسرع إلى البيت ليخبر زوجته.",
+   1
+  ],
+  [
+   "She said, “Go and get the gold coins and gems now.”",
+   "قالت: “اذهب وأحضر القطع الذهبية والجواهر الآن.”",
+   1
+  ],
+  [
+   "He said: “I cannot go now.",
+   "قال: “لا أستطيع الذهاب الآن.",
+   1
+  ],
+  [
+   "I am so hungry.",
+   "أنا جائع جداً.",
+   1
+  ],
+  [
+   "I’d like to eat first.”",
+   "أود أن آكل أولاً.”",
+   1
+  ],
+  [
+   "After lunch, he took a nap for an hour.",
+   "بعد الغداء، أخذ قيلولة لمدة ساعة.",
+   2
+  ],
+  [
+   "Then in the late afternoon, he picked some bags and went to the palace.",
+   "ثم في وقت متأخر بعد الظهر، التقط بعض الحقائب وذهب إلى القصر.",
+   2
+  ],
+  [
+   "On the way, he felt hot so he sat under a tree to rest and drink some water.",
+   "في الطريق، شعر بالحر فجلس تحت شجرة ليرتاح ويشرب بعض الماء.",
+   2
+  ],
+  [
+   "Two hours later, when he wanted to move on, he saw a man showing some magic tricks.",
+   "بعد ساعتين، عندما أراد أن يتابع، رأى رجلاً يعرض بعض الحيل السحرية.",
+   2
+  ],
+  [
+   "He stopped to watch for an hour again.",
+   "توقف ليشاهد لمدة ساعة أخرى.",
+   2
+  ],
+  [
+   "On the way to the palace, he met an old friend and chatted with him for some time.",
+   "في الطريق إلى القصر، التقى بصديق قديم وتحدث معه لبعض الوقت.",
+   2
+  ],
+  [
+   "When he reached the palace, it was already sunset time.",
+   "عندما وصل إلى القصر، كان وقت الغروب قد حان.",
+   2
+  ],
+  [
+   "The palace gates had been shut.",
+   "كانت بوابات القصر قد أُغلقت.",
+   2
+  ],
+  [
+   "Hani lost a golden chance because he had not learnt the value of time.",
+   "خسر هاني فرصة ذهبية لأنه لم يتعلم قيمة الوقت.",
+   3
+  ],
+  [
+   "If Hani worked hard, he wouldn’t be poor.",
+   "لو عمل هاني بجد، لما كان فقيراً.",
+   3
+  ],
+  [
+   "This story teaches us that once time is spent, it will never come back again.",
+   "تعلمنا هذه القصة أنه ما إن يُقضى الوقت، فلن يعود مرة أخرى أبداً.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Hani was a ___ man.",
+   "o": [
+    "hard-working",
+    "lazy",
+    "angry",
+    "tall"
+   ],
+   "a": 1,
+   "e": "النص: a lazy man named Hani، أي رجل كسول اسمه هاني."
+  },
+  {
+   "q": "The king said Hani could collect as much wealth as he could before ___.",
+   "o": [
+    "sunrise",
+    "lunch",
+    "sunset",
+    "midnight"
+   ],
+   "a": 2,
+   "e": "النص: you have to finish before sunset، أي قبل غروب الشمس."
+  },
+  {
+   "q": "Hani did not go to the palace at once because he was ___.",
+   "o": [
+    "sleepy",
+    "angry",
+    "sick",
+    "hungry"
+   ],
+   "a": 3,
+   "e": "النص: I cannot go now. I am so hungry."
+  },
+  {
+   "q": "After lunch, Hani took a nap for ___.",
+   "o": [
+    "an hour",
+    "a minute",
+    "a day",
+    "a week"
+   ],
+   "a": 0,
+   "e": "النص: he took a nap for an hour، أي أخذ قيلولة لمدة ساعة."
+  },
+  {
+   "q": "On the way, Hani stopped to watch a man showing ___.",
+   "o": [
+    "a film",
+    "magic tricks",
+    "a football game",
+    "a play"
+   ],
+   "a": 1,
+   "e": "النص: he saw a man showing some magic tricks، أي حيلاً سحرية."
+  },
+  {
+   "q": "When Hani reached the palace, it was already ___.",
+   "o": [
+    "morning",
+    "lunch time",
+    "sunset time",
+    "midnight"
+   ],
+   "a": 2,
+   "e": "النص: it was already sunset time، أي كان وقت الغروب قد حان."
+  },
+  {
+   "q": "The king and Hani were very good friends.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: a king and a lazy man named Hani were very good friends."
+  },
+  {
+   "q": "Hani arrived at the palace before the gates were shut.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: The palace gates had been shut، أي كانت البوابات قد أُغلقت."
+  },
+  {
+   "q": "Hani’s wife told him to rest and eat first.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنها قالت: Go and get the gold coins and gems now، أي اذهب وأحضر القطع الذهبية الآن."
+  },
+  {
+   "q": "The story teaches us that once time is spent, it will never come back again.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: هذه الجملة وردت في آخر النص."
+  }
+ ],
+ "words": {
+  "once": "ذات مرة / ما إن",
+  "a": "أداة نكرة",
+  "king": "ملك",
+  "and": "و",
+  "lazy": "كسول",
+  "man": "رجل",
+  "named": "اسمه / يُدعى",
+  "hani": "هاني (اسم)",
+  "were": "كانوا / كانت",
+  "very": "جداً",
+  "good": "جيد",
+  "friend": "صديق",
+  "one": "أحد / لا أحد (no one)",
+  "morning": "صباح",
+  "the": "أداة تعريف",
+  "said": "قال / قالت",
+  "why": "لماذا",
+  "don't": "لا",
+  "you": "أنت",
+  "work": "يعمل / عمل",
+  "to": "إلى / أن",
+  "earn": "يكسب",
+  "some": "بعض",
+  "money": "مال",
+  "no": "لا أحد (no one)",
+  "offer": "يعرض",
+  "me": "ي / لي",
+  "job": "وظيفة",
+  "my": "ي (ملكية)",
+  "enemies": "أعداء",
+  "told": "أخبر",
+  "everyone": "الجميع",
+  "that": "أن / التي",
+  "i": "أنا",
+  "never": "أبداً",
+  "do": "يفعل",
+  "any": "أي",
+  "in": "في",
+  "time": "وقت / في وقته (in time)",
+  "kind": "لطيف / نوع",
+  "can": "يستطيع",
+  "go": "يذهب / يدخل (go into)",
+  "into": "يدخل (go into)",
+  "treasury": "خزينة",
+  "collect": "يجمع",
+  "as": "بقدر (as much as)",
+  "much": "بقدر (as much as)",
+  "wealth": "ثروة",
+  "but": "لكن",
+  "have": "يجب (have to)",
+  "finish": "ينتهي",
+  "before": "قبل",
+  "sunset": "غروب الشمس",
+  "was": "كان / كانت",
+  "so": "جداً / لذلك",
+  "happy": "سعيد",
+  "rushed": "أسرع",
+  "home": "إلى البيت / منزل",
+  "tell": "يخبر / يقول",
+  "his": "ـه (ملكية)",
+  "wife": "زوجة",
+  "she": "هي",
+  "get": "يحضر / يحصل",
+  "gold": "ذهب / ذهبي",
+  "coin": "قطعة نقدية",
+  "gem": "جوهرة",
+  "now": "الآن",
+  "he": "هو",
+  "cannot": "لا يستطيع / لا نستطيع",
+  "am": "أكون / أنا",
+  "hungry": "جائع",
+  "i'd": "أودّ (would like to)",
+  "like": "أودّ (would like to)",
+  "eat": "يأكل",
+  "first": "أولاً / الأول",
+  "after": "بعد",
+  "lunch": "الغداء",
+  "took": "أخذ",
+  "nap": "قيلولة",
+  "for": "لـ / على",
+  "an": "أداة نكرة",
+  "hour": "ساعة",
+  "then": "ثم",
+  "late": "متأخر",
+  "afternoon": "بعد الظهر",
+  "picked": "التقط / اختار",
+  "bag": "حقيبة",
+  "went": "ذهب",
+  "palace": "قصر",
+  "on": "في الطريق (on the way) / يتابع (move on)",
+  "way": "الطريق (on the way)",
+  "felt": "شعر",
+  "hot": "حار / بالحر",
+  "sat": "جلس",
+  "under": "تحت",
+  "tree": "شجرة",
+  "rest": "يرتاح / بقية",
+  "drink": "يشرب",
+  "water": "ماء",
+  "two": "اثنان",
+  "later": "بعد / لاحقاً",
+  "when": "عندما",
+  "wanted": "أراد",
+  "move": "يتابع (move on)",
+  "saw": "رأى",
+  "showing": "يعرض",
+  "magic": "سحري",
+  "trick": "حيلة",
+  "stopped": "توقف",
+  "watch": "يشاهد / يراقب",
+  "again": "مرة أخرى",
+  "met": "التقى",
+  "old": "قديم",
+  "chatted": "تحدث / دردش",
+  "with": "مع / بـ",
+  "him": "له / هو",
+  "reached": "وصل",
+  "it": "هو / هي",
+  "already": "بالفعل",
+  "gate": "بوابة",
+  "had": "كان لديه / كان",
+  "been": "كان / تم",
+  "shut": "مُغلقة",
+  "lost": "خسر / ضاع",
+  "golden": "ذهبية",
+  "chance": "فرصة",
+  "because": "بسبب / لأن",
+  "not": "لا / ليس",
+  "learnt": "تعلم",
+  "value": "قيمة",
+  "of": "من / لـ",
+  "if": "إذا",
+  "worked": "عمل",
+  "hard": "بجد",
+  "wouldn't": "لن",
+  "be": "يكون",
+  "poor": "فقير",
+  "this": "هذا",
+  "story": "قصة",
+  "teaches": "تعلمنا / تعلّم",
+  "us": "نحن / نا",
+  "spent": "يُقضى / أنفق",
+  "will": "سوف",
+  "come": "يعود (come back)",
+  "back": "يعود (come back)"
+ }
+}

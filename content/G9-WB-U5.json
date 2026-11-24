@@ -1,0 +1,369 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 5,
+ "label": "Unit 5",
+ "title": "Late to Go Back",
+ "titleAr": "متأخر عن العودة",
+ "sentences": [
+  [
+   "Sam walked into a cake shop, after he’d finished his work, to buy his daughter a birthday cake.",
+   "دخل سام إلى محل كعك، بعد أن أنهى عمله، ليشتري لابنته كعكة عيد ميلاد.",
+   0
+  ],
+  [
+   "It was about four o’clock and the store usually closes at five.",
+   "كانت الساعة حوالي الرابعة والمتجر يُغلق عادة في الخامسة.",
+   0
+  ],
+  [
+   "So he should make his mind quickly and decide what he should buy.",
+   "لذلك كان عليه أن يحسم أمره بسرعة ويقرر ماذا يجب أن يشتري.",
+   0
+  ],
+  [
+   "Sam asked himself “Which one should I choose?”",
+   "سأل سام نفسه “أي واحدة يجب أن أختار؟”",
+   0
+  ],
+  [
+   "He began wandering in the shop watching the various kinds of cakes which were kept in the refrigerators around.",
+   "بدأ يتجول في المحل يشاهد الأنواع المختلفة من الكعك التي كانت محفوظة في البرادات حوله.",
+   0
+  ],
+  [
+   "The cakes looked very delicious and tasty so it was difficult for Sam to choose.",
+   "بدت الكعكات لذيذة جداً وشهية فكان من الصعب على سام أن يختار.",
+   0
+  ],
+  [
+   "Time was passing but in vain.",
+   "كان الوقت يمر لكن دون جدوى.",
+   0
+  ],
+  [
+   "Sam couldn’t decide yet, when he heard the chef saying “Come on.",
+   "لم يستطع سام أن يقرر بعد، عندما سمع الطباخ يقول “هيا.",
+   1
+  ],
+  [
+   "Hurry up, please, we are about to close the store.”",
+   "أسرع من فضلك، نحن على وشك إغلاق المحل.”",
+   1
+  ],
+  [
+   "“No, wait please, I should choose the most suitable and delicious cake.”",
+   "“لا، انتظر من فضلك، يجب أن أختار أنسب وألذ كعكة.”",
+   1
+  ],
+  [
+   "Sam said sorrowfully.",
+   "قال سام بحزن.",
+   1
+  ],
+  [
+   "Sam’s eyes kept moving from one refrigerator to another, but all of the options looked so good and he couldn’t make a decision yet.",
+   "ظلت عينا سام تتنقلان من برّاد إلى آخر، لكن كل الخيارات بدت جيدة جداً ولم يستطع أن يتخذ قراراً بعد.",
+   2
+  ],
+  [
+   "“Try to be quick Man, make up your mind, we have to close,” the impatient chef said.",
+   "“حاول أن تكون سريعاً يا رجل، احسم أمرك، يجب أن نغلق،” قال الطباخ نافد الصبر.",
+   2
+  ],
+  [
+   "Suddenly, the chef had enough and asked Sam to leave immediately.",
+   "فجأة، طفح الكيل بالطباخ وطلب من سام المغادرة فوراً.",
+   2
+  ],
+  [
+   "Sam walked out of the shop empty-handed feeling depressed and frustrated.",
+   "خرج سام من المحل خالي اليدين يشعر بالإحباط والاكتئاب.",
+   2
+  ],
+  [
+   "He wanted them all, but ended up with nothing because he couldn’t choose any.",
+   "كان يريدها كلها، لكنه انتهى بلا شيء لأنه لم يستطع اختيار أي واحدة.",
+   2
+  ],
+  [
+   "Think of what happened to Sam.",
+   "فكّر بما حدث لسام.",
+   3
+  ],
+  [
+   "It’s just that we’re all Sam and the world is that cake shop.",
+   "الأمر أننا كلنا سام والعالم هو ذلك محل الكعك.",
+   3
+  ],
+  [
+   "We have extremely large numbers of options available to us, but if we don’t make a decision about our career, education, relationships, investments, or other important issues, we end up empty-handed.",
+   "لدينا أعداد كبيرة جداً من الخيارات المتاحة لنا، لكن إن لم نتخذ قراراً بشأن مهنتنا، وتعليمنا، وعلاقاتنا، واستثماراتنا، أو قضايا مهمة أخرى، ننتهي خالي الأيدي.",
+   3
+  ],
+  [
+   "Sometimes we worry about making the wrong decision.",
+   "أحياناً نقلق من اتخاذ القرار الخاطئ.",
+   3
+  ],
+  [
+   "What if we regret the direction that we take and it’s too late to go back?",
+   "ماذا لو ندمنا على الاتجاه الذي نسلكه وكان الأوان قد فات للعودة؟",
+   3
+  ],
+  [
+   "The real danger is that we make no decision at all and end up going nowhere and doing nothing.",
+   "الخطر الحقيقي أننا لا نتخذ أي قرار إطلاقاً وننتهي بلا وجهة ولا نفعل شيئاً.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Sam walked into a cake shop to buy his daughter a ___ cake.",
+   "o": [
+    "wedding",
+    "birthday",
+    "chocolate",
+    "small"
+   ],
+   "a": 1,
+   "e": "النص: to buy his daughter a birthday cake، أي كعكة عيد ميلاد."
+  },
+  {
+   "q": "The store usually closes at ___ o’clock.",
+   "o": [
+    "four",
+    "six",
+    "five",
+    "seven"
+   ],
+   "a": 2,
+   "e": "النص: the store usually closes at five، أي في الخامسة."
+  },
+  {
+   "q": "Why was it difficult for Sam to choose?",
+   "o": [
+    "The shop was dark.",
+    "He had no money.",
+    "The chef was angry.",
+    "The cakes looked very delicious and tasty."
+   ],
+   "a": 3,
+   "e": "النص: The cakes looked very delicious and tasty so it was difficult for Sam to choose."
+  },
+  {
+   "q": "At the end, Sam walked out of the shop ___.",
+   "o": [
+    "empty-handed",
+    "with a big cake",
+    "with two cakes",
+    "with the chef"
+   ],
+   "a": 0,
+   "e": "النص: Sam walked out of the shop empty-handed، أي خالي اليدين."
+  },
+  {
+   "q": "Sam felt ___ when he left the shop.",
+   "o": [
+    "proud and excited",
+    "depressed and frustrated",
+    "calm and relaxed",
+    "surprised and happy"
+   ],
+   "a": 1,
+   "e": "النص: feeling depressed and frustrated، أي يشعر بالإحباط والاكتئاب."
+  },
+  {
+   "q": "According to the writer, the real danger is that we ___.",
+   "o": [
+    "make many decisions",
+    "ask for help",
+    "make no decision at all",
+    "choose too quickly"
+   ],
+   "a": 2,
+   "e": "النص: The real danger is that we make no decision at all."
+  },
+  {
+   "q": "Sam asked the chef to wait because he wanted to choose the most suitable cake.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: No, wait please, I should choose the most suitable and delicious cake."
+  },
+  {
+   "q": "Sam finally bought a cake for his daughter.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنه ended up with nothing، أي انتهى بلا شيء."
+  },
+  {
+   "q": "The chef was very patient and let Sam stay for an hour.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن الطباخ impatient وطلب من سام المغادرة فوراً."
+  },
+  {
+   "q": "The writer says that we are all like Sam and the world is that cake shop.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: we’re all Sam and the world is that cake shop."
+  }
+ ],
+ "words": {
+  "sam": "سام (اسم)",
+  "walked": "دخل (walk into) / خرج (walk out of)",
+  "into": "دخل (walk into)",
+  "a": "أداة نكرة",
+  "cake": "كعكة",
+  "shop": "محل",
+  "after": "بعد",
+  "he'd": "كان قد",
+  "finished": "أنهى / أنهوا",
+  "his": "ـه (ملكية)",
+  "work": "عمل / يعمل",
+  "to": "إلى / أن",
+  "buy": "يشتري",
+  "daughter": "ابنة",
+  "birthday": "عيد ميلاد",
+  "it": "هو / هي",
+  "was": "كان / كانت",
+  "about": "حوالي / حول / على وشك (be about to)",
+  "four": "أربعة",
+  "o'clock": "الساعة",
+  "and": "و",
+  "the": "أداة تعريف",
+  "store": "متجر / محل",
+  "usually": "عادة",
+  "close": "يغلق / وثيق",
+  "at": "في / عند",
+  "five": "خمسة",
+  "so": "لذلك / جداً",
+  "he": "هو",
+  "should": "ينبغي",
+  "make": "يتخذ (make a decision) / يحسم أمره (make up your mind)",
+  "mind": "يحسم أمره (make up your mind)",
+  "quickly": "بسرعة",
+  "decide": "يقرر",
+  "what": "ما / ماذا لو (what if)",
+  "asked": "سأل",
+  "himself": "نفسه",
+  "which": "التي / الذي",
+  "one": "واحد / واحدة",
+  "i": "أنا",
+  "choose": "يختار",
+  "began": "بدأ",
+  "wandering": "يتجول",
+  "in": "في",
+  "watching": "يشاهد / مشاهدة",
+  "various": "مختلف / متنوع",
+  "kind": "نوع / أنواع",
+  "of": "من / لـ",
+  "were": "كانوا / كانت",
+  "kept": "ظلّت (keep moving) / حُفظت",
+  "refrigerator": "براد / ثلاجة",
+  "around": "حوله / حول",
+  "looked": "بدا / نظر",
+  "very": "جداً",
+  "delicious": "لذيذ",
+  "tasty": "شهي",
+  "difficult": "صعب",
+  "for": "لـ / على",
+  "time": "وقت",
+  "passing": "يمر",
+  "but": "لكن",
+  "vain": "دون جدوى (in vain)",
+  "couldn't": "لا يستطيع",
+  "yet": "بعد / حتى الآن",
+  "when": "عندما",
+  "heard": "سمع",
+  "chef": "طباخ / شيف",
+  "saying": "يقول / قائلاً",
+  "come": "هيا (come on)",
+  "on": "هيا (come on)",
+  "hurry": "أسرع (hurry up)",
+  "up": "يحسم أمره (make up your mind) / أسرع (hurry up) / ينتهي به الأمر (end up)",
+  "please": "من فضلك",
+  "we": "نحن",
+  "are": "يكونون / هم",
+  "no": "لا",
+  "wait": "ينتظر",
+  "most": "معظم",
+  "suitable": "مناسب",
+  "said": "قال / قالت",
+  "sorrowfully": "بحزن",
+  "eyes": "عينان",
+  "moving": "تتحرك / تنتقل",
+  "from": "من",
+  "another": "آخر",
+  "all": "جميع / كل",
+  "option": "خيار",
+  "good": "جيد",
+  "decision": "قرار",
+  "try": "يحاول",
+  "be": "يكون",
+  "quick": "سريع",
+  "man": "رجل / يا رجل",
+  "your": "ك (ملكية)",
+  "have": "يملك / (have to) يجب",
+  "impatient": "نافد الصبر",
+  "suddenly": "فجأة",
+  "had": "كان / طفح كيله (had enough)",
+  "enough": "طفح كيله (had enough)",
+  "leave": "يغادر",
+  "immediately": "فوراً",
+  "out": "خرج من (walk out of)",
+  "empty-handed": "خالي اليدين",
+  "feeling": "شعور",
+  "depressed": "مكتئب",
+  "frustrated": "محبَط",
+  "wanted": "أراد",
+  "them": "هم / لهم",
+  "ended": "انتهى به الأمر (end up)",
+  "with": "مع / بـ",
+  "nothing": "لا شيء",
+  "because": "بسبب / لأن",
+  "any": "أي",
+  "think": "فكّر في (think of)",
+  "happened": "حدث",
+  "just": "فقط / ببساطة",
+  "that": "أن / التي",
+  "we're": "نحن (مختصر are)",
+  "world": "العالم",
+  "extremely": "للغاية",
+  "large": "كبير",
+  "number": "عدد / أعداد",
+  "available": "متاح",
+  "us": "نحن / نا",
+  "if": "إذا",
+  "don't": "لا",
+  "our": "نا (ملكية)",
+  "career": "مهنة",
+  "education": "تعليم",
+  "relationship": "علاقة / علاقات",
+  "investment": "استثمار",
+  "or": "أو",
+  "other": "آخر",
+  "important": "مهم",
+  "issue": "قضية",
+  "end": "ينتهي به الأمر (end up)",
+  "sometimes": "أحياناً",
+  "worry": "يقلق بشأن (worry about)",
+  "making": "اتخاذ / صنع",
+  "wrong": "خاطئ",
+  "regret": "يندم",
+  "direction": "اتجاه",
+  "take": "يسلك / يأخذ",
+  "too": "جداً / أيضاً",
+  "late": "متأخر",
+  "go": "يعود (go back)",
+  "back": "يعود (go back)",
+  "real": "حقيقي",
+  "danger": "خطر",
+  "going": "لا يصل إلى شيء (go nowhere)",
+  "nowhere": "لا يصل إلى شيء (go nowhere)",
+  "doing": "فعل"
+ }
+}

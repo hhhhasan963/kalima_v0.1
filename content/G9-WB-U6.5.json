@@ -1,0 +1,347 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 6.5,
+ "label": "Progress Test (I)",
+ "title": "Trekking",
+ "titleAr": "رحلة المشي الطويلة",
+ "sentences": [
+  [
+   "Today is the second day of my trek around Mount Annapurna.",
+   "اليوم هو اليوم الثاني من رحلتي الشاقة حول جبل أنابورنا.",
+   0
+  ],
+  [
+   "I am exhausted and my legs are shaking; I just hope I am able to complete the trek.",
+   "أنا منهك وساقاي ترتجفان؛ آمل فقط أن أستطيع إكمال الرحلة.",
+   0
+  ],
+  [
+   "My feet are really killing me and my toes are bleeding, but I still want to continue.",
+   "قدماي تؤلمانني كثيراً وأصابع قدمي تنزف، لكنني ما زلت أريد المتابعة.",
+   0
+  ],
+  [
+   "Nepal is a fascinating country, but I have a great deal to learn.",
+   "نيبال بلد ساحر، لكن لديّ الكثير لأتعلمه.",
+   1
+  ],
+  [
+   "Everything is so different, and I am trying to adapt to the new way of life here.",
+   "كل شيء مختلف جداً، وأحاول أن أتكيف مع نمط الحياة الجديد هنا.",
+   1
+  ],
+  [
+   "I’ve learnt a little bit of the language to make communication easier; unfortunately, I don’t learn foreign languages quickly.",
+   "تعلمت قليلاً من اللغة لتسهيل التواصل؛ للأسف، لا أتعلم اللغات الأجنبية بسرعة.",
+   1
+  ],
+  [
+   "Although I have not understood much yet, I believe that I will improve gradually.",
+   "رغم أنني لم أفهم الكثير بعد، أعتقد أنني سأتحسن تدريجياً.",
+   1
+  ],
+  [
+   "I am currently travelling with Liam, a student from Leeds University in England.",
+   "أسافر حالياً مع ليام، وهو طالب من جامعة ليدز في إنكلترا.",
+   2
+  ],
+  [
+   "He is a nice guy, but impatient.",
+   "إنه شاب لطيف، لكنه نافد الصبر.",
+   2
+  ],
+  [
+   "He always walks ahead of me and complains that I am too slow.",
+   "يمشي دائماً أمامي ويشتكي من أنني بطيء جداً.",
+   2
+  ],
+  [
+   "I am doing my best to keep up with him, but he is younger and stronger than I am.",
+   "أبذل قصارى جهدي لألحق به، لكنه أصغر سناً وأقوى مني.",
+   2
+  ],
+  [
+   "Maybe, I am just feeling sorry for myself because I am getting old.",
+   "ربما أنا فقط أشعر بالشفقة على نفسي لأنني أكبر في السن.",
+   2
+  ],
+  [
+   "Right now, Liam is sitting with the owner of the inn.",
+   "الآن، ليام جالس مع صاحب النُّزل.",
+   3
+  ],
+  [
+   "They are discussing the differences between life in England and life in Nepal.",
+   "يناقشان الفروق بين الحياة في إنكلترا والحياة في نيبال.",
+   3
+  ],
+  [
+   "I don’t know the real name of the owner, but everybody just calls him Tam.",
+   "لا أعرف الاسم الحقيقي لصاحب النزل، لكن الجميع ينادونه تام فقط.",
+   3
+  ],
+  [
+   "Tam speaks English very well and he is trying to teach Liam some words in Nepali.",
+   "يتكلم تام الإنكليزية جيداً جداً ويحاول أن يعلّم ليام بعض الكلمات بالنيبالية.",
+   3
+  ],
+  [
+   "Every time Tam says a new word, Liam tries to repeat it.",
+   "كل مرة يقول تام كلمة جديدة، يحاول ليام أن يكررها.",
+   3
+  ],
+  [
+   "Unfortunately, Liam also seems to have difficulty learning foreign languages.",
+   "للأسف، يبدو أن ليام أيضاً يواجه صعوبة في تعلم اللغات الأجنبية.",
+   3
+  ],
+  [
+   "I just hope we don’t get lost and have to ask for directions.",
+   "آمل فقط ألا نضيع ونضطر إلى السؤال عن الطريق.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "The writer is trekking around Mount ___.",
+   "o": [
+    "Everest",
+    "Annapurna",
+    "Kilimanjaro",
+    "Fuji"
+   ],
+   "a": 1,
+   "e": "النص: my trek around Mount Annapurna، أي رحلتي الشاقة حول جبل أنابورنا."
+  },
+  {
+   "q": "The writer hopes to be able to ___ the trek.",
+   "o": [
+    "start",
+    "cancel",
+    "complete",
+    "forget"
+   ],
+   "a": 2,
+   "e": "النص: I just hope I am able to complete the trek، أي أن أستطيع إكمال الرحلة."
+  },
+  {
+   "q": "The writer’s toes are ___.",
+   "o": [
+    "cold",
+    "painted",
+    "small",
+    "bleeding"
+   ],
+   "a": 3,
+   "e": "النص: my toes are bleeding، أي أصابع قدمي تنزف."
+  },
+  {
+   "q": "The writer says he doesn’t learn foreign languages ___.",
+   "o": [
+    "quickly",
+    "carefully",
+    "loudly",
+    "happily"
+   ],
+   "a": 0,
+   "e": "النص: I don’t learn foreign languages quickly، أي لا أتعلم اللغات الأجنبية بسرعة."
+  },
+  {
+   "q": "Liam is a student from ___ University in England.",
+   "o": [
+    "Oxford",
+    "Leeds",
+    "Cambridge",
+    "London"
+   ],
+   "a": 1,
+   "e": "النص: a student from Leeds University in England."
+  },
+  {
+   "q": "Everybody just calls the owner of the inn ___.",
+   "o": [
+    "Sam",
+    "Liam",
+    "Tam",
+    "John"
+   ],
+   "a": 2,
+   "e": "النص: everybody just calls him Tam، أي ينادونه تام."
+  },
+  {
+   "q": "Liam always walks ahead of the writer and complains that he is too slow.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: He always walks ahead of me and complains that I am too slow."
+  },
+  {
+   "q": "The writer is younger and stronger than Liam.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن ليام he is younger and stronger than I am، أي أصغر وأقوى."
+  },
+  {
+   "q": "Tam does not speak English.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Tam speaks English very well."
+  },
+  {
+   "q": "The writer hopes they don’t get lost and have to ask for directions.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: I just hope we don’t get lost and have to ask for directions."
+  }
+ ],
+ "words": {
+  "today": "اليوم",
+  "i": "أنا",
+  "the": "أداة تعريف",
+  "second": "الثاني",
+  "day": "يوم",
+  "of": "من / لـ",
+  "my": "ي (ملكية)",
+  "trek": "رحلة شاقة",
+  "around": "حول",
+  "mount": "جبل",
+  "annapurna": "أنابورنا (اسم)",
+  "am": "أكون / أنا",
+  "exhausted": "منهك",
+  "and": "و",
+  "leg": "ساق / ساقان",
+  "are": "يكونون / هم",
+  "shaking": "ترتجف",
+  "just": "فقط",
+  "hope": "آمل",
+  "able": "قادر",
+  "to": "إلى / أن",
+  "complete": "يكمل / ينجز",
+  "feet": "قدمان",
+  "really": "حقاً",
+  "killing": "تؤلمني بشدة (be killing me)",
+  "me": "ي / لي",
+  "toe": "إصبع قدم",
+  "bleeding": "تنزف",
+  "but": "لكن",
+  "still": "ما زال",
+  "want": "يريد",
+  "continue": "يتابع",
+  "nepal": "نيبال (اسم)",
+  "a": "أداة نكرة",
+  "fascinating": "ساحر",
+  "country": "بلد",
+  "have": "يملك / يحصل",
+  "great": "الكثير (a great deal)",
+  "deal": "الكثير (a great deal)",
+  "learn": "يتعلم",
+  "everything": "كل شيء",
+  "so": "جداً / لذلك",
+  "different": "مختلف",
+  "trying": "أحاول / تحاول",
+  "adapt": "يتكيف مع (adapt to)",
+  "new": "جديد",
+  "way": "نمط (way of life)",
+  "life": "حياة",
+  "here": "هنا",
+  "i've": "أنا (قد)",
+  "learnt": "تعلمت",
+  "little": "قليلاً (a little bit)",
+  "bit": "قليلاً (a little bit)",
+  "language": "لغة",
+  "make": "يجعل / يصنع",
+  "communication": "التواصل",
+  "easier": "أسهل",
+  "unfortunately": "للأسف",
+  "don't": "لا",
+  "foreign": "أجنبي",
+  "quickly": "بسرعة",
+  "although": "رغم أن",
+  "not": "لا / ليس",
+  "understood": "فهمت",
+  "much": "كثير",
+  "yet": "بعد / حتى الآن",
+  "believe": "يعتقد / يؤمن",
+  "that": "أن / التي",
+  "will": "سوف",
+  "improve": "يحسّن",
+  "gradually": "تدريجياً",
+  "currently": "حالياً",
+  "travelling": "السفر",
+  "with": "مع / بـ",
+  "liam": "ليام (اسم)",
+  "student": "طالب",
+  "from": "من",
+  "leeds": "ليدز (اسم)",
+  "university": "جامعة",
+  "in": "في",
+  "england": "إنكلترا",
+  "he": "هو",
+  "nice": "جميل",
+  "guy": "شاب / رجل",
+  "impatient": "نافد الصبر",
+  "always": "دائماً",
+  "walk": "يمشي",
+  "ahead": "أمام (ahead of)",
+  "complain": "يشتكي",
+  "too": "أيضاً / جداً",
+  "slow": "بطيء",
+  "doing": "يبذل جهده (do my best)",
+  "best": "يبذل جهده (do my best)",
+  "keep": "يجاري (keep up with)",
+  "up": "يجاري (keep up with)",
+  "him": "له / هو",
+  "younger": "أصغر سناً",
+  "stronger": "أقوى",
+  "than": "من / ممّا",
+  "maybe": "ربما",
+  "feeling": "يشفق على (feel sorry for)",
+  "sorry": "يشفق على (feel sorry for)",
+  "for": "لـ / على",
+  "myself": "نفسي",
+  "because": "بسبب / لأن",
+  "getting": "أصبح / يصير",
+  "old": "كبير في السن / قديم",
+  "right": "الآن (right now)",
+  "now": "الآن (right now)",
+  "sitting": "جالس",
+  "owner": "صاحب",
+  "inn": "نُزل",
+  "they": "هم",
+  "discussing": "يناقشان",
+  "difference": "فرق / فروق",
+  "between": "بين",
+  "know": "يعرف",
+  "real": "حقيقي",
+  "name": "اسم / لقب",
+  "everybody": "الجميع",
+  "call": "ينادي",
+  "tam": "تام (اسم)",
+  "speak": "يتكلم",
+  "english": "الإنكليزية",
+  "very": "جداً",
+  "well": "جيداً",
+  "teach": "يعلّم",
+  "some": "بعض",
+  "word": "كلمة",
+  "nepali": "النيبالية",
+  "every": "كل (every time)",
+  "time": "مرة (every time)",
+  "say": "يقول",
+  "tries": "يحاول",
+  "repeat": "يكرر",
+  "it": "هو / هي",
+  "also": "أيضاً",
+  "seem": "يبدو",
+  "difficulty": "صعوبة",
+  "learning": "التعلم",
+  "we": "نحن",
+  "get": "يتوه (get lost)",
+  "lost": "يتوه (get lost)",
+  "ask": "يطلب (ask for)",
+  "direction": "اتجاه / إرشادات الطريق"
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 2,
+ "label": "Unit 2",
+ "title": "Light Initiative",
+ "titleAr": "مبادرة النور",
+ "sentences": [
+  [
+   "What is ‘Light Initiative’?",
+   "ما هي “مبادرة النور”؟",
+   0,
+   "h"
+  ],
+  [
+   "Light Initiative started with two people and now it includes more than 350 volunteers.",
+   "بدأت مبادرة النور بشخصين والآن تضم أكثر من 350 متطوعاً.",
+   1
+  ],
+  [
+   "They voluntarily record school and college books for the benefit of the visually impaired people.",
+   "يسجلون طوعاً كتب المدارس والكليات لفائدة الأشخاص ذوي الإعاقة البصرية.",
+   1
+  ],
+  [
+   "They started recording the books of the 9th and the 12th grades; they also record university books and references.",
+   "بدؤوا بتسجيل كتب الصفين التاسع والثاني عشر؛ كما يسجلون كتباً جامعية ومراجع.",
+   1
+  ],
+  [
+   "Their aim is to meet the visually impaired people’s actual needs whatever they are.",
+   "هدفهم تلبية الاحتياجات الفعلية للأشخاص ذوي الإعاقة البصرية مهما كانت.",
+   1
+  ],
+  [
+   "How do they work?",
+   "كيف يعملون؟",
+   2,
+   "h"
+  ],
+  [
+   "Usually, the visually impaired person who has the desire to study a curriculum or a reference, contacts the initiative administration and provides them with the books needed.",
+   "عادة، الشخص ذو الإعاقة البصرية الذي لديه رغبة في دراسة منهاج أو مرجع، يتصل بإدارة المبادرة ويزودهم بالكتب المطلوبة.",
+   3
+  ],
+  [
+   "Then, the book is divided into tasks for a number of volunteers to record them.",
+   "ثم يُقسَّم الكتاب إلى مهام ليسجلها عدد من المتطوعين.",
+   3
+  ],
+  [
+   "Social Media",
+   "وسائل التواصل الاجتماعي",
+   4,
+   "h"
+  ],
+  [
+   "They use a Facebook page and a YouTube channel.",
+   "يستخدمون صفحة على فيسبوك وقناة على يوتيوب.",
+   5
+  ],
+  [
+   "On the Facebook page they announce that they finished this book or this curriculum, and they use the YouTube channel to publish the recordings.",
+   "على صفحة فيسبوك يعلنون أنهم أنهوا هذا الكتاب أو هذا المنهاج، ويستخدمون قناة يوتيوب لنشر التسجيلات.",
+   5
+  ],
+  [
+   "These records are saved in mp3 format.",
+   "وتُحفظ هذه التسجيلات بصيغة mp3.",
+   5
+  ],
+  [
+   "Service Cost",
+   "تكلفة الخدمة",
+   6,
+   "h"
+  ],
+  [
+   "Their services are absolutely free; i.e. the volunteer is not paid, and it doesn’t cost the visually impaired person anything.",
+   "خدماتهم مجانية تماماً؛ أي أن المتطوع لا يُدفع له، ولا تكلّف الشخص ذا الإعاقة البصرية أي شيء.",
+   7
+  ],
+  [
+   "Anyone with a network can have access to their records.",
+   "أي شخص لديه شبكة يستطيع الوصول إلى تسجيلاتهم.",
+   7
+  ],
+  [
+   "Tools",
+   "الأدوات",
+   8,
+   "h"
+  ],
+  [
+   "Volunteers need very simple things.",
+   "يحتاج المتطوعون إلى أشياء بسيطة جداً.",
+   9
+  ],
+  [
+   "They use mobiles for recording and laptops to do the montage.",
+   "يستخدمون الهواتف المحمولة للتسجيل والحواسيب المحمولة لعمل المونتاج.",
+   9
+  ],
+  [
+   "No professional tools are needed.",
+   "لا حاجة إلى أدوات احترافية.",
+   9
+  ],
+  [
+   "What’s New?",
+   "ما الجديد؟",
+   10,
+   "h"
+  ],
+  [
+   "Light Initiative’s new project is turning the Syrian curriculum into Braille.",
+   "مشروع مبادرة النور الجديد هو تحويل المنهاج السوري إلى طريقة برايل.",
+   11
+  ],
+  [
+   "This will help Syrian students who suffer from sight problems.",
+   "سيساعد هذا الطلاب السوريين الذين يعانون من مشكلات في البصر.",
+   11
+  ],
+  [
+   "Light Initiative’s Target",
+   "هدف مبادرة النور",
+   12,
+   "h"
+  ],
+  [
+   "Light Initiative is trying to bring some light into the visually impaired people’s lives.",
+   "تحاول مبادرة النور أن تُدخل بعض النور إلى حياة الأشخاص ذوي الإعاقة البصرية.",
+   13
+  ]
+ ],
+ "questions": [
+  {
+   "q": "How many volunteers does Light Initiative include now?",
+   "o": [
+    "More than 350",
+    "Two",
+    "About twelve",
+    "More than nine"
+   ],
+   "a": 0,
+   "e": "تضم المبادرة الآن أكثر من 350 متطوعاً."
+  },
+  {
+   "q": "Whose needs does the initiative want to meet?",
+   "o": [
+    "Visually impaired people",
+    "Teachers",
+    "University doctors",
+    "Programmers"
+   ],
+   "a": 0,
+   "e": "هدفها تلبية احتياجات الأشخاص ذوي الإعاقة البصرية."
+  },
+  {
+   "q": "The volunteers are paid for their work.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: المتطوع لا يُدفع له والخدمات مجانية تماماً."
+  },
+  {
+   "q": "Where do they publish the recordings?",
+   "o": [
+    "On a YouTube channel",
+    "In newspapers",
+    "On the radio",
+    "In bookshops"
+   ],
+   "a": 0,
+   "e": "يستخدمون قناة يوتيوب لنشر التسجيلات."
+  },
+  {
+   "q": "In what format are the recordings saved?",
+   "o": [
+    "mp3",
+    "pdf",
+    "jpg",
+    "docx"
+   ],
+   "a": 0,
+   "e": "تُحفظ التسجيلات بصيغة mp3."
+  },
+  {
+   "q": "Volunteers need professional tools.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: No professional tools are needed."
+  },
+  {
+   "q": "What do the volunteers use to do the montage?",
+   "o": [
+    "Laptops",
+    "Mobiles",
+    "Cameras",
+    "Radios"
+   ],
+   "a": 0,
+   "e": "الحواسيب المحمولة للمونتاج، أما الهواتف فللتسجيل."
+  },
+  {
+   "q": "What is the new project of Light Initiative?",
+   "o": [
+    "Turning the Syrian curriculum into Braille",
+    "Opening a new school",
+    "Building a library",
+    "Making films"
+   ],
+   "a": 0,
+   "e": "تحويل المنهاج السوري إلى طريقة برايل."
+  }
+ ],
+ "words": {}
+}

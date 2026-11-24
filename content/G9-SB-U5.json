@@ -1,0 +1,369 @@
+{
+  "schema": 2,
+  "subject": "english",
+  "grade": 9,
+  "stream": null,
+  "book": "sb",
+  "unit": 5,
+  "label": "Unit 5",
+  "title": "Learn a Skill and Work with a Will",
+  "titleAr": "تعلّم مهارة واعمل بإرادة",
+  "sentences": [
+    [
+      "“Wisdom is knowing what to do next, skill is knowing how to do it and virtue is doing it” (David Star Jordan).",
+      "“الحكمة هي معرفة ما يجب فعله بعد ذلك، والمهارة هي معرفة كيف تفعله والفضيلة هي أن تفعله” (ديفيد ستار جوردان).",
+      0,
+      "q"
+    ],
+    [
+      "We make thousands of decisions a day.",
+      "نتخذ آلاف القرارات في اليوم.",
+      1
+    ],
+    [
+      "Making a choice is easy.",
+      "اتخاذ خيار أمر سهل.",
+      1
+    ],
+    [
+      "Choosing well takes knowledge and skill.",
+      "أما الاختيار الجيد فيتطلب معرفة ومهارة.",
+      1
+    ],
+    [
+      "You have many decision-making examples in daily life such as deciding what to wear, what to eat for lunch, what task to do next, choosing which book to read, etc.",
+      "لديك أمثلة كثيرة على اتخاذ القرار في الحياة اليومية مثل تقرير ماذا ترتدي، وماذا تأكل على الغداء، وأي مهمة تنجز بعد ذلك، واختيار أي كتاب تقرأ، إلخ.",
+      1
+    ],
+    [
+      "Decision making is an ongoing process in every aspect of life, large or small.",
+      "اتخاذ القرار عملية مستمرة في كل جانب من جوانب الحياة، كبيراً كان أم صغيراً.",
+      1
+    ],
+    [
+      "The ability to make a decision and stick to it is the cornerstone of good leadership skills.",
+      "القدرة على اتخاذ قرار والالتزام به هي حجر الزاوية في مهارات القيادة الجيدة.",
+      2
+    ],
+    [
+      "Having critical thinking skills allows one to ascertain the problem and come up with a suitable and beneficial solution.",
+      "امتلاك مهارات التفكير الناقد يتيح للمرء أن يتحقق من المشكلة ويتوصل إلى حل مناسب ومفيد.",
+      2
+    ],
+    [
+      "Before taking a step, we must try to see where possible potholes are.",
+      "قبل اتخاذ خطوة، يجب أن نحاول رؤية أين توجد الحفر المحتملة.",
+      2
+    ],
+    [
+      "This won’t just make us stronger moving forward.",
+      "هذا لن يجعلنا أقوى في المضي قدماً فحسب.",
+      2
+    ],
+    [
+      "It will also give us more determination and awareness about what we are deciding.",
+      "بل سيمنحنا أيضاً مزيداً من العزيمة والوعي بما نقرره.",
+      2
+    ],
+    [
+      "The decision-making tools help you to map out all the possible alternatives to your decision, its chances of success or failure.",
+      "تساعدك أدوات اتخاذ القرار على رسم جميع البدائل الممكنة لقرارك، وفرص نجاحه أو فشله.",
+      3
+    ],
+    [
+      "So to make a decision, you must first identify the problem you need to solve or the question you need to answer.",
+      "لذلك لاتخاذ قرار، يجب أن تحدد أولاً المشكلة التي تحتاج إلى حلها أو السؤال الذي تحتاج إلى الإجابة عنه.",
+      3
+    ],
+    [
+      "What also prevents effective decision-making is when you do not have enough information about your decision.",
+      "ما يمنع أيضاً اتخاذ القرار الفعال هو عندما لا تملك معلومات كافية عن قرارك.",
+      3
+    ],
+    [
+      "In this case you are making a decision without any basis.",
+      "في هذه الحالة أنت تتخذ قراراً دون أي أساس.",
+      3
+    ],
+    [
+      "Teamwork helps you to make the right decision.",
+      "يساعدك العمل الجماعي على اتخاذ القرار الصحيح.",
+      4
+    ],
+    [
+      "You must collaborate with your family members and classmates, at some point, to make your right decision.",
+      "يجب أن تتعاون مع أفراد عائلتك وزملائك في الصف، في مرحلة ما، لتتخذ قرارك الصحيح.",
+      4
+    ],
+    [
+      "Time management is very important; since decisions need to be made quickly sometimes, you have to outline the amount of time you have to make your decision.",
+      "إدارة الوقت مهمة جداً؛ فبما أن القرارات تحتاج أحياناً إلى اتخاذها بسرعة، عليك أن تحدد مقدار الوقت الذي لديك لاتخاذ قرارك.",
+      5
+    ],
+    [
+      "Also, organization is vital in your making a final decision.",
+      "كذلك التنظيم أساسي في اتخاذك قراراً نهائياً.",
+      5
+    ],
+    [
+      "You should use this skill to find out what results you’re looking for and if it’s a top priority.",
+      "يجب أن تستخدم هذه المهارة لتكتشف ما النتائج التي تبحث عنها وهل هي أولوية قصوى.",
+      5
+    ]
+  ],
+  "questions": [
+    {
+      "q": "Making a choice is easy, but choosing well takes ___.",
+      "o": [
+        "luck and time",
+        "knowledge and skill",
+        "money and help",
+        "fear and speed"
+      ],
+      "a": 1,
+      "e": "الاختيار سهل لكن الاختيار الجيد يتطلب معرفة ومهارة: takes knowledge and skill."
+    },
+    {
+      "q": "Which example of daily decision making is mentioned in the text?",
+      "o": [
+        "Deciding what to eat for lunch",
+        "Choosing a new car",
+        "Choosing a university",
+        "Deciding where to travel"
+      ],
+      "a": 0,
+      "e": "من الأمثلة المذكورة تقرير ما نأكله على الغداء: what to eat for lunch."
+    },
+    {
+      "q": "The ability to make a decision and stick to it is the ___ of good leadership skills.",
+      "o": [
+        "secret",
+        "goal",
+        "cornerstone",
+        "price"
+      ],
+      "a": 2,
+      "e": "القدرة على اتخاذ القرار والالتزام به هي حجر الزاوية في مهارات القيادة: the cornerstone of good leadership skills."
+    },
+    {
+      "q": "Critical thinking skills allow one to come up with ___.",
+      "o": [
+        "a quick holiday",
+        "a harder problem",
+        "a new rule",
+        "a suitable and beneficial solution"
+      ],
+      "a": 3,
+      "e": "التفكير الناقد يساعد على التوصل إلى حل مناسب ومفيد: come up with a suitable and beneficial solution."
+    },
+    {
+      "q": "What prevents effective decision-making, according to the text?",
+      "o": [
+        "Having too many friends",
+        "Not having enough information",
+        "Asking a teacher for help",
+        "Working in a team"
+      ],
+      "a": 1,
+      "e": "يمنع اتخاذ القرار الفعال أن لا تملك معلومات كافية: do not have enough information."
+    },
+    {
+      "q": "Seeing possible potholes before taking a step gives us more ___ and awareness.",
+      "o": [
+        "homework",
+        "luck",
+        "determination",
+        "freedom"
+      ],
+      "a": 2,
+      "e": "رؤية الحفر المحتملة قبل الخطوة تمنحنا مزيداً من العزيمة والوعي: more determination and awareness."
+    },
+    {
+      "q": "Decision making is an ongoing process in every aspect of life, large or small.",
+      "tf": 1,
+      "a": 0,
+      "e": "العبارة صحيحة، فاتخاذ القرار عملية مستمرة في كل جوانب الحياة: an ongoing process in every aspect of life."
+    },
+    {
+      "q": "The text says you must collaborate with your family members and classmates to make your right decision.",
+      "tf": 1,
+      "a": 0,
+      "e": "العبارة صحيحة، فالنص يقول إنه يجب أن تتعاون مع أفراد عائلتك وزملائك: You must collaborate with your family members and classmates."
+    },
+    {
+      "q": "The writer says time management is not important when decisions must be made quickly.",
+      "tf": 1,
+      "a": 1,
+      "e": "العبارة خاطئة، فالنص يقول إن إدارة الوقت مهمة جداً: Time management is very important."
+    },
+    {
+      "q": "According to the text, a decision made without enough information has a strong basis.",
+      "tf": 1,
+      "a": 1,
+      "e": "العبارة خاطئة، فالقرار بلا معلومات كافية يُتخذ دون أي أساس: without any basis."
+    }
+  ],
+  "words": {
+    "wisdom": "الحكمة",
+    "an": "أداة نكرة",
+    "be": "يكون",
+    "first": "أولاً",
+    "is": "يكون / هو",
+    "knowing": "معرفة",
+    "what": "ما / ماذا",
+    "to": "أن / إلى",
+    "do": "يفعل",
+    "next": "التالي / بعد ذلك",
+    "skill": "مهارة",
+    "how": "كيف",
+    "it": "هو / هي",
+    "and": "و",
+    "virtue": "الفضيلة",
+    "doing": "فعل",
+    "david": "ديفيد (اسم)",
+    "star": "ستار (اسم)",
+    "jordan": "جوردان (اسم)",
+    "we": "نحن",
+    "make": "يتخذ / يجعل (make a decision)",
+    "thousand": "ألف",
+    "of": "من / لـ",
+    "decision": "قرار",
+    "a": "أداة نكرة",
+    "day": "يوم",
+    "making": "اتخاذ / صنع",
+    "choice": "خيار",
+    "easy": "سهل",
+    "choosing": "اختيار",
+    "well": "جيداً",
+    "take": "يتطلب / يأخذ",
+    "knowledge": "معرفة",
+    "you": "أنت",
+    "have": "يملك / عليك (have to)",
+    "many": "كثير",
+    "decision-making": "اتخاذ القرار",
+    "example": "مثال",
+    "in": "في",
+    "daily": "يومي",
+    "life": "حياة",
+    "such": "مثل (such as)",
+    "as": "مثل (such as)",
+    "deciding": "تقرير / اتخاذ قرار",
+    "wear": "يرتدي",
+    "eat": "يأكل",
+    "for": "على / لـ",
+    "lunch": "الغداء",
+    "task": "مهمة",
+    "which": "أي / الذي",
+    "book": "كتاب",
+    "read": "يقرأ",
+    "etc": "إلخ",
+    "ongoing": "مستمر",
+    "process": "عملية",
+    "every": "كل",
+    "aspect": "جانب",
+    "large": "كبير",
+    "or": "أو",
+    "small": "صغير",
+    "ability": "القدرة",
+    "stick": "يلتزم بـ (stick to)",
+    "the": "أداة تعريف",
+    "cornerstone": "حجر الزاوية",
+    "good": "جيد",
+    "leadership": "القيادة",
+    "having": "امتلاك",
+    "critical": "ناقد",
+    "thinking": "التفكير",
+    "allow": "يتيح / يسمح",
+    "one": "المرء / واحد",
+    "ascertain": "يتحقق من",
+    "problem": "مشكلة",
+    "come": "يتوصل إلى (come up with)",
+    "up": "يتوصل إلى (come up with)",
+    "with": "مع / بـ",
+    "suitable": "مناسب",
+    "beneficial": "مفيد",
+    "solution": "حل",
+    "before": "قبل",
+    "taking": "اتخاذ / أخذ",
+    "step": "خطوة",
+    "must": "يجب",
+    "try": "يحاول",
+    "see": "يرى",
+    "where": "أين",
+    "possible": "محتمل / ممكن",
+    "pothole": "حفرة في الطريق",
+    "are": "يكونون / هم",
+    "this": "هذا",
+    "won't": "لن",
+    "just": "فقط",
+    "us": "نحن / نا",
+    "stronger": "أقوى",
+    "moving": "المضي / التحرك",
+    "forward": "إلى الأمام",
+    "will": "سوف",
+    "also": "أيضاً",
+    "give": "يعطي / يمنح",
+    "more": "أكثر / مزيد",
+    "determination": "عزيمة",
+    "awareness": "وعي",
+    "about": "عن / حول",
+    "tool": "أداة",
+    "help": "يساعد",
+    "map": "يرسم (map out)",
+    "out": "يرسم (map out) / يكتشف (find out)",
+    "all": "جميع",
+    "alternative": "بديل",
+    "your": "ك (ملكية)",
+    "its": "له / لها (ملكية)",
+    "chance": "فرصة",
+    "success": "نجاح",
+    "failure": "فشل",
+    "so": "لذلك / إذن",
+    "identify": "يحدد",
+    "need": "يحتاج",
+    "solve": "يحل",
+    "question": "سؤال",
+    "answer": "يجيب عن",
+    "prevent": "يمنع",
+    "effective": "فعّال",
+    "when": "عندما",
+    "not": "لا / ليس",
+    "enough": "كافٍ",
+    "information": "معلومات",
+    "case": "في هذه الحالة (in this case)",
+    "without": "دون / بدون",
+    "any": "أي",
+    "basis": "أساس",
+    "teamwork": "العمل الجماعي",
+    "right": "صحيح",
+    "collaborate": "يتعاون",
+    "family": "عائلة",
+    "member": "فرد / عضو",
+    "classmate": "زميل صف",
+    "at": "في مرحلة ما (at some point)",
+    "some": "في مرحلة ما (at some point)",
+    "point": "في مرحلة ما (at some point)",
+    "time": "وقت",
+    "management": "إدارة",
+    "very": "جداً",
+    "important": "مهم",
+    "since": "بما أن / منذ",
+    "made": "اتُّخذ / صُنع",
+    "quickly": "بسرعة",
+    "sometimes": "أحياناً",
+    "outline": "يحدد / يرسم",
+    "amount": "مقدار",
+    "organization": "التنظيم",
+    "vital": "أساسي / حيوي",
+    "final": "نهائي",
+    "should": "ينبغي",
+    "use": "يستخدم",
+    "find": "يكتشف (find out)",
+    "result": "نتيجة",
+    "you're": "أنت (مختصر are)",
+    "looking": "يبحث عن (look for)",
+    "if": "إذا / هل",
+    "top": "أعلى / قصوى",
+    "priority": "أولوية"
+  }
+}

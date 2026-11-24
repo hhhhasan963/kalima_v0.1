@@ -1,0 +1,307 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 3,
+ "label": "Unit 3",
+ "title": "Living in Space",
+ "titleAr": "العيش في الفضاء",
+ "sentences": [
+  [
+   "Someday people will live in space.",
+   "يوماً ما سيعيش الناس في الفضاء.",
+   0
+  ],
+  [
+   "By the end of this century, there will be permanent settlements that will allow people to lead a normal life in space.",
+   "بحلول نهاية هذا القرن، ستكون هناك مستوطنات دائمة ستسمح للناس بأن يعيشوا حياة طبيعية في الفضاء.",
+   0
+  ],
+  [
+   "Hundreds of astronauts are going to work and live in the space station, which will take ten years to build.",
+   "مئات من رواد الفضاء سوف يعملون ويعيشون في محطة الفضاء، التي سيستغرق بناؤها عشر سنوات.",
+   1
+  ],
+  [
+   "In some way, living on the moon will be easier than living in a space station and it will be cheaper because people won’t bring everything from the Earth by rockets.",
+   "بطريقة ما، العيش على القمر سيكون أسهل من العيش في محطة فضاء وسيكون أرخص لأن الناس لن يجلبوا كل شيء من الأرض بالصواريخ.",
+   1
+  ],
+  [
+   "The space city will be like a gigantic glass wheel that will contain buildings, factories and special meeting places.",
+   "ستكون مدينة الفضاء مثل عجلة زجاجية ضخمة ستحتوي على مبانٍ ومصانع وأماكن اجتماع خاصة.",
+   1
+  ],
+  [
+   "Inside it, people won’t live differently from small towns on the Earth.",
+   "داخلها، لن يعيش الناس بشكل مختلف عن البلدات الصغيرة على الأرض.",
+   1
+  ],
+  [
+   "It will have air so that inhabitants can breathe and they won’t need to wear special space-suits inside the buildings.",
+   "سيكون فيها هواء كي يستطيع السكان أن يتنفسوا ولن يحتاجوا إلى ارتداء بدلات فضاء خاصة داخل المباني.",
+   1
+  ],
+  [
+   "Scientists also believe that they will obtain water from a large ice lake on the moon.",
+   "يعتقد العلماء أيضاً أنهم سيحصلون على الماء من بحيرة جليدية كبيرة على القمر.",
+   2
+  ],
+  [
+   "People won’t have to do housework because robots will do that for them.",
+   "لن يضطر الناس إلى القيام بالأعمال المنزلية لأن الروبوتات ستفعل ذلك لهم.",
+   2
+  ],
+  [
+   "Food won’t be a problem, as settlers won’t need to eat.",
+   "الطعام لن يكون مشكلة، إذ لن يحتاج المستوطنون إلى الأكل.",
+   2
+  ],
+  [
+   "Instead, they will take a pill three times a day.",
+   "بدلاً من ذلك، سيتناولون حبة ثلاث مرات في اليوم.",
+   2
+  ],
+  [
+   "The first group of astronauts will live on the moon for six months and then they will return to the Earth and another group will travel.",
+   "المجموعة الأولى من رواد الفضاء ستعيش على القمر لستة أشهر ثم ستعود إلى الأرض وستسافر مجموعة أخرى.",
+   3
+  ],
+  [
+   "This will be repeated until the first settlers can finish establishing the new city.",
+   "سيتكرر هذا حتى يتمكن المستوطنون الأوائل من إنهاء تأسيس المدينة الجديدة.",
+   3
+  ],
+  [
+   "Life on the moon will be just the beginning.",
+   "الحياة على القمر ستكون مجرد البداية.",
+   4
+  ],
+  [
+   "We hope they will use the knowledge we get there to plan expeditions to Mars, Mercury and even Pluto.",
+   "نأمل أن يستخدموا المعرفة التي نحصل عليها هناك لتخطيط رحلات استكشافية إلى المريخ، وعطارد وحتى بلوتو.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "By the end of this century, there will be permanent ___ in space.",
+   "o": [
+    "schools",
+    "settlements",
+    "airports",
+    "farms"
+   ],
+   "a": 1,
+   "e": "النص: there will be permanent settlements، أي مستوطنات دائمة في الفضاء."
+  },
+  {
+   "q": "The space station will take ___ years to build.",
+   "o": [
+    "five",
+    "ten",
+    "twenty",
+    "fifty"
+   ],
+   "a": 1,
+   "e": "النص: which will take ten years to build، أي عشر سنوات."
+  },
+  {
+   "q": "Living on the moon will be cheaper because people won’t bring everything from the Earth by ___.",
+   "o": [
+    "ships",
+    "trains",
+    "cars",
+    "rockets"
+   ],
+   "a": 3,
+   "e": "النص: from the Earth by rockets، أي بالصواريخ."
+  },
+  {
+   "q": "The space city will be like a gigantic ___.",
+   "o": [
+    "glass wheel",
+    "tall tower",
+    "square box",
+    "round ball of ice"
+   ],
+   "a": 0,
+   "e": "النص: a gigantic glass wheel، أي عجلة زجاجية ضخمة."
+  },
+  {
+   "q": "Scientists believe they will obtain water from ___ on the moon.",
+   "o": [
+    "a big river",
+    "a large ice lake",
+    "a deep well",
+    "the rain"
+   ],
+   "a": 1,
+   "e": "النص: from a large ice lake on the moon، أي من بحيرة جليدية كبيرة."
+  },
+  {
+   "q": "Instead of eating food, settlers will ___.",
+   "o": [
+    "drink milk",
+    "grow vegetables",
+    "take a pill three times a day",
+    "eat once a week"
+   ],
+   "a": 2,
+   "e": "النص: Instead, they will take a pill three times a day."
+  },
+  {
+   "q": "People will do the housework themselves in space.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: robots will do that for them، أي ستقوم الروبوتات بذلك."
+  },
+  {
+   "q": "The first group of astronauts will live on the moon for six months.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: will live on the moon for six months."
+  },
+  {
+   "q": "People inside the space city will need to wear special space-suits inside the buildings.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: they won’t need to wear special space-suits inside the buildings."
+  },
+  {
+   "q": "The writer hopes the knowledge from the moon will help plan expeditions to Mars.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: to plan expeditions to Mars, Mercury and even Pluto."
+  }
+ ],
+ "words": {
+  "someday": "يوماً ما",
+  "people": "أشخاص / ناس",
+  "will": "سوف",
+  "live": "يعيش / يسكن",
+  "in": "في",
+  "space": "الفضاء",
+  "by": "بحلول / بواسطة",
+  "the": "أداة تعريف",
+  "end": "ينتهي / نهاية",
+  "of": "من / لـ",
+  "this": "هذا",
+  "century": "قرن",
+  "there": "هناك",
+  "be": "يكون",
+  "permanent": "دائم",
+  "settlement": "مستوطنة",
+  "that": "أن / التي",
+  "allow": "يتيح / يسمح",
+  "to": "إلى / أن",
+  "lead": "يعيش (lead a life)",
+  "a": "أداة نكرة",
+  "normal": "طبيعي",
+  "life": "حياة",
+  "hundred": "مئات / مئة",
+  "astronaut": "رائد فضاء",
+  "are": "يكونون / هم",
+  "going": "سوف (going to)",
+  "work": "يعمل",
+  "and": "و",
+  "station": "محطة",
+  "which": "التي / الذي",
+  "take": "يستغرق / يتناول",
+  "ten": "عشرة",
+  "year": "عام / سنة",
+  "build": "يبني",
+  "some": "بعض",
+  "way": "طريقة / بطريقة ما (in some way)",
+  "living": "العيش",
+  "on": "على",
+  "moon": "القمر",
+  "easier": "أسهل",
+  "than": "من / ممّا",
+  "it": "هو / هي",
+  "cheaper": "أرخص",
+  "because": "بسبب / لأن",
+  "won't": "لن",
+  "bring": "يجلب",
+  "everything": "كل شيء",
+  "from": "من",
+  "earth": "الأرض",
+  "rocket": "صاروخ",
+  "city": "مدينة",
+  "like": "مثل",
+  "gigantic": "ضخم",
+  "glass": "زجاجي / زجاج",
+  "wheel": "عجلة",
+  "contain": "يحتوي",
+  "building": "مبنى",
+  "factories": "مصانع",
+  "special": "خاص / مميز",
+  "meeting": "اجتماع",
+  "place": "مكان",
+  "inside": "داخل",
+  "differently": "بشكل مختلف",
+  "small": "صغير",
+  "town": "بلدة",
+  "have": "يملك / يجب (have to)",
+  "air": "هواء",
+  "so": "كي (so that)",
+  "inhabitant": "ساكن",
+  "can": "يستطيع",
+  "breathe": "يتنفس",
+  "they": "هم",
+  "need": "يحتاج",
+  "wear": "يرتدي",
+  "space-suit": "بدلة فضاء",
+  "scientist": "عالم",
+  "also": "أيضاً",
+  "believe": "يعتقد / يؤمن",
+  "obtain": "يحصل على",
+  "water": "ماء",
+  "large": "كبير",
+  "ice": "جليد",
+  "lake": "بحيرة",
+  "do": "يفعل",
+  "housework": "أعمال منزلية",
+  "robot": "روبوت",
+  "for": "لـ / على",
+  "them": "هم / لهم",
+  "food": "طعام",
+  "problem": "مشكلة",
+  "as": "إذ / لأن",
+  "settler": "مستوطن",
+  "eat": "يأكل",
+  "instead": "بدلاً من ذلك",
+  "pill": "حبة دواء",
+  "three": "ثلاثة",
+  "time": "وقت",
+  "day": "يوم",
+  "first": "الأول / الأولى",
+  "group": "مجموعة",
+  "six": "ست",
+  "month": "شهر",
+  "then": "ثم",
+  "return": "يعود",
+  "another": "آخر",
+  "travel": "يسافر",
+  "repeated": "يتكرر",
+  "until": "حتى",
+  "finish": "ينهي",
+  "establishing": "تأسيس",
+  "new": "جديد",
+  "just": "فقط",
+  "beginning": "البداية",
+  "we": "نحن",
+  "hope": "نأمل / يأمل",
+  "use": "يستخدم",
+  "knowledge": "معرفة",
+  "get": "يحصل / يصبح",
+  "plan": "يخطط",
+  "expedition": "رحلة استكشافية",
+  "mars": "المريخ",
+  "mercury": "عطارد",
+  "even": "حتى",
+  "pluto": "بلوتو"
+ }
+}

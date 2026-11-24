@@ -1,0 +1,387 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 11,
+ "label": "Unit 11",
+ "title": "Touch People’s Hearts",
+ "titleAr": "المس قلوب الناس",
+ "sentences": [
+  [
+   "Have you ever been inspired by someone to change your life in a significant way that made you healthier, happier, or more fulfilled?",
+   "هل سبق أن ألهمك شخص ما لتغيّر حياتك بطريقة مهمة جعلتك أكثر صحة وسعادة أو أكثر رضىً؟",
+   0
+  ],
+  [
+   "If so, then you understand how inspiration can create a positive difference in a person’s life.",
+   "إن كان كذلك، فأنت تفهم كيف يمكن للإلهام أن يصنع فرقاً إيجابياً في حياة الإنسان.",
+   0
+  ],
+  [
+   "Inspiration is powerful.",
+   "الإلهام قوي.",
+   0
+  ],
+  [
+   "If you want to be positive and capable of inspiring others, here are some tips to follow.",
+   "إذا أردت أن تكون إيجابياً وقادراً على إلهام الآخرين، فإليك بعض النصائح لتتبعها.",
+   0
+  ],
+  [
+   "Show people you care.",
+   "أظهر للناس أنك تهتم.",
+   1
+  ],
+  [
+   "Remember how many times your day was changed by questions like “How are you today?” or “Is everything going well with you?” said by a friend.",
+   "تذكّر كم مرة تغيّر يومك بأسئلة مثل “كيف حالك اليوم؟” أو “هل كل شيء يسير جيداً معك؟” يقولها صديق.",
+   1
+  ],
+  [
+   "Your actions are very important too.",
+   "أفعالك مهمة جداً أيضاً.",
+   1
+  ],
+  [
+   "Many people’s lives are inspired by small acts of kindness.",
+   "كثير من حيوات الناس تُلهَم بأعمال لطف صغيرة.",
+   1
+  ],
+  [
+   "Earn trust.",
+   "اكسب الثقة.",
+   2
+  ],
+  [
+   "If you are told a secret by a friend, it stays between you and him/her.",
+   "إذا أخبرك صديق بسرّ، فإنه يبقى بينك وبينه/ها.",
+   2
+  ],
+  [
+   "Trust takes a long time to be built, but in many cases it can be destroyed in no time.",
+   "الثقة تحتاج وقتاً طويلاً لتُبنى، لكن في حالات كثيرة يمكن أن تُهدم في لحظة.",
+   2
+  ],
+  [
+   "Keep your promises.",
+   "احفظ وعودك.",
+   3
+  ],
+  [
+   "If someone is being helped by a volunteer, he/she needs to do it with a smile.",
+   "إذا كان شخص ما يتلقى المساعدة من متطوع، فعليه/ها أن يفعل ذلك بابتسامة.",
+   3
+  ],
+  [
+   "Life has many examples of promises that are kept to save many people’s lives.",
+   "في الحياة أمثلة كثيرة على وعود حُفظت لإنقاذ حيوات كثيرة.",
+   3
+  ],
+  [
+   "Therefore, you should be wise enough to keep your word no matter what it takes.",
+   "لذلك، يجب أن تكون حكيماً بما يكفي لتحفظ كلمتك مهما كلّف الأمر.",
+   3
+  ],
+  [
+   "It is easy to criticise people, but that doesn’t mean it’s the right thing to do.",
+   "من السهل انتقاد الناس، لكن هذا لا يعني أنه الشيء الصحيح.",
+   4
+  ],
+  [
+   "Think about it: “How did you react when your intelligence was being once insulted by someone?",
+   "فكّر في الأمر: “كيف تصرفت عندما تعرّض ذكاؤك للإهانة ذات مرة من شخص ما؟",
+   4
+  ],
+  [
+   "Or, if your clothing, or your performance had been criticised in a negative way?”",
+   "أو إذا كانت ملابسك، أو أداؤك قد انتُقدت بطريقة سلبية؟”",
+   4
+  ],
+  [
+   "Whether the criticism was justified or not, sure you would get upset.",
+   "سواء كان النقد مبرراً أم لا، فمن المؤكد أنك ستنزعج.",
+   4
+  ],
+  [
+   "No one likes to be criticized, so if you don’t have anything positive to say, don’t say it at all.",
+   "لا أحد يحب أن يُنتقد، لذلك إن لم يكن لديك شيء إيجابي لتقوله، فلا تقله إطلاقاً.",
+   4
+  ],
+  [
+   "Be an active listener.",
+   "كن مستمعاً نشطاً.",
+   5
+  ],
+  [
+   "Words other people say can be heard, but not many people can actively listen to and comprehend those words to fully understand the meaning behind them.",
+   "الكلمات التي يقولها الآخرون يمكن سماعها، لكن قليلين يستطيعون الإصغاء بنشاط إلى وفهم تلك الكلمات ليفهموا تماماً المعنى الذي وراءها.",
+   5
+  ],
+  [
+   "Make an eye contact if someone talks to you about their problems, and ask follow-up questions to show them you care.",
+   "حافظ على التواصل البصري إذا تحدث إليك شخص عن مشكلاته، واطرح أسئلة متابعة لتُظهر لهم أنك تهتم.",
+   5
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Inspiration can create a positive ___ in a person’s life.",
+   "o": [
+    "difference",
+    "problem",
+    "mistake",
+    "secret"
+   ],
+   "a": 0,
+   "e": "النص: inspiration can create a positive difference in a person’s life، أي فرقاً إيجابياً في حياة الإنسان."
+  },
+  {
+   "q": "Your day can be changed by ___ like “How are you today?”",
+   "o": [
+    "gifts",
+    "questions",
+    "exams",
+    "holidays"
+   ],
+   "a": 1,
+   "e": "النص: your day was changed by questions like “How are you today?”."
+  },
+  {
+   "q": "Trust takes a long time to be built, but in many cases it can be ___ in no time.",
+   "o": [
+    "repeated",
+    "bought",
+    "destroyed",
+    "taught"
+   ],
+   "a": 2,
+   "e": "النص: it can be destroyed in no time، أي يمكن أن تُهدم الثقة في لحظة."
+  },
+  {
+   "q": "Life has many examples of promises that are kept to ___ many people’s lives.",
+   "o": [
+    "end",
+    "waste",
+    "change",
+    "save"
+   ],
+   "a": 3,
+   "e": "النص: promises that are kept to save many people’s lives، أي وعود حُفظت لإنقاذ حيوات كثيرة."
+  },
+  {
+   "q": "What does the writer say about criticising people?",
+   "o": [
+    "It always makes people happy.",
+    "It is easy, but that doesn’t mean it’s the right thing to do.",
+    "It is the best way to teach friends.",
+    "It is the same as showing love."
+   ],
+   "a": 1,
+   "e": "النص: It is easy to criticise people, but that doesn’t mean it’s the right thing to do."
+  },
+  {
+   "q": "What should you do if someone talks to you about their problems?",
+   "o": [
+    "Look away and say nothing",
+    "Change the subject",
+    "Make an eye contact and ask follow-up questions",
+    "Tell the problems to others"
+   ],
+   "a": 2,
+   "e": "النص: Make an eye contact if someone talks to you about their problems, and ask follow-up questions."
+  },
+  {
+   "q": "A secret told by a friend should stay between you and him/her.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: If you are told a secret by a friend, it stays between you and him/her."
+  },
+  {
+   "q": "The writer says it is easy to criticise people, so you should do it often.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن النقد سهل لكن ذلك لا يعني أنه الشيء الصحيح: doesn’t mean it’s the right thing to do."
+  },
+  {
+   "q": "The writer advises you to keep your promises.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Keep your promises."
+  },
+  {
+   "q": "If you don’t have anything positive to say, the writer says you should say it anyway.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: if you don’t have anything positive to say, don’t say it at all، أي لا تقله إطلاقاً."
+  }
+ ],
+ "words": {
+  "criticized": "يُنتقد",
+  "day": "يوم",
+  "did": "فعل (مساعد)",
+  "have": "يملك / هل (مساعد)",
+  "you": "أنت",
+  "ever": "سبق / على الإطلاق",
+  "been": "كان / تم",
+  "inspired": "أُلهم / مُلهَم",
+  "by": "بواسطة / بـ",
+  "someone": "شخص ما",
+  "to": "إلى / أن",
+  "change": "يغيّر / تغيير",
+  "your": "ك (ملكية)",
+  "life": "حياة",
+  "in": "في",
+  "a": "أداة نكرة",
+  "significant": "مهم / كبير",
+  "way": "طريقة",
+  "that": "أن / التي",
+  "made": "جعل",
+  "healthier": "أكثر صحة",
+  "happier": "أسعد",
+  "or": "أو",
+  "more": "أكثر",
+  "fulfilled": "راضٍ / محقِّق لذاته",
+  "if": "إذا",
+  "so": "لذلك / هكذا",
+  "then": "إذن / ثم",
+  "understand": "يفهم",
+  "how": "كيف",
+  "inspiration": "الإلهام",
+  "can": "يستطيع / يمكن",
+  "create": "يصنع / يخلق",
+  "positive": "إيجابي",
+  "difference": "فرق",
+  "person": "شخص / إنسان",
+  "is": "يكون / هو",
+  "powerful": "قوي",
+  "want": "يريد",
+  "be": "يكون",
+  "and": "و",
+  "capable": "قادر",
+  "of": "من / لـ",
+  "inspiring": "إلهام",
+  "other": "آخر",
+  "here": "هنا",
+  "are": "يكونون / هم",
+  "some": "بعض",
+  "tip": "نصيحة",
+  "follow": "يتبع",
+  "show": "يُظهر",
+  "people": "ناس / أشخاص",
+  "care": "يهتم",
+  "remember": "يتذكر",
+  "many": "كثير",
+  "time": "وقت / مرة",
+  "was": "كان / كانت",
+  "changed": "تغيّر",
+  "question": "سؤال",
+  "like": "مثل / يحب",
+  "today": "اليوم",
+  "everything": "كل شيء",
+  "going": "يسير",
+  "well": "جيداً",
+  "with": "مع / بـ",
+  "said": "قال",
+  "friend": "صديق",
+  "action": "فعل / تصرف",
+  "very": "جداً",
+  "important": "مهم",
+  "too": "أيضاً",
+  "lives": "حياة / حيوات",
+  "small": "صغير",
+  "act": "عمل / فعل",
+  "kindness": "اللطف",
+  "earn": "يكسب",
+  "trust": "الثقة",
+  "told": "أُخبر / أخبر",
+  "secret": "سر",
+  "it": "هو / هي",
+  "stay": "يبقى",
+  "between": "بين",
+  "him": "له / هو",
+  "her": "لها / هي",
+  "take": "يتطلب / يأخذ",
+  "long": "طويل",
+  "built": "يُبنى",
+  "but": "لكن",
+  "case": "حالة",
+  "destroyed": "تُهدم / تُدمَّر",
+  "no": "لا / مهما (no matter) / في لحظة (in no time)",
+  "keep": "يحفظ / يحافظ على",
+  "promise": "وعد",
+  "helped": "يتلقى مساعدة",
+  "volunteer": "متطوع",
+  "he": "هو",
+  "she": "هي",
+  "need": "يحتاج",
+  "do": "يفعل",
+  "smile": "ابتسامة",
+  "has": "يملك / لديه",
+  "example": "مثال",
+  "kept": "حُفظت",
+  "save": "ينقذ",
+  "therefore": "لذلك",
+  "should": "يجب / ينبغي",
+  "wise": "حكيم",
+  "enough": "كافٍ / بما يكفي",
+  "word": "كلمة",
+  "matter": "مهما (no matter)",
+  "what": "ما / ماذا",
+  "easy": "سهل",
+  "criticise": "ينتقد",
+  "doesn't": "لا",
+  "mean": "يعني",
+  "right": "صحيح",
+  "thing": "شيء",
+  "think": "يفكر",
+  "about": "عن / حول",
+  "react": "يتصرف / يتفاعل",
+  "when": "عندما",
+  "intelligence": "الذكاء",
+  "being": "كونه / يكون",
+  "once": "ذات مرة",
+  "insulted": "يُهان",
+  "clothing": "ملابس",
+  "performance": "أداء",
+  "had": "قد / كان لديه",
+  "criticised": "انتُقدت",
+  "negative": "سلبي",
+  "whether": "سواء",
+  "criticism": "النقد",
+  "justified": "مبرر",
+  "not": "لا / ليس",
+  "sure": "متأكد / بالتأكيد",
+  "would": "سوف / كان ليـ",
+  "get": "يصبح / يحصل",
+  "upset": "منزعج",
+  "one": "أحد (no one = لا أحد)",
+  "anything": "أي شيء",
+  "say": "يقول",
+  "at": "في / عند",
+  "all": "جميع / إطلاقاً",
+  "active": "نشط",
+  "listener": "مستمع",
+  "heard": "يُسمع",
+  "actively": "بنشاط",
+  "listen": "يصغي",
+  "comprehend": "يفهم / يستوعب",
+  "those": "تلك / أولئك",
+  "fully": "تماماً",
+  "meaning": "معنى",
+  "behind": "وراء",
+  "them": "هم / لهم",
+  "make": "يجعل / يقوم بـ",
+  "an": "أداة نكرة",
+  "eye": "التواصل البصري (eye contact)",
+  "contact": "التواصل البصري (eye contact)",
+  "talk": "يتحدث",
+  "their": "هم (ملكية)",
+  "problem": "مشكلة",
+  "ask": "يسأل / يطرح",
+  "follow-up": "متابعة",
+  "the": "أداة تعريف",
+  "don't": "لا"
+ }
+}

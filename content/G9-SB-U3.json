@@ -1,0 +1,209 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 3,
+ "label": "Unit 3",
+ "title": "Life in the Future",
+ "titleAr": "الحياة في المستقبل",
+ "sentences": [
+  [
+   "Life in the future will be very different.",
+   "الحياة في المستقبل ستكون مختلفة جداً.",
+   0
+  ],
+  [
+   "Futurologists predict that life will probably be very different in all the fields of activity, from entertainment to technology.",
+   "يتوقع علماء المستقبل أن الحياة ربما ستكون مختلفة جداً في جميع مجالات النشاط، من الترفيه إلى التكنولوجيا.",
+   0
+  ],
+  [
+   "Some people have imagined that life in the future would be so easy and relaxing, while others have seen that it would be worse and more difficult.",
+   "تخيّل بعض الناس أن الحياة في المستقبل ستكون سهلة ومريحة جداً، بينما رأى آخرون أنها ستكون أسوأ وأصعب.",
+   0
+  ],
+  [
+   "I think that in the future we will have a more comfortable life.",
+   "أعتقد أنه في المستقبل سنحظى بحياة أكثر راحة.",
+   1
+  ],
+  [
+   "This will be obvious in all aspects of life.",
+   "سيكون هذا واضحاً في جميع جوانب الحياة.",
+   1
+  ],
+  [
+   "First, as for education, people will have better education because of technology.",
+   "أولاً، فيما يخص التعليم، سيحظى الناس بتعليم أفضل بفضل التكنولوجيا.",
+   2
+  ],
+  [
+   "E-books will replace traditional books, robots will replace teachers, and students will not have to go to schools every day as they will study at home through on-line teaching.",
+   "الكتب الإلكترونية ستحل محل الكتب التقليدية، والروبوتات ستحل محل المعلمين، ولن يضطر الطلاب إلى الذهاب إلى المدارس كل يوم لأنهم سيدرسون في البيت عبر التعليم عبر الإنترنت.",
+   2
+  ],
+  [
+   "So even absent students will learn.",
+   "لذلك حتى الطلاب الغائبون سيتعلمون.",
+   2
+  ],
+  [
+   "Second, health will improve.",
+   "ثانياً، ستتحسن الصحة.",
+   3
+  ],
+  [
+   "Technology will also play a very important role in that.",
+   "ستلعب التكنولوجيا أيضاً دوراً مهماً جداً في ذلك.",
+   3
+  ],
+  [
+   "New medicines will help people get better.",
+   "الأدوية الجديدة ستساعد الناس على الشفاء.",
+   3
+  ],
+  [
+   "Robots will help doctors and sometimes replace them.",
+   "الروبوتات ستساعد الأطباء وأحياناً ستحل محلهم.",
+   3
+  ],
+  [
+   "Add to that, scientists and researchers will find cure to many diseases like Aids and cancer.",
+   "أضف إلى ذلك، أن العلماء والباحثين سيجدون علاجاً لأمراض كثيرة مثل الإيدز والسرطان.",
+   3
+  ],
+  [
+   "So people will live longer.",
+   "لذلك سيعيش الناس أطول.",
+   3
+  ],
+  [
+   "Third, housing problems will end.",
+   "ثالثاً، ستنتهي مشكلات السكن.",
+   4
+  ],
+  [
+   "People will build houses everywhere.",
+   "سيبني الناس بيوتاً في كل مكان.",
+   4
+  ],
+  [
+   "So everyone will have a place to live in.",
+   "لذلك سيكون لدى الجميع مكان يعيشون فيه.",
+   4
+  ],
+  [
+   "Fourth, hunger will come to an end.",
+   "رابعاً، سينتهي الجوع.",
+   5
+  ],
+  [
+   "People will grow new types of crops everywhere even on the roofs of buildings.",
+   "سيزرع الناس أنواعاً جديدة من المحاصيل في كل مكان حتى على أسطح المباني.",
+   5
+  ],
+  [
+   "Fifth and last, world peace will spread because of all the previous aspects.",
+   "خامساً وأخيراً، سينتشر السلام العالمي بسبب كل الجوانب السابقة.",
+   6
+  ],
+  [
+   "The world will have nothing to fight for.",
+   "لن يكون لدى العالم ما يتقاتل من أجله.",
+   6
+  ],
+  [
+   "Everyone will have education, health, home and food.",
+   "سيحصل الجميع على التعليم والصحة والمنزل والطعام.",
+   6
+  ],
+  [
+   "So everyone will be happier and love will be everywhere.",
+   "لذلك سيكون الجميع أسعد وسيعم الحب في كل مكان.",
+   6
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Futurologists predict that life in the future will be ___.",
+   "o": [
+    "very different",
+    "exactly the same",
+    "impossible",
+    "boring"
+   ],
+   "a": 0,
+   "e": "life will probably be very different."
+  },
+  {
+   "q": "What will replace traditional books?",
+   "o": [
+    "E-books",
+    "Robots",
+    "Newspapers",
+    "Teachers"
+   ],
+   "a": 0,
+   "e": "الكتب الإلكترونية ستحل محل الكتب التقليدية."
+  },
+  {
+   "q": "Students will have to go to school every day.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: سيدرسون في البيت عبر التعليم عبر الإنترنت."
+  },
+  {
+   "q": "What will help people get better?",
+   "o": [
+    "New medicines",
+    "Old books",
+    "Longer holidays",
+    "Big houses"
+   ],
+   "a": 0,
+   "e": "New medicines will help people get better."
+  },
+  {
+   "q": "Scientists will find a cure for diseases like ___.",
+   "o": [
+    "Aids and cancer",
+    "colds and coughs",
+    "headaches",
+    "allergies"
+   ],
+   "a": 0,
+   "e": "سيجدون علاجاً للإيدز والسرطان."
+  },
+  {
+   "q": "Where will people grow crops?",
+   "o": [
+    "Even on the roofs of buildings",
+    "Only in deserts",
+    "Only in schools",
+    "Under the sea"
+   ],
+   "a": 0,
+   "e": "حتى على أسطح المباني."
+  },
+  {
+   "q": "Housing problems will end.",
+   "tf": 1,
+   "a": 0,
+   "e": "صحيح: Third, housing problems will end."
+  },
+  {
+   "q": "Why will the world have nothing to fight for?",
+   "o": [
+    "Everyone will have education, health, home and food",
+    "Everyone will be rich",
+    "There will be no people",
+    "Robots will fight"
+   ],
+   "a": 0,
+   "e": "سيحصل الجميع على التعليم والصحة والمنزل والطعام."
+  }
+ ],
+ "words": {}
+}

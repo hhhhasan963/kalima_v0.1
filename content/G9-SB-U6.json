@@ -1,0 +1,324 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 6,
+ "label": "Unit 6",
+ "title": "Mothers’ Decisions can Change the World",
+ "titleAr": "قرارات الأمهات يمكن أن تغيّر العالم",
+ "sentences": [
+  [
+   "One day Thomas Edison came home and gave his mother a letter from his teacher.",
+   "في أحد الأيام عاد توماس إديسون إلى البيت وأعطى أمه رسالة من معلمه.",
+   0
+  ],
+  [
+   "As she read the letter, his mother’s eyes were tearful.",
+   "وبينما كانت تقرأ الرسالة، امتلأت عينا أمه بالدموع.",
+   0
+  ],
+  [
+   "Thomas Edison’s teacher wrote that Edison was mentally ill and wouldn’t be allowed in school anymore.",
+   "كتب معلم توماس إديسون أن إديسون مريض عقلياً ولن يُسمح له بالدخول إلى المدرسة بعد الآن.",
+   0
+  ],
+  [
+   "When Edison asked his mother what this letter was about, she pretended to read it aloud, saying your son couldn’t go to school because he was a genius and the school was too small for him.",
+   "عندما سأل إديسون أمه عن موضوع هذه الرسالة، تظاهرت بقراءتها بصوت عالٍ، قائلة إن ابنك لا يستطيع الذهاب إلى المدرسة لأنه عبقري والمدرسة صغيرة جداً عليه.",
+   1
+  ],
+  [
+   "“Please teach him yourself.”",
+   "“من فضلك علّمه بنفسك.”",
+   1
+  ],
+  [
+   "Edison’s mother hid the letter and decided to educate young Thomas at home.",
+   "أخفت أم إديسون الرسالة وقررت أن تعلّم توماس الصغير في البيت.",
+   1
+  ],
+  [
+   "Edison was homeschooled by his mother’s decision; he wasn’t able to memorize lessons and needed hands-on experience to understand and learn things.",
+   "تعلّم إديسون في البيت بقرار من أمه؛ لم يكن قادراً على حفظ الدروس وكان يحتاج إلى خبرة عملية ليفهم الأشياء ويتعلمها.",
+   2
+  ],
+  [
+   "Edison’s mother wasn’t frustrated; she wanted Edison to be a scientist.",
+   "لم تُصب أم إديسون بالإحباط؛ بل أرادت أن يصبح إديسون عالماً.",
+   2
+  ],
+  [
+   "He grew up and set up a laboratory at home and began his own experiments.",
+   "كبر وأنشأ مختبراً في البيت وبدأ تجاربه الخاصة.",
+   2
+  ],
+  [
+   "He also set up his own telegraph station and sent out messages by using a train whistle.",
+   "كما أنشأ محطة تلغراف خاصة به وأرسل رسائل باستخدام صافرة قطار.",
+   2
+  ],
+  [
+   "At the age of 30, Edison invented the phonograph.",
+   "في سن الثلاثين، اخترع إديسون الفونوغراف.",
+   2
+  ],
+  [
+   "His work in a number of fields created the basis for many technologies that we enjoy today.",
+   "أسس عمله في عدد من المجالات لكثير من التقنيات التي نتمتع بها اليوم.",
+   2
+  ],
+  [
+   "However, like anyone else, he suffered through failure numerous times, but where others quit, he persisted.",
+   "ومع ذلك، مثل أي شخص آخر، عانى من الفشل مرات عديدة، لكن حيث استسلم الآخرون، ثابر هو.",
+   3
+  ],
+  [
+   "After his mother’s death, one day Edison found the hidden school letter, cried for hours and then he wrote in his diary, Thomas Alva Edison was a mentally ill child that, by a hero mother, became a genius.",
+   "بعد وفاة أمه، وجد إديسون يوماً رسالة المدرسة المخبأة، وبكى لساعات ثم كتب في مذكراته: كان توماس ألفا إديسون طفلاً مريضاً عقلياً أصبح، بفضل أم بطلة، عبقرياً.",
+   3
+  ],
+  [
+   "Edison said: “My mother was a great woman, she believed in me and made me one of the greatest inventors”.",
+   "قال إديسون: “كانت أمي امرأة عظيمة، آمنت بي وجعلتني أحد أعظم المخترعين”.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Edison’s teacher wrote that Edison was ___.",
+   "o": [
+    "a genius",
+    "mentally ill",
+    "too tall",
+    "very lazy"
+   ],
+   "a": 1,
+   "e": "النص: Edison was mentally ill، أي أن المعلم كتب أن إديسون مريض عقلياً."
+  },
+  {
+   "q": "What did Edison’s mother pretend the letter said?",
+   "o": [
+    "Her son must pay school fees.",
+    "Her son should travel abroad.",
+    "Her son was a genius and the school was too small for him.",
+    "Her son would get a gift from the school."
+   ],
+   "a": 2,
+   "e": "النص: because he was a genius and the school was too small for him."
+  },
+  {
+   "q": "Edison needed ___ to understand and learn things.",
+   "o": [
+    "hands-on experience",
+    "more homework",
+    "a bigger school",
+    "a long holiday"
+   ],
+   "a": 0,
+   "e": "النص: needed hands-on experience to understand and learn things."
+  },
+  {
+   "q": "What did Edison set up at home?",
+   "o": [
+    "a restaurant",
+    "a hospital",
+    "a bank",
+    "a laboratory"
+   ],
+   "a": 3,
+   "e": "النص: set up a laboratory at home، أي أنشأ مختبراً في البيت."
+  },
+  {
+   "q": "At the age of 30, Edison invented the ___.",
+   "o": [
+    "telephone",
+    "phonograph",
+    "airplane",
+    "computer"
+   ],
+   "a": 1,
+   "e": "النص: At the age of 30, Edison invented the phonograph."
+  },
+  {
+   "q": "What did Edison find after his mother’s death?",
+   "o": [
+    "his first diary",
+    "an old telegraph",
+    "the hidden school letter",
+    "a letter from the king"
+   ],
+   "a": 2,
+   "e": "النص: Edison found the hidden school letter، أي وجد رسالة المدرسة المخبأة."
+  },
+  {
+   "q": "Edison’s mother decided to educate him at home.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: decided to educate young Thomas at home."
+  },
+  {
+   "q": "Edison’s mother was frustrated and gave up on him.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Edison’s mother wasn’t frustrated، أي لم تُصب بالإحباط."
+  },
+  {
+   "q": "Edison never failed in his life.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: he suffered through failure numerous times، أي عانى من الفشل مرات عديدة."
+  },
+  {
+   "q": "Edison’s work created the basis for many technologies that we enjoy today.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: created the basis for many technologies that we enjoy today."
+  }
+ ],
+ "words": {
+  "one": "يوم / واحد",
+  "day": "يوم",
+  "thomas": "توماس (اسم)",
+  "edison": "إديسون (اسم)",
+  "came": "جاء / عاد",
+  "home": "البيت",
+  "and": "و",
+  "gave": "أعطى",
+  "his": "ـه (ملكية)",
+  "mother": "أم",
+  "a": "أداة نكرة",
+  "letter": "رسالة",
+  "from": "من",
+  "teacher": "معلم",
+  "as": "بينما / كـ",
+  "she": "هي",
+  "read": "يقرأ / قرأ",
+  "eye": "عين",
+  "were": "كانوا / كانت",
+  "tearful": "دامع / باكٍ",
+  "wrote": "كتب",
+  "that": "أن / التي",
+  "was": "كان / كانت",
+  "mentally": "عقلياً",
+  "ill": "مريض",
+  "wouldn't": "لن",
+  "be": "يكون",
+  "allowed": "يُسمح",
+  "in": "في",
+  "school": "مدرسة",
+  "anymore": "بعد الآن",
+  "when": "عندما",
+  "asked": "سأل",
+  "what": "ما / ماذا",
+  "this": "هذا",
+  "about": "عن / حول",
+  "pretended": "تظاهرت",
+  "to": "إلى / أن",
+  "it": "هو / هي",
+  "aloud": "بصوت عالٍ",
+  "saying": "قائلة",
+  "your": "ك (ملكية)",
+  "son": "ابن",
+  "couldn't": "لا يستطيع",
+  "go": "يذهب",
+  "because": "لأن",
+  "he": "هو",
+  "genius": "عبقري",
+  "the": "أداة تعريف",
+  "too": "جداً / أيضاً",
+  "small": "صغير",
+  "for": "لـ / على",
+  "him": "له / هو",
+  "please": "من فضلك",
+  "teach": "يعلّم",
+  "yourself": "نفسك / بنفسك",
+  "hid": "أخفت",
+  "decided": "قررت",
+  "educate": "يعلّم / يثقّف",
+  "young": "صغير / شاب",
+  "at": "في / عند",
+  "homeschooled": "تعلّم في البيت",
+  "by": "بـ / بواسطة",
+  "decision": "قرار",
+  "wasn't": "لم يكن",
+  "able": "قادر",
+  "memorize": "يحفظ",
+  "lesson": "درس",
+  "needed": "احتاج",
+  "hands-on": "عملي",
+  "experience": "خبرة",
+  "understand": "يفهم",
+  "learn": "يتعلم",
+  "thing": "شيء",
+  "frustrated": "محبَط",
+  "wanted": "أراد",
+  "scientist": "عالم",
+  "grew": "كبر (grew up)",
+  "up": "كبر (grew up) / ينشئ (set up)",
+  "set": "ينشئ (set up)",
+  "laboratory": "مختبر",
+  "began": "بدأ",
+  "own": "خاص",
+  "experiment": "تجربة",
+  "also": "أيضاً",
+  "telegraph": "تلغراف",
+  "station": "محطة",
+  "sent": "أرسل (sent out)",
+  "out": "أرسل (sent out)",
+  "message": "رسالة",
+  "using": "استخدام",
+  "train": "قطار",
+  "whistle": "صافرة",
+  "age": "سن / عمر",
+  "invented": "اخترع",
+  "phonograph": "فونوغراف",
+  "work": "عمل",
+  "number": "عدد",
+  "of": "من / لـ",
+  "field": "مجال",
+  "created": "أنشأ / صنع",
+  "basis": "أساس",
+  "many": "كثير",
+  "technologies": "تقنيات",
+  "we": "نحن",
+  "enjoy": "يستمتع",
+  "today": "اليوم",
+  "however": "ومع ذلك",
+  "like": "مثل",
+  "anyone": "أي شخص",
+  "else": "آخر",
+  "suffered": "عانى",
+  "through": "من خلال / من",
+  "failure": "فشل",
+  "numerous": "عديد",
+  "time": "مرة / وقت",
+  "but": "لكن",
+  "where": "حيث",
+  "other": "آخر",
+  "quit": "استسلم",
+  "persisted": "ثابر",
+  "after": "بعد",
+  "death": "وفاة / موت",
+  "found": "وجد",
+  "hidden": "مخبّأ",
+  "cried": "بكى",
+  "hour": "ساعة",
+  "then": "ثم",
+  "diary": "مذكرات",
+  "alva": "ألفا (اسم)",
+  "child": "طفل",
+  "hero": "بطل",
+  "became": "أصبح",
+  "said": "قال",
+  "my": "ي (ملكية)",
+  "great": "عظيم",
+  "woman": "امرأة",
+  "believed": "آمنت",
+  "me": "ي / لي",
+  "made": "جعل",
+  "greatest": "أعظم",
+  "inventor": "مخترع"
+ }
+}

@@ -1,0 +1,343 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 1,
+ "label": "Unit 1",
+ "title": "From Microsoft to Tomatoes",
+ "titleAr": "من مايكروسوفت إلى البندورة",
+ "sentences": [
+  [
+   "One day, an unemployed man went to apply for a job with Microsoft as a cleaner.",
+   "ذات يوم، رجل عاطل عن العمل ذهب ليتقدم لوظيفة لدى مايكروسوفت كعامل تنظيف.",
+   0
+  ],
+  [
+   "The manager said: “Let me have your e-mail address, so that I can send you a form to complete and tell you when you can start.”",
+   "قال المدير: “أعطني عنوان بريدك الإلكتروني، كي أستطيع أن أرسل لك استمارة لتعبئتها وأخبرك متى تستطيع أن تبدأ.”",
+   0
+  ],
+  [
+   "The man said that he had no computer or email address.",
+   "قال الرجل إنه لا يملك حاسوباً ولا عنوان بريد إلكتروني.",
+   0
+  ],
+  [
+   "The manager: “Well, then, that means that you virtually don’t exist and therefore can’t be employed.”",
+   "المدير: “حسناً، إذاً، هذا يعني أنك عملياً غير موجود وبالتالي لا يمكن توظيفك.”",
+   0
+  ],
+  [
+   "The man looked at the last £10 in his wallet and thought of buying tomatoes in bulk.",
+   "نظر الرجل إلى آخر 10 جنيهات في محفظته وفكّر في شراء البندورة بالجملة.",
+   1
+  ],
+  [
+   "Within less than 2 hours, he sold all the tomatoes at 100% profit.",
+   "خلال أقل من ساعتين، باع كل البندورة بربح 100%.",
+   1
+  ],
+  [
+   "Repeating the process several times that day, he ended up with almost £100 before going to sleep that night.",
+   "وبتكرار العملية عدة مرات في ذلك اليوم، انتهى به الأمر بنحو 100 جنيه قبل أن ينام تلك الليلة.",
+   1
+  ],
+  [
+   "Getting up early every day and going to bed late, he multiplied his profits quickly.",
+   "باستيقاظه باكراً كل يوم ونومه متأخراً، ضاعف أرباحه بسرعة.",
+   1
+  ],
+  [
+   "After a short time he bought a cart to transport several dozen boxes of tomatoes.",
+   "بعد وقت قصير اشترى عربة لينقل عدة دزينات من صناديق البندورة.",
+   1
+  ],
+  [
+   "By the end of the second year, he became the owner of a fleet of trucks and the manager of a staff of a hundred former unemployed people, all selling tomatoes.",
+   "بحلول نهاية السنة الثانية، أصبح مالك أسطول من الشاحنات ومدير طاقم من مئة شخص عاطل سابقاً، كلهم يبيعون البندورة.",
+   1
+  ],
+  [
+   "Planning for the future of his wife and children, he decided to buy life insurance.",
+   "مخططاً لمستقبل زوجته وأولاده، قرر أن يشتري تأميناً على الحياة.",
+   2
+  ],
+  [
+   "An adviser asked him for his e-mail address in order to send the final documents electronically.",
+   "طلب منه مستشار عنوان بريده الإلكتروني من أجل إرسال الوثائق النهائية إلكترونياً.",
+   2
+  ],
+  [
+   "When the man replied that he has no e-mail, the adviser felt astonished and said: “How did you make such wealth without Internet and e-mail?",
+   "عندما رد الرجل بأنه لا يملك بريداً إلكترونياً، شعر المستشار بالدهشة وقال: “كيف صنعت مثل هذه الثروة بدون إنترنت وبريد إلكتروني؟",
+   2
+  ],
+  [
+   "Just imagine where you would-be now, if you had been connected to the internet from the very start!”",
+   "تخيّل فقط أين كنت ستكون الآن، لو كنت متصلاً بالإنترنت منذ البداية تماماً!”",
+   2
+  ],
+  [
+   "After a moment of thought, the tomato millionaire replied: “I would be a floor cleaner at Microsoft!”",
+   "بعد لحظة من التفكير، رد مليونير البندورة: “كنت سأكون عامل تنظيف أرضيات في مايكروسوفت!”",
+   2
+  ],
+  [
+   "Even with the lack of technology, with determination and the required skills one can make a difference.",
+   "حتى مع نقص التكنولوجيا، وبالعزيمة والمهارات المطلوبة يستطيع المرء أن يُحدث فرقاً.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "The man went to apply for a job with Microsoft as a ___.",
+   "o": [
+    "manager",
+    "cleaner",
+    "driver",
+    "teacher"
+   ],
+   "a": 1,
+   "e": "النص: to apply for a job with Microsoft as a cleaner، أي كعامل تنظيف."
+  },
+  {
+   "q": "Why couldn’t the manager employ the man?",
+   "o": [
+    "He was too old.",
+    "He arrived late.",
+    "He had no computer or email address.",
+    "He asked for a high salary."
+   ],
+   "a": 2,
+   "e": "النص: he had no computer or email address، فقال المدير إنه غير موجود عملياً ولا يمكن توظيفه."
+  },
+  {
+   "q": "The man looked at the last £10 in his wallet and thought of buying ___ in bulk.",
+   "o": [
+    "shoes",
+    "books",
+    "phones",
+    "tomatoes"
+   ],
+   "a": 3,
+   "e": "النص: thought of buying tomatoes in bulk، أي شراء البندورة بالجملة."
+  },
+  {
+   "q": "Within less than 2 hours, he sold all the tomatoes at ___ profit.",
+   "o": [
+    "100%",
+    "10%",
+    "50%",
+    "200%"
+   ],
+   "a": 0,
+   "e": "النص: he sold all the tomatoes at 100% profit، أي بربح 100%."
+  },
+  {
+   "q": "By the end of the second year, he became the owner of a fleet of ___.",
+   "o": [
+    "boats",
+    "trucks",
+    "planes",
+    "taxis"
+   ],
+   "a": 1,
+   "e": "النص: the owner of a fleet of trucks، أي أسطول من الشاحنات."
+  },
+  {
+   "q": "If he had been connected to the internet from the start, the tomato millionaire said he would be ___.",
+   "o": [
+    "a famous doctor",
+    "a teacher",
+    "a floor cleaner at Microsoft",
+    "a bank manager"
+   ],
+   "a": 2,
+   "e": "النص: I would be a floor cleaner at Microsoft، أي كان سيصير عامل تنظيف أرضيات في مايكروسوفت."
+  },
+  {
+   "q": "The man had a computer and an email address.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: he had no computer or email address، أي لا يملك حاسوباً ولا بريداً إلكترونياً."
+  },
+  {
+   "q": "The man sold all the tomatoes at 100% profit.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: he sold all the tomatoes at 100% profit."
+  },
+  {
+   "q": "The adviser did not ask the man for his e-mail address.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: An adviser asked him for his e-mail address، أي طلب منه المستشار بريده الإلكتروني."
+  },
+  {
+   "q": "The text says that one can make a difference with determination and the required skills.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: with determination and the required skills one can make a difference."
+  }
+ ],
+ "words": {
+  "one": "المرء / واحد",
+  "day": "يوم",
+  "an": "أداة نكرة",
+  "unemployed": "عاطل عن العمل",
+  "man": "رجل",
+  "went": "ذهب",
+  "to": "إلى / أن",
+  "apply": "يتقدم بطلب (apply for)",
+  "for": "لـ / على",
+  "a": "أداة نكرة",
+  "job": "وظيفة",
+  "with": "مع / بـ",
+  "microsoft": "مايكروسوفت (اسم)",
+  "as": "كـ / بصفته",
+  "cleaner": "عامل تنظيف",
+  "the": "أداة تعريف",
+  "manager": "مدير",
+  "said": "قال / قالت",
+  "let": "يدع / دعني",
+  "me": "ي / لي",
+  "have": "يملك / يحصل",
+  "your": "ك (ملكية)",
+  "e-mail": "بريد إلكتروني",
+  "address": "عنوان",
+  "so": "كي (so that)",
+  "that": "أن / التي",
+  "i": "أنا",
+  "can": "يستطيع",
+  "send": "يرسل",
+  "you": "أنت",
+  "form": "استمارة / شكل",
+  "complete": "يعبّئ / يكمل",
+  "and": "و",
+  "tell": "يخبر / يقول",
+  "when": "عندما",
+  "start": "يبدأ",
+  "he": "هو",
+  "had": "كان لديه / كان",
+  "no": "لا",
+  "computer": "حاسوب",
+  "or": "أو",
+  "email": "بريد إلكتروني",
+  "well": "حسناً / جيداً",
+  "then": "ثم",
+  "mean": "يعني",
+  "virtually": "عملياً",
+  "don't": "لا",
+  "exist": "يوجد",
+  "therefore": "لذلك",
+  "can't": "لا يمكن / لا يستطيع",
+  "be": "يكون",
+  "employed": "يُوظَّف",
+  "looked": "نظر إلى (look at)",
+  "at": "في / عند",
+  "last": "آخر / أخيراً",
+  "in": "في",
+  "his": "ـه (ملكية)",
+  "wallet": "محفظة",
+  "thought": "فكّر في (think of)",
+  "of": "من / لـ",
+  "buying": "شراء",
+  "tomatoes": "بندورة",
+  "bulk": "بالجملة (in bulk)",
+  "within": "خلال",
+  "less": "أقل",
+  "than": "من / ممّا",
+  "hour": "ساعة",
+  "sold": "باع",
+  "all": "جميع / كل",
+  "profit": "ربح",
+  "repeating": "تكرار",
+  "process": "عملية",
+  "several": "عدة",
+  "time": "وقت",
+  "ended": "انتهى به الأمر (end up)",
+  "up": "ينتهي به الأمر (end up) / ينهض (get up)",
+  "almost": "كاد / تقريباً",
+  "before": "قبل",
+  "going": "ينام (go to sleep) / يخلد للنوم (go to bed)",
+  "sleep": "ينام (go to sleep)",
+  "night": "الليل",
+  "getting": "ينهض (get up)",
+  "early": "باكراً",
+  "every": "كل",
+  "bed": "يخلد للنوم (go to bed)",
+  "late": "متأخر",
+  "multiplied": "ضاعف",
+  "quickly": "بسرعة",
+  "after": "بعد",
+  "short": "قصير",
+  "bought": "اشترى",
+  "cart": "عربة",
+  "transport": "ينقل / نقل",
+  "dozen": "دزينة (12)",
+  "boxes": "صناديق",
+  "by": "بحلول / بواسطة",
+  "end": "ينتهي / نهاية",
+  "second": "الثانية / ثانياً",
+  "year": "عام / سنة",
+  "became": "أصبح",
+  "owner": "مالك / صاحب",
+  "fleet": "أسطول",
+  "truck": "شاحنة",
+  "staff": "طاقم موظفين",
+  "hundred": "مئة",
+  "former": "سابق",
+  "people": "أشخاص / ناس",
+  "selling": "يبيع",
+  "planning": "تخطيط",
+  "future": "المستقبل",
+  "wife": "زوجة",
+  "children": "أطفال",
+  "decided": "قرر / قررت",
+  "buy": "يشتري",
+  "life": "حياة",
+  "insurance": "تأمين",
+  "adviser": "مستشار",
+  "asked": "طلب (ask for)",
+  "him": "له / هو",
+  "order": "من أجل (in order to)",
+  "final": "نهائي",
+  "document": "وثيقة",
+  "electronically": "إلكترونياً",
+  "replied": "رد",
+  "has": "لديه / يملك",
+  "felt": "شعر",
+  "astonished": "مندهش",
+  "how": "كيف",
+  "did": "فعل (مساعد)",
+  "make": "يكوّن / يُحدث فرقاً (make a difference)",
+  "such": "مثل / كهذا",
+  "wealth": "ثروة",
+  "without": "دون / بدون",
+  "internet": "الإنترنت",
+  "just": "فقط",
+  "imagine": "يتخيل",
+  "where": "حيث / أين",
+  "would-be": "كنت ستكون",
+  "now": "الآن",
+  "if": "إذا",
+  "been": "كان / تم",
+  "connected": "متصل",
+  "from": "من",
+  "very": "جداً",
+  "moment": "لحظة",
+  "tomato": "بندورة",
+  "millionaire": "مليونير",
+  "would": "سوف / كان ليـ",
+  "floor": "أرضية / طابق",
+  "even": "حتى",
+  "lack": "نقص / غياب",
+  "technology": "تكنولوجيا",
+  "determination": "عزيمة",
+  "required": "مطلوب",
+  "skill": "مهارة",
+  "difference": "فرق (make a difference)"
+ }
+}

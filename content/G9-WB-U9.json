@@ -1,0 +1,339 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 9,
+ "label": "Unit 9",
+ "title": "An Active Citizen, A Better World",
+ "titleAr": "مواطن نشيط، عالم أفضل",
+ "sentences": [
+  [
+   "Suzan is an orphan whose father died when she was a baby.",
+   "سوزان يتيمة توفي والدها عندما كانت رضيعة.",
+   0
+  ],
+  [
+   "Before his death, he had a strong will of taking care of Suzan and encouraging her to study hard.",
+   "قبل وفاته، كانت لديه إرادة قوية في رعاية سوزان وتشجيعها على الدراسة بجد.",
+   0
+  ],
+  [
+   "After her husband’s death, the mother worked hard to make her daughter feel comfortable and tried to afford her all what she needed.",
+   "بعد وفاة زوجها، عملت الأم بجد لتجعل ابنتها تشعر بالراحة وحاولت أن توفر لها كل ما تحتاجه.",
+   0
+  ],
+  [
+   "At night, before they sleep, the mother tells Suzan how much it is important to be a responsible citizen who respects the principles of the country.",
+   "في الليل، قبل أن تناما، تخبر الأم سوزان كم هو مهم أن تكون مواطنة مسؤولة تحترم مبادئ الوطن.",
+   1
+  ],
+  [
+   "She encourages her daughter to be a productive member of society and a person who makes a positive contribution to the nation.",
+   "تشجع ابنتها على أن تكون عضواً منتجاً في المجتمع وشخصاً يقدم مساهمة إيجابية للأمة.",
+   1
+  ],
+  [
+   "The mother also clarifies the necessity of developing her daughter’s character to be strong and effective in society.",
+   "توضح الأم أيضاً ضرورة تنمية شخصية ابنتها لتكون قوية وفعالة في المجتمع.",
+   1
+  ],
+  [
+   "She tells her that she must understand her legal rights as well as her duties.",
+   "تقول لها إنه يجب أن تفهم حقوقها القانونية وكذلك واجباتها.",
+   1
+  ],
+  [
+   "Suzan is sure that life is difficult when you cannot have what you want.",
+   "سوزان متأكدة أن الحياة صعبة عندما لا تستطيع أن تحصل على ما تريد.",
+   2
+  ],
+  [
+   "But she has learnt from her mother to fight till the end.",
+   "لكنها تعلمت من أمها أن تقاتل حتى النهاية.",
+   2
+  ],
+  [
+   "She always says: “when we don’t have what we like, we must like what we have”.",
+   "تقول دائماً: “عندما لا نملك ما نحبه، يجب أن نحب ما نملكه”.",
+   2
+  ],
+  [
+   "Suzan, who is now 15 years old, works hard to achieve her dreams.",
+   "سوزان، التي تبلغ الآن 15 عاماً، تعمل بجد لتحقق أحلامها.",
+   3
+  ],
+  [
+   "She loves reading so she spends her free time in the school library reading about her country’s history and social studies.",
+   "إنها تحب القراءة فتقضي وقت فراغها في مكتبة المدرسة تقرأ عن تاريخ بلدها والدراسات الاجتماعية.",
+   3
+  ],
+  [
+   "She studies a lot because she believes that what is hard today, will be easy tomorrow and what is black tonight will be white in the morning.",
+   "تدرس كثيراً لأنها تؤمن أن ما هو صعب اليوم، سيكون سهلاً غداً وما هو أسود الليلة سيكون أبيض في الصباح.",
+   3
+  ],
+  [
+   "She shares her skills, talents, and abilities with others.",
+   "تشارك مهاراتها ومواهبها وقدراتها مع الآخرين.",
+   4
+  ],
+  [
+   "On holidays she participates in the social activities of her city and looks for ways to make her community a better place to live in.",
+   "في العطل تشارك في الأنشطة الاجتماعية لمدينتها وتبحث عن طرق لتجعل مجتمعها مكاناً أفضل للعيش فيه.",
+   4
+  ],
+  [
+   "She also urges people of her age to work for welfare services.",
+   "كما تحث أبناء جيلها على العمل في خدمات الرعاية.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Suzan is an orphan whose ___ died when she was a baby.",
+   "o": [
+    "mother",
+    "father",
+    "brother",
+    "teacher"
+   ],
+   "a": 1,
+   "e": "النص: whose father died when she was a baby، أي توفي والدها عندما كانت رضيعة."
+  },
+  {
+   "q": "The mother tells Suzan how important it is to be a ___ citizen.",
+   "o": [
+    "lazy",
+    "famous",
+    "responsible",
+    "rich"
+   ],
+   "a": 2,
+   "e": "النص: to be a responsible citizen، أي مواطنة مسؤولة."
+  },
+  {
+   "q": "Suzan has learnt from her mother to fight ___.",
+   "o": [
+    "for money",
+    "at night",
+    "alone",
+    "till the end"
+   ],
+   "a": 3,
+   "e": "النص: to fight till the end، أي تقاتل حتى النهاية."
+  },
+  {
+   "q": "Suzan spends her free time in the school library reading about her country’s ___.",
+   "o": [
+    "history",
+    "food",
+    "weather",
+    "music"
+   ],
+   "a": 0,
+   "e": "النص: reading about her country’s history and social studies."
+  },
+  {
+   "q": "Suzan believes that what is hard today will be ___ tomorrow.",
+   "o": [
+    "harder",
+    "easy",
+    "forgotten",
+    "boring"
+   ],
+   "a": 1,
+   "e": "النص: what is hard today, will be easy tomorrow، أي سيكون سهلاً غداً."
+  },
+  {
+   "q": "On holidays, Suzan participates in the ___ of her city.",
+   "o": [
+    "football matches",
+    "shopping offers",
+    "social activities",
+    "school exams"
+   ],
+   "a": 2,
+   "e": "النص: participates in the social activities of her city، أي الأنشطة الاجتماعية لمدينتها."
+  },
+  {
+   "q": "Suzan’s mother worked hard to make her daughter feel comfortable.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: the mother worked hard to make her daughter feel comfortable."
+  },
+  {
+   "q": "The mother tells Suzan that she has rights but no duties.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: she must understand her legal rights as well as her duties، أي حقوقها وواجباتها."
+  },
+  {
+   "q": "Suzan never shares her skills with others.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: She shares her skills, talents, and abilities with others."
+  },
+  {
+   "q": "Suzan is now 15 years old.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Suzan, who is now 15 years old."
+  }
+ ],
+ "words": {
+  "suzan": "سوزان (اسم)",
+  "i": "أنا",
+  "an": "أداة نكرة",
+  "orphan": "يتيمة / يتيم",
+  "whose": "الذي / التي (ملكية)",
+  "father": "أب / والد",
+  "died": "توفي",
+  "when": "عندما",
+  "she": "هي",
+  "was": "كان / كانت",
+  "a": "أداة نكرة",
+  "baby": "رضيعة / رضيع",
+  "before": "قبل",
+  "his": "ـه (ملكية)",
+  "death": "وفاة / موت",
+  "he": "هو",
+  "had": "كان لديه",
+  "strong": "قوي / قوية",
+  "will": "سوف / إرادة",
+  "of": "من / لـ",
+  "taking": "يرعى (take care of)",
+  "care": "يرعى (take care of)",
+  "and": "و",
+  "encouraging": "تشجيع",
+  "her": "ها (ملكية)",
+  "to": "إلى / أن",
+  "study": "يدرس",
+  "hard": "بجد / صعب",
+  "after": "بعد",
+  "husband": "زوج",
+  "the": "أداة تعريف",
+  "mother": "أم",
+  "worked": "عملت",
+  "make": "يجعل / يُحدث",
+  "daughter": "ابنة",
+  "feel": "يشعر / يبدو",
+  "comfortable": "مريح",
+  "tried": "حاولت",
+  "afford": "يوفر / يتحمل",
+  "all": "جميع / كل",
+  "what": "ما / ماذا",
+  "needed": "تحتاج / احتاجت",
+  "at": "ليلاً (at night)",
+  "night": "ليلاً (at night)",
+  "they": "هم",
+  "sleep": "تنام / ينام",
+  "tell": "تخبر / تقول",
+  "how": "كيف",
+  "much": "كم / كثير",
+  "it": "هو / هي",
+  "important": "مهم",
+  "be": "يكون",
+  "responsible": "مسؤول",
+  "citizen": "مواطنة / مواطن",
+  "who": "الذي / من",
+  "respect": "تحترم / احترام",
+  "principle": "مبدأ / مبادئ",
+  "country": "بلد / وطن",
+  "encourage": "يشجع",
+  "productive": "منتج",
+  "member": "فرد / عضو",
+  "society": "المجتمع",
+  "person": "شخص",
+  "makes": "تقدم / يجعل",
+  "positive": "إيجابي",
+  "contribution": "مساهمة",
+  "nation": "الأمة",
+  "also": "أيضاً",
+  "clarifies": "توضح",
+  "necessity": "ضرورة",
+  "developing": "تنمية",
+  "character": "شخصية",
+  "effective": "فعّال",
+  "in": "في",
+  "that": "أن / التي",
+  "must": "يجب",
+  "understand": "يفهم",
+  "legal": "قانوني",
+  "right": "حق / حقوق",
+  "as": "وكذلك (as well as)",
+  "well": "وكذلك (as well as)",
+  "duties": "واجبات",
+  "sure": "متأكد / بالتأكيد",
+  "life": "حياة",
+  "difficult": "صعب",
+  "you": "أنت",
+  "cannot": "لا يمكن / لا تستطيع",
+  "have": "يحصل على / يملك",
+  "want": "يريد",
+  "but": "لكن",
+  "has": "لديه / يملك",
+  "learnt": "تعلمت",
+  "from": "من",
+  "fight": "يقاتل",
+  "till": "حتى",
+  "end": "حتى النهاية (till the end)",
+  "always": "دائماً",
+  "say": "يقول",
+  "we": "نحن",
+  "don't": "لا",
+  "like": "يحب / مثل",
+  "now": "الآن",
+  "year": "عام / سنة",
+  "old": "عمرها / قديم",
+  "work": "يعمل",
+  "achieve": "يحقق",
+  "dream": "حلم / أحلام",
+  "love": "تحب / حب",
+  "reading": "قراءة",
+  "so": "فـ / لذلك",
+  "spend": "تقضي / ينفق",
+  "free": "وقت الفراغ / مجاني",
+  "time": "وقت",
+  "school": "مدرسة",
+  "library": "مكتبة",
+  "about": "عن / حول",
+  "history": "تاريخ",
+  "social": "اجتماعي",
+  "studies": "دراسات / تدرس",
+  "lot": "كثيراً (a lot)",
+  "because": "بسبب / لأن",
+  "believe": "يعتقد / يؤمن",
+  "today": "اليوم",
+  "easy": "سهل",
+  "tomorrow": "غداً",
+  "black": "أسود",
+  "tonight": "الليلة",
+  "white": "أبيض",
+  "morning": "الصباح",
+  "share": "تشارك",
+  "skill": "مهارة / مهارات",
+  "talent": "موهبة",
+  "abilities": "قدرات",
+  "with": "مع / بـ",
+  "other": "آخرون / آخر",
+  "on": "في / على",
+  "holiday": "عطلة",
+  "participate": "يشارك في (participate in)",
+  "activities": "أنشطة",
+  "city": "مدينة",
+  "look": "تبحث عن (look for)",
+  "for": "لـ / على",
+  "ways": "طرق",
+  "community": "مجتمع",
+  "better": "أفضل",
+  "place": "مكان",
+  "live": "يعيش / يسكن",
+  "urge": "تحث",
+  "people": "أشخاص / ناس",
+  "age": "سن / عمر",
+  "welfare": "الرعاية / الرفاهية",
+  "service": "خدمة / خدمات"
+ }
+}

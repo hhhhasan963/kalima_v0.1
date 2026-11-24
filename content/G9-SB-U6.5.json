@@ -1,0 +1,412 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 6.5,
+ "label": "Review 1",
+ "title": "Secrets of a Happy Brain",
+ "titleAr": "أسرار الدماغ السعيد",
+ "sentences": [
+  [
+   "The human brain remembers negative experiences more easily than positive ones.",
+   "يتذكر الدماغ البشري التجارب السلبية بسهولة أكبر من الإيجابية.",
+   0
+  ],
+  [
+   "Our brains have developed this way because threats, and dangerous events, had an immediate effect on our memories compared to positive things like food or shelter.",
+   "تطورت أدمغتنا بهذه الطريقة لأن التهديدات والأحداث الخطيرة كان لها تأثير فوري على ذاكرتنا مقارنة بالأشياء الإيجابية كالطعام أو المأوى.",
+   0
+  ],
+  [
+   "As a result, you likely know what makes you unhappy, but do you know what makes you happy?",
+   "نتيجة لذلك، غالباً ما تعرف ما الذي يجعلك تعيساً، لكن هل تعرف ما الذي يجعلك سعيداً؟",
+   0
+  ],
+  [
+   "Research suggests that our level of happiness depends partly on factors we cannot control – our genes and our life circumstances.",
+   "تشير الأبحاث إلى أن مستوى سعادتنا يعتمد جزئياً على عوامل لا نستطيع التحكم بها – جيناتنا وظروف حياتنا.",
+   1
+  ],
+  [
+   "However, our level of happiness is also shaped by the choices we make.",
+   "لكن مستوى سعادتنا يتشكل أيضاً بالخيارات التي نتخذها.",
+   1
+  ],
+  [
+   "If you’ve been chasing wealth, fame, good looks, material things, and power, you may be looking for happiness in all the wrong places.",
+   "إذا كنت تلاحق الثروة والشهرة والمظهر الجميل والأشياء المادية والسلطة، فقد تبحث عن السعادة في كل الأماكن الخاطئة.",
+   1
+  ],
+  [
+   "Psychologists suggest that the following six habits make people happier.",
+   "يقترح علماء النفس أن العادات الست التالية تجعل الناس أسعد.",
+   1
+  ],
+  [
+   "People who form close relationships tend to be happier than those who do not.",
+   "الأشخاص الذين يكوّنون علاقات وثيقة يميلون إلى أن يكونوا أسعد ممن لا يفعلون.",
+   2
+  ],
+  [
+   "The number of friends we have is not important.",
+   "عدد الأصدقاء الذين نملكهم ليس مهماً.",
+   2
+  ],
+  [
+   "What matters is the quality of our relationships.",
+   "المهم هو جودة علاقاتنا.",
+   2
+  ],
+  [
+   "Relationships that bring happiness usually involve the sharing of feelings, mutual respect, acceptance, trust, fun and empathy.",
+   "العلاقات التي تجلب السعادة تتضمن عادة تبادل المشاعر والاحترام المتبادل والتقبل والثقة والمرح والتعاطف.",
+   2
+  ],
+  [
+   "People who make a habit of caring for the well-being of others tend to be happier.",
+   "الأشخاص الذين يجعلون من عادتهم الاهتمام برفاهية الآخرين يميلون إلى أن يكونوا أسعد.",
+   3
+  ],
+  [
+   "This might involve volunteering for an organization or reaching out to support friends and family on a regular basis.",
+   "قد يشمل ذلك التطوع في منظمة أو مدّ اليد لدعم الأصدقاء والعائلة بشكل منتظم.",
+   3
+  ],
+  [
+   "People who exercise regularly improve both their physical and mental well-being.",
+   "الأشخاص الذين يمارسون الرياضة بانتظام يحسّنون رفاهيتهم الجسدية والعقلية معاً.",
+   4
+  ],
+  [
+   "Some research has shown that exercise can be as effective as medicine in treating depression.",
+   "أظهرت بعض الأبحاث أن الرياضة يمكن أن تكون فعالة مثل الدواء في علاج الاكتئاب.",
+   4
+  ],
+  [
+   "When we are so interested in an activity we enjoy that we lose track of time, we are in a state of flow.",
+   "عندما نهتم بنشاط نستمتع به إلى درجة أننا نفقد الإحساس بالوقت، نكون في حالة من التدفق.",
+   5
+  ],
+  [
+   "The activity could be making art, playing piano, surfing, or playing a game.",
+   "قد يكون النشاط صنع الفن أو العزف على البيانو أو ركوب الأمواج أو لعب لعبة.",
+   5
+  ],
+  [
+   "People who experience flow in their work or hobbies tend to be happier.",
+   "الأشخاص الذين يختبرون التدفق في عملهم أو هواياتهم يميلون إلى أن يكونوا أسعد.",
+   5
+  ],
+  [
+   "People are more likely to be happy if they know what their strengths are and use them regularly.",
+   "يكون الناس أكثر ميلاً إلى السعادة إذا عرفوا ما هي نقاط قوتهم واستخدموها بانتظام.",
+   6
+  ],
+  [
+   "People who set goals and use their strengths to achieve them tend to be happier.",
+   "الأشخاص الذين يضعون أهدافاً ويستخدمون نقاط قوتهم لتحقيقها يميلون إلى أن يكونوا أسعد.",
+   6
+  ],
+  [
+   "People who think positively by being grateful, aware, and optimistic are more likely to be happy.",
+   "الأشخاص الذين يفكرون بإيجابية بكونهم ممتنين وواعين ومتفائلين أكثر ميلاً إلى أن يكونوا سعداء.",
+   7
+  ],
+  [
+   "Being grateful means being thankful.",
+   "أن تكون ممتناً يعني أن تكون شاكراً.",
+   7
+  ],
+  [
+   "Being aware means being open to, focusing on, and enjoying the experiences of the present moment.",
+   "أن تكون واعياً يعني أن تكون منفتحاً على وتركّز على وتستمتع بتجارب اللحظة الحاضرة.",
+   7
+  ],
+  [
+   "Being optimistic means being hopeful about the future.",
+   "أن تكون متفائلاً يعني أن تكون متفائلاً بشأن المستقبل.",
+   7
+  ]
+ ],
+ "questions": [
+  {
+   "q": "The human brain remembers ___ experiences more easily than positive ones.",
+   "o": [
+    "negative",
+    "pleasant",
+    "boring",
+    "funny"
+   ],
+   "a": 0,
+   "e": "النص: remembers negative experiences more easily than positive ones، أي يتذكر التجارب السلبية بسهولة أكبر."
+  },
+  {
+   "q": "Our brains have developed this way because ___ had an immediate effect on our memories.",
+   "o": [
+    "food and shelter",
+    "threats and dangerous events",
+    "friends and family",
+    "music and art"
+   ],
+   "a": 1,
+   "e": "النص: because threats, and dangerous events, had an immediate effect on our memories."
+  },
+  {
+   "q": "Our level of happiness depends partly on factors we cannot control, such as ___.",
+   "o": [
+    "our friends",
+    "our hobbies",
+    "our genes",
+    "our choices"
+   ],
+   "a": 2,
+   "e": "النص: factors we cannot control – our genes and our life circumstances، أما الخيارات فنتحكم بها."
+  },
+  {
+   "q": "Which of these is mentioned as a habit that makes people happier?",
+   "o": [
+    "Sleeping late",
+    "Watching TV",
+    "Buying new things",
+    "Exercising regularly"
+   ],
+   "a": 3,
+   "e": "النص: People who exercise regularly improve both their physical and mental well-being."
+  },
+  {
+   "q": "Some research has shown that exercise can be as effective as ___ in treating depression.",
+   "o": [
+    "music",
+    "medicine",
+    "sleep",
+    "travel"
+   ],
+   "a": 1,
+   "e": "النص: exercise can be as effective as medicine in treating depression."
+  },
+  {
+   "q": "Being optimistic means being ___ about the future.",
+   "o": [
+    "afraid",
+    "angry",
+    "hopeful",
+    "bored"
+   ],
+   "a": 2,
+   "e": "النص: Being optimistic means being hopeful about the future."
+  },
+  {
+   "q": "The number of friends we have is very important for happiness.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: The number of friends we have is not important، والمهم هو جودة العلاقات."
+  },
+  {
+   "q": "People who experience flow in their work or hobbies tend to be happier.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: هذه الجملة وردت في النص."
+  },
+  {
+   "q": "The text says that chasing wealth and fame always brings happiness.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنك قد تبحث عن السعادة in all the wrong places، أي في أماكن خاطئة."
+  },
+  {
+   "q": "Being grateful means being thankful.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Being grateful means being thankful."
+  }
+ ],
+ "words": {
+  "the": "أداة تعريف",
+  "human": "بشري",
+  "brain": "دماغ",
+  "remember": "يتذكر",
+  "negative": "سلبي",
+  "experience": "تجربة / يختبر",
+  "more": "أكثر",
+  "easily": "بسهولة",
+  "than": "من / ممّا",
+  "positive": "إيجابي",
+  "one": "الإيجابية (positive ones)",
+  "our": "نا (ملكية)",
+  "have": "يملك / قد",
+  "developed": "تطورت",
+  "this": "هذا",
+  "way": "طريقة",
+  "because": "لأن",
+  "threat": "تهديد",
+  "and": "و",
+  "dangerous": "خطير",
+  "event": "حدث",
+  "had": "كان لديه / كان",
+  "an": "أداة نكرة",
+  "immediate": "فوري",
+  "effect": "تأثير",
+  "on": "على",
+  "memories": "ذكريات / ذاكرة",
+  "compared": "مقارنة",
+  "to": "إلى / أن",
+  "thing": "شيء",
+  "like": "مثل",
+  "food": "طعام",
+  "or": "أو",
+  "shelter": "مأوى",
+  "as": "كـ / مثل",
+  "a": "أداة نكرة",
+  "result": "نتيجة (as a result = نتيجة لذلك)",
+  "you": "أنت",
+  "likely": "غالباً / مرجّح",
+  "know": "يعرف",
+  "what": "ما / ماذا",
+  "makes": "يجعل",
+  "unhappy": "تعيس",
+  "but": "لكن",
+  "do": "يفعل",
+  "happy": "سعيد",
+  "research": "أبحاث",
+  "suggest": "يشير / يقترح",
+  "that": "أن / التي",
+  "level": "مستوى",
+  "of": "من / لـ",
+  "happiness": "السعادة",
+  "depend": "يعتمد",
+  "partly": "جزئياً",
+  "factor": "عامل",
+  "we": "نحن",
+  "cannot": "لا نستطيع",
+  "control": "يتحكم",
+  "gene": "جين",
+  "life": "حياة",
+  "circumstance": "ظرف",
+  "however": "لكن / مع ذلك",
+  "is": "يكون / هو",
+  "also": "أيضاً",
+  "shaped": "يتشكل",
+  "by": "بـ / بواسطة",
+  "choice": "خيار",
+  "make": "يتخذ / يجعل",
+  "if": "إذا",
+  "you've": "أنت (قد)",
+  "been": "كان / تم",
+  "chasing": "تلاحق",
+  "wealth": "ثروة",
+  "fame": "شهرة",
+  "good": "جيد / جميل",
+  "look": "مظهر / يبحث",
+  "material": "مادي",
+  "power": "سلطة / قوة",
+  "may": "قد",
+  "be": "يكون",
+  "looking": "تبحث",
+  "for": "عن / لـ",
+  "in": "في",
+  "all": "كل / جميع",
+  "wrong": "خاطئ",
+  "place": "مكان",
+  "psychologist": "عالم نفس",
+  "following": "التالية",
+  "six": "ست",
+  "habit": "عادة",
+  "people": "ناس / أشخاص",
+  "happier": "أسعد",
+  "who": "الذين / من",
+  "form": "يكوّن",
+  "close": "وثيق / قريب",
+  "relationship": "علاقة",
+  "tend": "يميل",
+  "those": "أولئك",
+  "not": "لا / ليس",
+  "number": "عدد",
+  "friend": "صديق",
+  "important": "مهم",
+  "matter": "يهم",
+  "quality": "جودة",
+  "bring": "يجلب",
+  "usually": "عادة",
+  "involve": "يتضمن / يشمل",
+  "sharing": "تبادل / مشاركة",
+  "feeling": "شعور",
+  "mutual": "متبادل",
+  "respect": "احترام",
+  "acceptance": "تقبّل",
+  "trust": "ثقة",
+  "fun": "مرح",
+  "empathy": "تعاطف",
+  "well-being": "رفاهية",
+  "caring": "الاهتمام",
+  "other": "آخر",
+  "might": "قد / ربما",
+  "volunteering": "التطوع",
+  "organization": "منظمة",
+  "reaching": "مدّ اليد (reach out)",
+  "out": "مدّ اليد (reach out)",
+  "support": "يدعم",
+  "family": "عائلة",
+  "regular": "منتظم",
+  "basis": "أساس (on a regular basis = بشكل منتظم)",
+  "exercise": "يمارس الرياضة / رياضة",
+  "regularly": "بانتظام",
+  "improve": "يحسّن",
+  "both": "كلا / معاً",
+  "their": "هم (ملكية)",
+  "physical": "جسدي",
+  "mental": "عقلي",
+  "some": "بعض",
+  "has": "قد / يملك",
+  "shown": "أظهر",
+  "can": "يستطيع / يمكن",
+  "effective": "فعّال",
+  "medicine": "دواء",
+  "treating": "علاج",
+  "depression": "الاكتئاب",
+  "when": "عندما",
+  "are": "يكونون / هم",
+  "so": "إلى درجة / لذلك",
+  "interested": "مهتم",
+  "activity": "نشاط",
+  "enjoy": "يستمتع",
+  "lose": "يفقد الإحساس بـ (lose track of)",
+  "track": "يفقد الإحساس بـ (lose track of)",
+  "time": "وقت",
+  "state": "حالة",
+  "flow": "التدفق",
+  "could": "قد / يمكن",
+  "making": "صنع",
+  "art": "الفن",
+  "playing": "العزف / لعب",
+  "piano": "بيانو",
+  "surfing": "ركوب الأمواج",
+  "game": "لعبة",
+  "hobbies": "هوايات",
+  "work": "عمل",
+  "they": "هم",
+  "strength": "نقطة قوة",
+  "use": "يستخدم",
+  "them": "هم / لهم",
+  "set": "يضع",
+  "goal": "هدف",
+  "achieve": "يحقق",
+  "think": "يفكر",
+  "positively": "بإيجابية",
+  "being": "كون / أن تكون",
+  "grateful": "ممتن",
+  "aware": "واعٍ",
+  "optimistic": "متفائل",
+  "mean": "يعني",
+  "thankful": "شاكر",
+  "open": "منفتح / مفتوح",
+  "focusing": "التركيز",
+  "enjoying": "الاستمتاع",
+  "present": "حاضر",
+  "moment": "لحظة",
+  "hopeful": "متفائل / آمل",
+  "about": "بشأن / عن",
+  "future": "المستقبل"
+ }
+}

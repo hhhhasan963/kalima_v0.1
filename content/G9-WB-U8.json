@@ -1,0 +1,308 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 8,
+ "label": "Unit 8",
+ "title": "On the Edge of Innocence",
+ "titleAr": "على حافة البراءة",
+ "sentences": [
+  [
+   "A poor family was living happily until the son felt severely ill.",
+   "كانت عائلة فقيرة تعيش سعيدة حتى مرض الابن بشدة.",
+   0
+  ],
+  [
+   "It was clear from the medical analysis and laboratory tests that he had got a tumour in his head.",
+   "كان واضحاً من التحاليل الطبية والفحوص المخبرية أنه أصيب بورم في رأسه.",
+   0
+  ],
+  [
+   "“Your son’s condition is critical.",
+   "“حالة ابنك حرجة.",
+   1
+  ],
+  [
+   "He needs a miracle to survive.”, the doctor said.",
+   "يحتاج إلى معجزة ليبقى حياً.”, قال الطبيب.",
+   1
+  ],
+  [
+   "After she had heard the doctor’s words the little daughter rushed to the nearest pharmacy with the only pound she had in her money box.",
+   "بعد أن سمعت كلمات الطبيب اندفعت الابنة الصغيرة إلى أقرب صيدلية بالجنيه الوحيد الذي كان في حصّالتها.",
+   2
+  ],
+  [
+   "“Give me a miracle, please,” she said putting the pound on the table.",
+   "“أعطني معجزة، من فضلك،” قالت وهي تضع الجنيه على الطاولة.",
+   2
+  ],
+  [
+   "The pharmacist was busy talking to his brother.",
+   "كان الصيدلاني مشغولاً بالحديث مع أخيه.",
+   3
+  ],
+  [
+   "After a while he replied, “who told you I sell miracles?”",
+   "بعد قليل أجاب: “من قال لك إنني أبيع المعجزات؟”",
+   3
+  ],
+  [
+   "She looked helplessly watching in despair.",
+   "نظرت بلا حول ولا قوة وهي تراقب بيأس.",
+   3
+  ],
+  [
+   "Suddenly the pharmacist’s brother kneeled asking her, “tell me, sweetie, why do you need a miracle?”",
+   "فجأة جثا أخو الصيدلاني وسألها: “قولي لي يا حلوتي، لماذا تحتاجين إلى معجزة؟”",
+   4
+  ],
+  [
+   "Without thinking, “I don’t know, the doctor says my brother needs a miracle for an operation not to die.”",
+   "دون تفكير، “لا أعرف، الطبيب يقول إن أخي يحتاج إلى معجزة لعملية كي لا يموت.”",
+   4
+  ],
+  [
+   "Is this pound enough?”",
+   "هل هذا الجنيه يكفي؟”",
+   4
+  ],
+  [
+   "“One pound is exactly enough”, he answered with a big smile and a tender voice.",
+   "“جنيه واحد يكفي تماماً”، أجاب بابتسامة كبيرة وصوت حنون.",
+   4
+  ],
+  [
+   "“Could I see your brother?”",
+   "“هل يمكنني رؤية أخيك؟”",
+   4
+  ],
+  [
+   "This man was Carlton Armstrong, the famous nerve surgeon who performed the operation successfully and took one pound for it.",
+   "كان هذا الرجل كارلتون أرمسترونغ، جراح الأعصاب المشهور الذي أجرى العملية بنجاح وأخذ جنيهاً واحداً مقابلها.",
+   5
+  ],
+  [
+   "Later, he framed the pound with a sentence below, “This pound is the price of a miracle taken from a girl, on the edge of innocence.”",
+   "لاحقاً، وضع الجنيه في إطار مع جملة تحته: “هذا الجنيه هو ثمن معجزة أُخذ من فتاة، على حافة البراءة.”",
+   5
+  ]
+ ],
+ "questions": [
+  {
+   "q": "It was clear from the medical analysis that the son had a ___ in his head.",
+   "o": [
+    "cut",
+    "tumour",
+    "cold",
+    "bump"
+   ],
+   "a": 1,
+   "e": "النص: he had got a tumour in his head، أي أصيب بورم في رأسه."
+  },
+  {
+   "q": "The little daughter rushed to the nearest ___.",
+   "o": [
+    "school",
+    "bank",
+    "pharmacy",
+    "hospital"
+   ],
+   "a": 2,
+   "e": "النص: rushed to the nearest pharmacy، أي أقرب صيدلية."
+  },
+  {
+   "q": "How much money did the little daughter have in her money box?",
+   "o": [
+    "ten pounds",
+    "two coins",
+    "five pounds",
+    "one pound"
+   ],
+   "a": 3,
+   "e": "النص: the only pound she had in her money box، أي الجنيه الوحيد."
+  },
+  {
+   "q": "The pharmacist replied: “Who told you I sell ___?”",
+   "o": [
+    "miracles",
+    "medicines",
+    "toys",
+    "sweets"
+   ],
+   "a": 0,
+   "e": "النص: who told you I sell miracles?، أي من قال لك إنني أبيع المعجزات؟"
+  },
+  {
+   "q": "Who was Carlton Armstrong?",
+   "o": [
+    "A bus driver",
+    "A famous nerve surgeon",
+    "A school teacher",
+    "A police officer"
+   ],
+   "a": 1,
+   "e": "النص: the famous nerve surgeon، أي جراح الأعصاب المشهور."
+  },
+  {
+   "q": "How much did the surgeon take for the operation?",
+   "o": [
+    "a hundred pounds",
+    "a thousand pounds",
+    "one pound",
+    "nothing"
+   ],
+   "a": 2,
+   "e": "النص: took one pound for it، أي أخذ جنيهاً واحداً مقابلها."
+  },
+  {
+   "q": "The doctor said the boy’s condition was critical.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Your son’s condition is critical."
+  },
+  {
+   "q": "The pharmacist sold the girl a miracle.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن الصيدلاني replied: who told you I sell miracles?، أي نفى أنه يبيع المعجزات."
+  },
+  {
+   "q": "The girl had a lot of money in her money box.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: the only pound she had in her money box، أي جنيه واحد فقط."
+  },
+  {
+   "q": "The surgeon performed the operation successfully.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: who performed the operation successfully."
+  }
+ ],
+ "words": {
+  "a": "أداة نكرة",
+  "poor": "فقير",
+  "family": "عائلة",
+  "was": "كان / كانت",
+  "living": "يعيش",
+  "happily": "بسعادة",
+  "until": "حتى",
+  "the": "أداة تعريف",
+  "son": "ابن",
+  "felt": "شعر / مرض",
+  "severely": "بشدة",
+  "ill": "مريض",
+  "it": "هو / هي",
+  "clear": "واضح",
+  "from": "من",
+  "medical": "طبي",
+  "analysis": "تحاليل",
+  "and": "و",
+  "laboratory": "مختبر",
+  "test": "فحص",
+  "that": "أن / التي",
+  "he": "هو",
+  "had": "قد (مساعد) / كان لديه",
+  "got": "أصيب / نال",
+  "tumour": "ورم",
+  "in": "في",
+  "his": "ـه (ملكية)",
+  "head": "رأس",
+  "your": "ك (ملكية)",
+  "condition": "حالة",
+  "i": "أنا",
+  "critical": "حرجة / ناقد",
+  "need": "يحتاج",
+  "miracle": "معجزة",
+  "to": "إلى / أن",
+  "survive": "يبقى حياً",
+  "doctor": "طبيب",
+  "said": "قال / قالت",
+  "after": "بعد",
+  "she": "هي",
+  "heard": "سمعت / سمع",
+  "word": "كلمة",
+  "little": "صغيرة",
+  "daughter": "ابنة",
+  "rushed": "هرعت إلى (rush to)",
+  "nearest": "أقرب",
+  "pharmacy": "صيدلية",
+  "with": "مع / بـ",
+  "only": "فقط",
+  "pound": "جنيه",
+  "her": "ها (ملكية)",
+  "money": "مال",
+  "box": "صندوق",
+  "give": "يعطي / يمنح",
+  "me": "ي / لي",
+  "please": "من فضلك",
+  "putting": "تضع / وضع",
+  "on": "على",
+  "table": "طاولة",
+  "pharmacist": "صيدلاني",
+  "busy": "مشغول",
+  "talking": "الحديث / التحدث",
+  "brother": "أخ",
+  "while": "بعد قليل (after a while)",
+  "replied": "أجاب",
+  "who": "الذي / من",
+  "told": "أخبر",
+  "you": "أنت",
+  "sell": "يبيع",
+  "looked": "نظرت",
+  "helplessly": "بلا حول ولا قوة",
+  "watching": "تراقب / مشاهدة",
+  "despair": "بيأس (in despair)",
+  "suddenly": "فجأة",
+  "kneeled": "جثا",
+  "asking": "سأل / يسأل",
+  "tell": "قولي / يخبر",
+  "sweetie": "حلوتي / عزيزتي",
+  "why": "لماذا",
+  "do": "يفعل",
+  "without": "دون / بدون",
+  "thinking": "تفكير",
+  "don't": "لا",
+  "know": "يعرف",
+  "say": "يقول",
+  "my": "ي (ملكية)",
+  "for": "لـ / على",
+  "an": "أداة نكرة",
+  "operation": "عملية جراحية",
+  "not": "لا / ليس",
+  "die": "يموت",
+  "this": "هذا",
+  "enough": "كافٍ",
+  "one": "واحد",
+  "exactly": "تماماً",
+  "answered": "أجاب",
+  "big": "كبير",
+  "smile": "ابتسامة",
+  "tender": "حنون",
+  "voice": "صوت",
+  "could": "هل يمكنني / قد",
+  "see": "يرى",
+  "man": "رجل",
+  "carlton": "كارلتون (اسم)",
+  "armstrong": "أرمسترونغ (اسم)",
+  "famous": "مشهور",
+  "nerve": "أعصاب",
+  "surgeon": "جراح",
+  "performed": "أجرى",
+  "successfully": "بنجاح",
+  "took": "أخذ",
+  "later": "لاحقاً",
+  "framed": "وضعه في إطار",
+  "sentence": "جملة",
+  "below": "تحت",
+  "price": "ثمن",
+  "of": "من / لـ",
+  "taken": "أُخذ / حملت",
+  "girl": "فتاة",
+  "edge": "حافة",
+  "innocence": "البراءة"
+ }
+}

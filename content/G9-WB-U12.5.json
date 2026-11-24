@@ -1,0 +1,274 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 12.5,
+ "label": "Progress Test (II)",
+ "title": "Overseas Pen Friends",
+ "titleAr": "أصدقاء المراسلة في الخارج",
+ "sentences": [
+  [
+   "Most people are curious about different countries and their cultures.",
+   "معظم الناس فضوليون حول البلدان المختلفة وثقافاتها.",
+   0
+  ],
+  [
+   "So, some tend to make friends from all around the world.",
+   "لذلك يميل البعض إلى تكوين صداقات من جميع أنحاء العالم.",
+   0
+  ],
+  [
+   "Making friends from all over the world is easy nowadays.",
+   "تكوين صداقات من كل أنحاء العالم سهل في هذه الأيام.",
+   1
+  ],
+  [
+   "We only have to sign up to a pen pal website under the supervision of parents.",
+   "علينا فقط أن نسجل في موقع للمراسلة تحت إشراف الأهل.",
+   1
+  ],
+  [
+   "When we create a profile, we will be asked to fill out basic details about ourselves; like our interests, the country we are from, and our birth date.",
+   "عندما ننشئ ملفاً شخصياً، سيُطلب منا أن نملأ تفاصيل أساسية عن أنفسنا؛ مثل اهتماماتنا، والبلد الذي نأتي منه، وتاريخ ميلادنا.",
+   1
+  ],
+  [
+   "We will be able to have conversations with new friends in different countries, so learning another language can help us build bonds with people that speak foreign languages.",
+   "سنتمكن من إجراء محادثات مع أصدقاء جدد في بلدان مختلفة، لذلك فإن تعلم لغة أخرى يمكن أن يساعدنا في بناء روابط مع أشخاص يتكلمون لغات أجنبية.",
+   1
+  ],
+  [
+   "We must be polite when asking them about their lives and things that they are interested in.",
+   "يجب أن نكون مهذبين عندما نسألهم عن حياتهم وعن الأشياء التي يهتمون بها.",
+   2
+  ],
+  [
+   "Being a nice person and willing to learn about new experiences will help you make friends wherever you go.",
+   "أن تكون شخصاً لطيفاً وراغباً في التعلم عن تجارب جديدة سيساعدك على تكوين صداقات أينما ذهبت.",
+   2
+  ],
+  [
+   "If we have the chance to travel one day, we may meet these friends face to face.",
+   "إذا أتيحت لنا فرصة السفر يوماً، فقد نلتقي بهؤلاء الأصدقاء وجهاً لوجه.",
+   3
+  ],
+  [
+   "We have to keep in mind that different people in different countries have different cultures and different life styles which enrich our knowledge about various topics.",
+   "علينا أن نضع في اعتبارنا أن الناس المختلفين في بلدان مختلفة لديهم ثقافات مختلفة وأنماط حياة مختلفة تُغني معرفتنا حول مواضيع متنوعة.",
+   3
+  ],
+  [
+   "We have to respect other people’s privacy and try to learn the best from them.",
+   "علينا أن نحترم خصوصية الآخرين ونحاول أن نتعلم الأفضل منهم.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Most people are curious about different countries and their ___.",
+   "o": [
+    "prices",
+    "cultures",
+    "flags",
+    "roads"
+   ],
+   "a": 1,
+   "e": "النص: curious about different countries and their cultures، أي ثقافاتها."
+  },
+  {
+   "q": "We only have to sign up to a pen pal website under the supervision of ___.",
+   "o": [
+    "teachers",
+    "police",
+    "parents",
+    "doctors"
+   ],
+   "a": 2,
+   "e": "النص: under the supervision of parents، أي تحت إشراف الأهل."
+  },
+  {
+   "q": "When we create a profile, we will be asked to fill out ___ about ourselves.",
+   "o": [
+    "a long story",
+    "a poem",
+    "a recipe",
+    "basic details"
+   ],
+   "a": 3,
+   "e": "النص: fill out basic details about ourselves، أي تفاصيل أساسية عن أنفسنا."
+  },
+  {
+   "q": "We must be ___ when asking pen friends about their lives.",
+   "o": [
+    "polite",
+    "rude",
+    "loud",
+    "quick"
+   ],
+   "a": 0,
+   "e": "النص: We must be polite when asking them about their lives، أي مهذبين."
+  },
+  {
+   "q": "If we have the chance to travel one day, we may meet these friends ___.",
+   "o": [
+    "on the phone",
+    "face to face",
+    "by letter",
+    "in a dream"
+   ],
+   "a": 1,
+   "e": "النص: we may meet these friends face to face، أي وجهاً لوجه."
+  },
+  {
+   "q": "We have to respect other people’s ___.",
+   "o": [
+    "clothes",
+    "homework",
+    "privacy",
+    "cars"
+   ],
+   "a": 2,
+   "e": "النص: We have to respect other people’s privacy، أي خصوصية الآخرين."
+  },
+  {
+   "q": "Making friends from all over the world is easy nowadays.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Making friends from all over the world is easy nowadays."
+  },
+  {
+   "q": "We can sign up to a pen pal website without our parents’ supervision.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: under the supervision of parents، أي تحت إشراف الأهل."
+  },
+  {
+   "q": "Different people in different countries have the same cultures and life styles.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: different cultures and different life styles، أي ثقافات وأنماط حياة مختلفة."
+  },
+  {
+   "q": "Learning another language can help us build bonds with people that speak foreign languages.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: هذه الجملة وردت في النص."
+  }
+ ],
+ "words": {
+  "most": "معظم",
+  "people": "أشخاص / ناس",
+  "are": "يكونون / هم",
+  "curious": "فضولي بشأن (curious about)",
+  "about": "عن / حول",
+  "different": "مختلف",
+  "countries": "بلدان",
+  "and": "و",
+  "their": "هم (ملكية)",
+  "culture": "ثقافة",
+  "so": "كذلك / لذلك",
+  "some": "بعض",
+  "tend": "يميل إلى (tend to)",
+  "to": "إلى / أن",
+  "make": "يكوّن (make friends) / يجعل",
+  "friend": "صديق",
+  "from": "من",
+  "all": "كل / في كل أنحاء (all over)",
+  "around": "في كل أنحاء (all around)",
+  "the": "أداة تعريف",
+  "world": "العالم",
+  "making": "تكوين / صنع",
+  "over": "في كل أنحاء (all over)",
+  "i": "أنا",
+  "easy": "سهل",
+  "nowadays": "في هذه الأيام",
+  "we": "نحن",
+  "only": "فقط",
+  "have": "يملك / يجب (have to)",
+  "sign": "يسجل (sign up)",
+  "up": "يسجل (sign up)",
+  "a": "أداة نكرة",
+  "pen": "مراسلة (pen pal)",
+  "pal": "صديق (pen pal)",
+  "website": "موقع إلكتروني",
+  "under": "تحت إشراف (under the supervision of)",
+  "supervision": "إشراف",
+  "of": "من / لـ",
+  "parents": "أهل / والدان",
+  "when": "عندما",
+  "create": "ينشئ / يصنع",
+  "profile": "ملف شخصي",
+  "will": "سوف",
+  "be": "يكون",
+  "asked": "سأل / يُطلب",
+  "fill": "يملأ (fill out)",
+  "out": "يملأ (fill out)",
+  "basic": "أساسي",
+  "detail": "تفصيل / تفاصيل",
+  "ourselves": "أنفسنا",
+  "like": "مثل",
+  "our": "نا (ملكية)",
+  "interest": "اهتمام",
+  "country": "بلد",
+  "birth": "ميلاد",
+  "date": "تاريخ",
+  "able": "قادر على (be able to)",
+  "conversation": "محادثة",
+  "with": "مع / بـ",
+  "new": "جديد",
+  "in": "في",
+  "learning": "التعلم",
+  "another": "آخر",
+  "language": "لغة",
+  "can": "يستطيع",
+  "help": "يساعد",
+  "us": "نحن / نا",
+  "build": "يبني",
+  "bond": "رابط",
+  "that": "أن / التي",
+  "speak": "يتكلم",
+  "foreign": "أجنبي",
+  "must": "يجب",
+  "polite": "مهذب",
+  "asking": "يسأل",
+  "them": "هم / لهم",
+  "lives": "حياة",
+  "things": "أشياء",
+  "they": "هم",
+  "interested": "مهتم بـ (interested in)",
+  "being": "أن تكون / كون",
+  "nice": "لطيف / جميل",
+  "person": "شخص",
+  "willing": "راغب",
+  "learn": "يتعلم",
+  "experience": "تجربة / تجارب",
+  "you": "أنت",
+  "wherever": "أينما",
+  "go": "يذهب",
+  "if": "إذا",
+  "chance": "فرصة",
+  "travel": "السفر / يسافر",
+  "one": "يوماً ما (one day)",
+  "day": "يوماً ما (one day)",
+  "may": "قد",
+  "meet": "يلتقي / يقابل",
+  "these": "هذه",
+  "face": "وجهاً لوجه (face to face)",
+  "keep": "يضع في الاعتبار (keep in mind)",
+  "mind": "يضع في الاعتبار (keep in mind)",
+  "life": "حياة",
+  "style": "نمط",
+  "which": "التي / الذي",
+  "enrich": "يُغني",
+  "knowledge": "معرفة",
+  "various": "مختلف / متنوع",
+  "topic": "موضوع",
+  "respect": "يحترم / احترام",
+  "other": "آخر",
+  "privacy": "خصوصية",
+  "try": "يحاول",
+  "best": "الأفضل"
+ }
+}

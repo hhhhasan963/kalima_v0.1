@@ -1,0 +1,189 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 1,
+ "label": "Unit 1",
+ "title": "A Different Class",
+ "titleAr": "صف مختلف",
+ "free": true,
+ "sentences": [
+  [
+   "Hanan Al-Hroub was a poorly paid teacher in the West Bank.",
+   "كانت حنان الحروب معلمة قليلة الأجر في الضفة الغربية.",
+   0
+  ],
+  [
+   "Then she won the $1 million Global Teacher Prize.",
+   "ثم فازت بجائزة المعلم العالمي بقيمة مليون دولار.",
+   0
+  ],
+  [
+   "The committee praised Mrs. Al-Hroub’s “play and learn” method, which she still employs.",
+   "أشادت اللجنة بطريقة السيدة الحروب “العب وتعلّم”، التي ما زالت تستخدمها.",
+   0
+  ],
+  [
+   "Besides her clown outfit, Mrs. Al-Hroub uses balloons, hula-hoops, toy cars and puppets to explain her lessons.",
+   "إلى جانب زيّها التنكري كمهرج، تستخدم السيدة الحروب البالونات وأطواق الهولاهوب وسيارات الألعاب والدمى لشرح دروسها.",
+   1
+  ],
+  [
+   "Her aim is to make the classroom a calm and fun place where children can forget about the struggle of daily life, and open their minds.",
+   "هدفها أن تجعل الصف مكاناً هادئاً وممتعاً يستطيع فيه الأطفال أن ينسوا كفاح الحياة اليومية، وأن يفتحوا عقولهم.",
+   1
+  ],
+  [
+   "“We play first, and when we play we learn,” she said.",
+   "“نلعب أولاً، وعندما نلعب نتعلم”، قالت.",
+   2,
+   "q"
+  ],
+  [
+   "“The kids don’t even realise they are learning.”",
+   "“الأطفال لا يدركون حتى أنهم يتعلمون.”",
+   2,
+   "q"
+  ],
+  [
+   "In addition to the toys and balloons, which she pays for with her own money, she uses videos and even PowerPoint in the classroom.",
+   "بالإضافة إلى الألعاب والبالونات، التي تدفع ثمنها من مالها الخاص، تستخدم مقاطع الفيديو وحتى البوربوينت في الصف.",
+   3
+  ],
+  [
+   "For the first month of a new school year, her eight-year-old pupils may not even see an exercise book.",
+   "في الشهر الأول من العام الدراسي الجديد، قد لا يرى تلاميذها ذوو الثماني سنوات حتى دفتراً للتمارين.",
+   3
+  ],
+  [
+   "Parents often refuse the focus on play.",
+   "يرفض الأهل غالباً التركيز على اللعب.",
+   4
+  ],
+  [
+   "That soon changes, Mrs. Al-Hroub says, when they realise that her methods improve behaviour – especially in troubled kids – and academic results.",
+   "وهذا يتغير قريباً، تقول السيدة الحروب، عندما يدركون أن أساليبها تحسّن السلوك – خاصة عند الأطفال المضطربين – والنتائج الدراسية.",
+   4
+  ],
+  [
+   "She also sees it as her duty to build their characters.",
+   "وتعتبر أيضاً من واجبها أن تبني شخصياتهم.",
+   4
+  ],
+  [
+   "“No to violence” is a motto in her classes.",
+   "“لا للعنف” شعار في صفوفها.",
+   4
+  ],
+  [
+   "Mrs. Al-Hroub plans to establish her own foundation and use some of her winnings to train other teachers to follow her approach.",
+   "تخطط السيدة الحروب لتأسيس مؤسستها الخاصة واستخدام جزء من مكاسبها لتدريب معلمين آخرين على اتباع نهجها.",
+   5
+  ],
+  [
+   "It is worth mentioning that Mrs. Al-Hroub’s dream was to be a doctor but failing to do so did not prevent her from being a special person who could make a difference.",
+   "من الجدير بالذكر أن حلم السيدة الحروب كان أن تصبح طبيبة لكن فشلها في ذلك لم يمنعها من أن تكون شخصاً مميزاً يستطيع أن يُحدث فرقاً.",
+   6
+  ]
+ ],
+ "questions": [
+  {
+   "q": "What did Mrs. Al-Hroub win?",
+   "o": [
+    "The Global Teacher Prize",
+    "A medical degree",
+    "A school building",
+    "A clown contest"
+   ],
+   "a": 0,
+   "e": "فازت بجائزة المعلم العالمي (Global Teacher Prize)."
+  },
+  {
+   "q": "Which of these is NOT mentioned in the text?",
+   "o": [
+    "Balloons",
+    "Puppets",
+    "Hula-hoops",
+    "Tablets"
+   ],
+   "a": 3,
+   "e": "لم يُذكر الجهاز اللوحي (Tablets) في النص."
+  },
+  {
+   "q": "Her aim is to make the classroom a ___ place.",
+   "o": [
+    "calm and fun",
+    "quiet and boring",
+    "strict and serious",
+    "dark and cold"
+   ],
+   "a": 0,
+   "e": "النص: a calm and fun place."
+  },
+  {
+   "q": "Who pays for the toys and balloons?",
+   "o": [
+    "The school",
+    "The committee",
+    "Mrs. Al-Hroub",
+    "The parents"
+   ],
+   "a": 2,
+   "e": "تدفع ثمنها من مالها الخاص (her own money)."
+  },
+  {
+   "q": "In “which she still employs”, the word “employs” means:",
+   "o": [
+    "uses",
+    "sells",
+    "forgets",
+    "hires"
+   ],
+   "a": 0,
+   "e": "employs هنا بمعنى تستخدم (uses)."
+  },
+  {
+   "q": "What did Mrs. Al-Hroub dream of being?",
+   "o": [
+    "A doctor",
+    "A clown",
+    "A pilot",
+    "A principal"
+   ],
+   "a": 0,
+   "e": "كان حلمها أن تصبح طبيبة."
+  },
+  {
+   "q": "She plans to use part of her winnings to ___.",
+   "o": [
+    "train other teachers",
+    "buy a car",
+    "build a hospital",
+    "travel abroad"
+   ],
+   "a": 0,
+   "e": "لتدريب معلمين آخرين (train other teachers)."
+  },
+  {
+   "q": "Mrs. Al-Hroub was a well-paid teacher at the beginning.",
+   "tf": 1,
+   "a": 1,
+   "e": "كانت poorly paid أي قليلة الأجر، فالعبارة خطأ."
+  },
+  {
+   "q": "Her pupils may not see an exercise book in the first month.",
+   "tf": 1,
+   "a": 0,
+   "e": "صحيح: may not even see an exercise book."
+  },
+  {
+   "q": "Parents always agree with the “play” method from the start.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: Parents often refuse the focus on play."
+  }
+ ],
+ "words": {}
+}

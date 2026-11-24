@@ -1,0 +1,338 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 8,
+ "label": "Unit 8",
+ "title": "Sky Walkers",
+ "titleAr": "سائرو السماء",
+ "sentences": [
+  [
+   "A selfie is a self-portrait photograph, typically taken with a digital camera or a smart phone, which may be held in the hand or supported by a selfie stick.",
+   "السيلفي هو صورة شخصية ذاتية، تُلتقط عادة بكاميرا رقمية أو بهاتف ذكي، وقد تُمسك باليد أو تُدعَم بعصا سيلفي.",
+   0
+  ],
+  [
+   "Selfies are often shared on social media services such as Facebook, Twitter, Snapchat, and Instagram.",
+   "غالباً ما تُشارك صور السيلفي على خدمات التواصل الاجتماعي مثل فيسبوك وتويتر وسناب شات وإنستغرام.",
+   0
+  ],
+  [
+   "When Marat Dupri bought his camera, he decided he would shoot nice landscape pictures.",
+   "عندما اشترى مارات دوبري كاميرته، قرر أن يلتقط صور مناظر طبيعية جميلة.",
+   1
+  ],
+  [
+   "Feeling it might not have been the most original idea ever, he started to spice things up by climbing up higher and higher structures, using no safety equipment at all.",
+   "وإذ شعر أنها ربما لم تكن الفكرة الأكثر أصالة على الإطلاق، بدأ يضفي إثارة على الأمور بتسلق منشآت أعلى وأعلى، دون استخدام أي معدات أمان إطلاقاً.",
+   1
+  ],
+  [
+   "Marat Dupri earned the name of “The sky walker”; and quickly, dozens of people followed his footsteps, trying to get the most incredible views.",
+   "نال مارات دوبري لقب “سائر السماء”؛ وسرعان ما تبع عشرات الناس خطاه، محاولين الحصول على أروع المناظر.",
+   1
+  ],
+  [
+   "Then most people began to take dangerous selfies while travelling.",
+   "ثم بدأ معظم الناس بالتقاط صور سيلفي خطرة أثناء السفر.",
+   2
+  ],
+  [
+   "They began scaling skyscrapers, cliffs and bridges to capture a photo to remember.",
+   "بدؤوا بتسلق ناطحات السحاب والجروف والجسور لالتقاط صورة للذكرى.",
+   2
+  ],
+  [
+   "Almost everyone has taken out their smart phones to snap a photo of themselves.",
+   "كاد كل شخص أن يُخرج هاتفه الذكي ليلتقط صورة لنفسه.",
+   2
+  ],
+  [
+   "But many studies showed that when taken in dangerous circumstances, selfies can cause death.",
+   "لكن دراسات كثيرة أظهرت أنه عندما تُلتقط في ظروف خطرة، يمكن أن تتسبب صور السيلفي بالموت.",
+   2
+  ],
+  [
+   "At last, we can say that this kind of art seems to have been lost somewhere between the ground and the sky.",
+   "أخيراً، يمكننا القول إن هذا النوع من الفن يبدو أنه ضاع في مكان ما بين الأرض والسماء.",
+   3
+  ],
+  [
+   "Be careful not to spoil this art and use it for lovely memories and beneficial issues.",
+   "احرصوا ألا تفسدوا هذا الفن واستخدموه لذكريات جميلة ولأمور مفيدة.",
+   3
+  ],
+  [
+   "Take care of yourselves and other people around you.",
+   "اعتنوا بأنفسكم وبالآخرين من حولكم.",
+   3
+  ],
+  [
+   "Putting yourselves at risk is useless; it sounds to be a crazy idea.",
+   "تعريض أنفسكم للخطر لا فائدة منه؛ يبدو أنها فكرة مجنونة.",
+   3
+  ],
+  [
+   "Our lives are very precious and valuable.",
+   "حياتنا ثمينة وقيّمة جداً.",
+   3
+  ],
+  [
+   "We shouldn’t lose them by irresponsible behaviours.",
+   "يجب ألا نفقدها بسلوكيات غير مسؤولة.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "A selfie is typically taken with a digital camera or a ___.",
+   "o": [
+    "smart phone",
+    "television",
+    "radio",
+    "typewriter"
+   ],
+   "a": 0,
+   "e": "النص يقول: typically taken with a digital camera or a smart phone، أي بكاميرا رقمية أو هاتف ذكي."
+  },
+  {
+   "q": "Selfies are often shared on ___.",
+   "o": [
+    "school notebooks",
+    "social media services",
+    "public buses",
+    "old newspapers"
+   ],
+   "a": 1,
+   "e": "النص: shared on social media services such as Facebook, Twitter, Snapchat, and Instagram."
+  },
+  {
+   "q": "What did Marat Dupri decide to shoot when he bought his camera?",
+   "o": [
+    "Family portraits",
+    "Funny videos",
+    "Nice landscape pictures",
+    "Wedding photos"
+   ],
+   "a": 2,
+   "e": "النص: he decided he would shoot nice landscape pictures، أي صور مناظر طبيعية جميلة."
+  },
+  {
+   "q": "Marat Dupri earned the name of ___.",
+   "o": [
+    "The sea walker",
+    "The mountain man",
+    "The photo king",
+    "The sky walker"
+   ],
+   "a": 3,
+   "e": "النص: earned the name of “The sky walker”، أي لقب «سائر السماء»."
+  },
+  {
+   "q": "Why did Marat Dupri start climbing higher and higher structures?",
+   "o": [
+    "To find a new job",
+    "To spice things up because landscape pictures were not original",
+    "To escape from the police",
+    "To sell his camera"
+   ],
+   "a": 1,
+   "e": "النص: Feeling it might not have been the most original idea ever, he started to spice things up by climbing."
+  },
+  {
+   "q": "Many studies showed that selfies taken in dangerous circumstances can cause ___.",
+   "o": [
+    "fame",
+    "money",
+    "death",
+    "happiness"
+   ],
+   "a": 2,
+   "e": "النص: selfies can cause death، أي يمكن أن تتسبب صور السيلفي بالموت."
+  },
+  {
+   "q": "Marat Dupri used safety equipment when he climbed high structures.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: using no safety equipment at all، أي دون أي معدات أمان."
+  },
+  {
+   "q": "The writer says our lives are very precious and valuable.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Our lives are very precious and valuable."
+  },
+  {
+   "q": "The writer advises people to put themselves at risk to take selfies.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Putting yourselves at risk is useless، أي تعريض أنفسكم للخطر لا فائدة منه."
+  },
+  {
+   "q": "Many people began to take dangerous selfies while travelling.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: most people began to take dangerous selfies while travelling."
+  }
+ ],
+ "words": {
+  "a": "أداة نكرة",
+  "for": "لـ / من أجل",
+  "selfie": "صورة سيلفي",
+  "is": "يكون / هو",
+  "self-portrait": "صورة شخصية ذاتية",
+  "photograph": "صورة فوتوغرافية",
+  "typically": "عادةً",
+  "taken": "تُلتقط / أخرج (taken out)",
+  "with": "بـ / مع",
+  "digital": "رقمي",
+  "camera": "كاميرا",
+  "or": "أو",
+  "smart": "ذكي",
+  "phone": "هاتف",
+  "which": "التي / الذي",
+  "may": "قد",
+  "be": "يكون",
+  "held": "تُمسك",
+  "in": "في",
+  "the": "أداة تعريف",
+  "hand": "اليد",
+  "supported": "تُدعَم",
+  "by": "بواسطة / بـ",
+  "stick": "عصا",
+  "often": "غالباً",
+  "shared": "تُشارك",
+  "on": "على",
+  "social": "اجتماعي",
+  "media": "وسائل التواصل",
+  "service": "خدمة",
+  "such": "مثل",
+  "as": "مثل / كـ",
+  "facebook": "فيسبوك",
+  "twitter": "تويتر",
+  "snapchat": "سناب شات",
+  "instagram": "إنستغرام",
+  "and": "و",
+  "when": "عندما",
+  "marat": "مارات (اسم)",
+  "dupri": "دوبري (اسم)",
+  "bought": "اشترى",
+  "his": "ـه (ملكية)",
+  "decided": "قرر",
+  "he": "هو",
+  "would": "سوف / كان ليـ",
+  "shoot": "يصوّر / يلتقط",
+  "nice": "جميل",
+  "landscape": "منظر طبيعي",
+  "picture": "صورة",
+  "feeling": "شاعراً",
+  "it": "هو / هي",
+  "might": "ربما / قد",
+  "not": "لا / ليس",
+  "have": "يملك / قد",
+  "been": "كان / تواجد",
+  "most": "الأكثر / معظم",
+  "original": "أصيل / مبتكر",
+  "idea": "فكرة",
+  "ever": "على الإطلاق",
+  "started": "بدأ",
+  "to": "إلى / أن",
+  "spice": "يضفي إثارة (spice up)",
+  "thing": "شيء / أمر",
+  "up": "يضفي إثارة (spice up) / يتسلق (climb up)",
+  "climbing": "تسلق",
+  "higher": "أعلى",
+  "structure": "منشأة / بناء",
+  "using": "استخدام",
+  "no": "لا / بدون",
+  "safety": "الأمان / السلامة",
+  "equipment": "معدات",
+  "at": "في / عند",
+  "all": "جميع / إطلاقاً",
+  "earned": "نال / كسب",
+  "name": "اسم / لقب",
+  "of": "من / لـ",
+  "sky": "السماء",
+  "walker": "سائر / ماشٍ",
+  "quickly": "بسرعة",
+  "dozen": "عشرات / دزينة",
+  "people": "ناس / أشخاص",
+  "followed": "تبع",
+  "footstep": "خطوة / أثر قدم",
+  "trying": "محاولين",
+  "get": "يحصل على",
+  "incredible": "مذهل / رائع",
+  "view": "منظر",
+  "then": "ثم",
+  "began": "بدأ",
+  "take": "يلتقط / يعتني (take care of)",
+  "dangerous": "خطير",
+  "while": "أثناء / بينما",
+  "travelling": "السفر",
+  "they": "هم",
+  "scaling": "تسلق",
+  "skyscraper": "ناطحة سحاب",
+  "cliff": "جرف / منحدر",
+  "bridge": "جسر",
+  "capture": "يلتقط / يوثّق",
+  "photo": "صورة",
+  "remember": "يتذكر",
+  "almost": "كاد / تقريباً",
+  "everyone": "كل شخص",
+  "has": "يملك / قد",
+  "out": "يُخرج (take out)",
+  "their": "هم (ملكية)",
+  "snap": "يلتقط (صورة)",
+  "themselves": "أنفسهم",
+  "but": "لكن",
+  "many": "كثير",
+  "studies": "دراسات",
+  "showed": "أظهر",
+  "that": "أن / التي",
+  "circumstance": "ظرف",
+  "can": "يستطيع / يمكن",
+  "cause": "يسبب",
+  "death": "الموت",
+  "last": "أخيراً (at last)",
+  "we": "نحن",
+  "say": "يقول",
+  "this": "هذا",
+  "kind": "نوع",
+  "art": "الفن",
+  "seem": "يبدو",
+  "lost": "ضاع / ضائع",
+  "somewhere": "في مكان ما",
+  "between": "بين",
+  "ground": "الأرض",
+  "careful": "حذر",
+  "spoil": "يفسد",
+  "use": "يستخدم",
+  "lovely": "جميل / لطيف",
+  "memories": "ذكريات",
+  "beneficial": "مفيد",
+  "issue": "أمر / قضية",
+  "care": "يعتني (take care of)",
+  "yourselves": "أنفسكم",
+  "other": "آخر",
+  "around": "حول",
+  "you": "أنت / أنتم",
+  "putting": "وضع / تعريض",
+  "risk": "خطر",
+  "useless": "عديم الفائدة",
+  "sound": "يبدو / صوت",
+  "crazy": "مجنون",
+  "our": "نا (ملكية)",
+  "lives": "حياة",
+  "are": "يكونون / هم",
+  "very": "جداً",
+  "precious": "ثمين",
+  "valuable": "قيّم",
+  "shouldn't": "يجب ألا",
+  "lose": "يفقد",
+  "them": "هم / ها",
+  "irresponsible": "غير مسؤول",
+  "behaviour": "سلوك"
+ }
+}

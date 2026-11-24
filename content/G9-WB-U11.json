@@ -1,0 +1,327 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 11,
+ "label": "Unit 11",
+ "title": "Messages to and from Outer Space",
+ "titleAr": "رسائل من الفضاء الخارجي وإليه",
+ "sentences": [
+  [
+   "If you look up at the stars, you might wonder if anyone is really out there.",
+   "إذا نظرت إلى النجوم، فقد تتساءل إن كان أحد هناك حقاً.",
+   0
+  ],
+  [
+   "You might also wonder if they have found as many strange ways to communicate with each other as we have.",
+   "وقد تتساءل أيضاً إن كانوا قد وجدوا طرقاً غريبة بقدر ما للتواصل مع بعضهم وجدنا نحن.",
+   0
+  ],
+  [
+   "The wish to communicate with the outer space has always been there in our minds.",
+   "الرغبة في التواصل مع الفضاء الخارجي كانت دائماً موجودة في عقولنا.",
+   1
+  ],
+  [
+   "As the 20th century began, interest in the possible life on Mars and the possible civilizations there led to a search for signals.",
+   "مع بداية القرن العشرين، أدى الاهتمام بالحياة المحتملة على المريخ وبالحضارات المحتملة هناك إلى البحث عن إشارات.",
+   1
+  ],
+  [
+   "Could we communicate with another planet?",
+   "هل يمكننا التواصل مع كوكب آخر؟",
+   1
+  ],
+  [
+   "How might we look for signals and messages from other worlds?",
+   "كيف يمكننا البحث عن إشارات ورسائل من عوالم أخرى؟",
+   1
+  ],
+  [
+   "An example of how we might receive communications from the planet was mentioned in 1896 when a newspaper article entitled “A Signal from Mars” had offered one.",
+   "مثال عن كيف يمكن أن نتلقى اتصالات من الكوكب ذُكر في عام 1896 عندما قدّم مقال في صحيفة بعنوان “إشارة من المريخ” واحداً.",
+   2
+  ],
+  [
+   "In the late 19th and early 20th centuries the idea of wirelessly sending and receiving waves through the air, was developed.",
+   "في أواخر القرن التاسع عشر وأوائل القرن العشرين تطورت فكرة إرسال واستقبال الموجات لاسلكياً عبر الهواء.",
+   2
+  ],
+  [
+   "New methods of searching for communications from space were offered too.",
+   "قُدمت أيضاً طرق جديدة للبحث عن اتصالات من الفضاء.",
+   2
+  ],
+  [
+   "In 1901, engineer Nicola Tesla made the astonishing claim that he was receiving radio communications from Mars.",
+   "في 1901، المهندس نيكولا تسلا أطلق ادعاءً مذهلاً بأنه يستقبل اتصالات لاسلكية من المريخ.",
+   3
+  ],
+  [
+   "His story was picked up and reported in the press.",
+   "تلقفت الصحافة قصته ونشرتها.",
+   3
+  ],
+  [
+   "The Media was captured by the idea of communicating with Mars but it did not find much serious interest from scientists.",
+   "أُسرت وسائل الإعلام بفكرة التواصل مع المريخ لكنها لم تجد اهتماماً جدياً كبيراً من العلماء.",
+   3
+  ],
+  [
+   "In the 1960s a number of other scientists began searching for signals showing the existence of another life elsewhere in the universe.",
+   "في الستينيات بدأ عدد من العلماء الآخرين بالبحث عن إشارات تدل على وجود حياة أخرى في مكان آخر من الكون.",
+   4
+  ],
+  [
+   "As it became increasingly clear that there was no intelligent life on other planets in the solar system, it became possible to detect signals from much farther away.",
+   "ومع أنه أصبح واضحاً أكثر فأكثر أنه لا توجد حياة ذكية على كواكب أخرى في المجموعة الشمسية، أصبح من الممكن اكتشاف إشارات من مسافات أبعد بكثير.",
+   4
+  ],
+  [
+   "Radio signals were detected to look for life or civilizations out in the galaxy but none was proved, yet most of us still look at the sky and wonder if there is someone trying to contact us.",
+   "جرى رصد إشارات راديوية للبحث عن حياة أو حضارات في المجرة لكن لم يثبت أي منها، ومع ذلك ما زال معظمنا ينظر إلى السماء ويتساءل إن كان هناك أحد يحاول الاتصال بنا.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "In the 20th century, interest in the possible life on ___ led to a search for signals.",
+   "o": [
+    "Venus",
+    "Mars",
+    "the moon",
+    "Jupiter"
+   ],
+   "a": 1,
+   "e": "النص: interest in the possible life on Mars، أي الاهتمام بالحياة المحتملة على المريخ."
+  },
+  {
+   "q": "A newspaper article entitled “A Signal from Mars” was mentioned in ___.",
+   "o": [
+    "1901",
+    "1960",
+    "1896",
+    "2000"
+   ],
+   "a": 2,
+   "e": "النص: was mentioned in 1896 when a newspaper article entitled “A Signal from Mars”."
+  },
+  {
+   "q": "In 1901, engineer Nicola Tesla claimed that he was receiving ___ from Mars.",
+   "o": [
+    "gold",
+    "water",
+    "photographs",
+    "radio communications"
+   ],
+   "a": 3,
+   "e": "النص: he was receiving radio communications from Mars، أي اتصالات لاسلكية."
+  },
+  {
+   "q": "Tesla’s story was picked up and reported in the ___.",
+   "o": [
+    "press",
+    "bank",
+    "school",
+    "hospital"
+   ],
+   "a": 0,
+   "e": "النص: His story was picked up and reported in the press."
+  },
+  {
+   "q": "In the 1960s, a number of other scientists began searching for signals showing ___.",
+   "o": [
+    "the end of the world",
+    "the existence of another life",
+    "a new sport",
+    "the weather"
+   ],
+   "a": 1,
+   "e": "النص: signals showing the existence of another life elsewhere in the universe."
+  },
+  {
+   "q": "Most of us still look at the sky and wonder if there is someone trying to ___ us.",
+   "o": [
+    "fight",
+    "teach",
+    "contact",
+    "sell to"
+   ],
+   "a": 2,
+   "e": "النص: wonder if there is someone trying to contact us، أي يحاول الاتصال بنا."
+  },
+  {
+   "q": "The wish to communicate with the outer space has always been in our minds.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: has always been there in our minds."
+  },
+  {
+   "q": "Scientists showed great serious interest in Tesla’s claim.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن الإعلام لم يجد much serious interest from scientists، أي اهتماماً جدياً كبيراً من العلماء."
+  },
+  {
+   "q": "Radio signals were detected and life on another planet was proved.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: but none was proved، أي لم يثبت أي منها."
+  },
+  {
+   "q": "The idea of wirelessly sending and receiving waves was developed in the late 19th and early 20th centuries.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: هذه الجملة وردت في النص."
+  }
+ ],
+ "words": {
+  "if": "إذا",
+  "you": "أنت",
+  "look": "ينظر إلى (look at) / يبحث عن (look for)",
+  "up": "ينظر لأعلى (look up at) / تناقلته (pick up)",
+  "at": "في / عند",
+  "the": "أداة تعريف",
+  "star": "نجمة / نجوم",
+  "might": "قد / ربما",
+  "wonder": "يتساءل",
+  "anyone": "أي شخص",
+  "i": "أنا",
+  "really": "حقاً",
+  "out": "هناك (out there) / في (out in)",
+  "there": "هناك",
+  "also": "أيضاً",
+  "they": "هم",
+  "have": "قد (مساعد) / يملك",
+  "found": "وجد / وجدوا",
+  "as": "عندما / بقدر (as many as)",
+  "many": "بقدر (as many as)",
+  "strange": "غريب",
+  "ways": "طرق",
+  "to": "إلى / أن",
+  "communicate": "يتواصل",
+  "with": "مع / بـ",
+  "each": "كل",
+  "other": "آخر",
+  "we": "نحن",
+  "wish": "رغبة",
+  "outer": "خارجي",
+  "space": "الفضاء",
+  "has": "قد (مساعد) / لديه",
+  "always": "دائماً",
+  "been": "كان / تم",
+  "in": "في",
+  "our": "نا (ملكية)",
+  "mind": "عقل / ذهن",
+  "20th": "العشرون",
+  "century": "قرن",
+  "began": "بدأ",
+  "interest": "اهتمام",
+  "possible": "ممكن",
+  "life": "حياة",
+  "on": "على",
+  "mars": "المريخ",
+  "and": "و",
+  "civilizations": "حضارات",
+  "led": "أدى إلى (lead to)",
+  "a": "أداة نكرة",
+  "search": "بحث عن (search for)",
+  "for": "لـ / على",
+  "signal": "إشارة",
+  "could": "هل يمكننا / قد",
+  "another": "آخر",
+  "planet": "كوكب",
+  "how": "كيف",
+  "message": "رسالة / رسائل",
+  "from": "من",
+  "world": "عالم / عوالم",
+  "an": "أداة نكرة",
+  "example": "مثال",
+  "of": "من / لـ",
+  "receive": "يتلقى",
+  "communication": "التواصل",
+  "was": "كان / كانت",
+  "mentioned": "ذُكر",
+  "when": "عندما",
+  "newspaper": "صحيفة",
+  "article": "مقال",
+  "entitled": "بعنوان",
+  "had": "قد (مساعد)",
+  "offered": "قُدمت / قدّم",
+  "one": "واحداً / أحد",
+  "late": "أواخر / متأخر",
+  "19th": "التاسع عشر",
+  "early": "أوائل",
+  "centuries": "قرون",
+  "idea": "فكرة",
+  "wirelessly": "لاسلكياً",
+  "sending": "إرسال",
+  "receiving": "استقبال / يستقبل",
+  "wave": "موجة",
+  "through": "عبر",
+  "air": "هواء",
+  "developed": "تطورت",
+  "new": "جديد",
+  "method": "طريقة / طرق",
+  "searching": "البحث عن (search for)",
+  "were": "كانوا / كانت",
+  "too": "أيضاً",
+  "engineer": "مهندس",
+  "nicola": "نيكولا (اسم)",
+  "tesla": "تسلا (اسم)",
+  "made": "أطلق / اتخذ",
+  "astonishing": "مذهل",
+  "claim": "ادعاء",
+  "that": "أن / التي",
+  "he": "هو",
+  "radio": "جهاز لاسلكي",
+  "his": "ـه (ملكية)",
+  "story": "قصة",
+  "picked": "تناقلته (pick up)",
+  "reported": "نشرتها / أُبلغ عنه",
+  "press": "الصحافة",
+  "media": "وسائل الإعلام",
+  "captured": "أُسرت",
+  "by": "بحلول / بواسطة",
+  "communicating": "التواصل",
+  "but": "لكن",
+  "it": "هو / هي",
+  "did": "فعل (مساعد)",
+  "not": "لا / ليس",
+  "find": "يجد",
+  "much": "كثير",
+  "serious": "جدي / خطير",
+  "scientist": "عالم / علماء",
+  "1960s": "الستينيات",
+  "number": "عدد من (a number of)",
+  "showing": "تدل على / يظهر",
+  "existence": "وجود",
+  "elsewhere": "في مكان آخر",
+  "universe": "الكون",
+  "became": "أصبح",
+  "increasingly": "أكثر فأكثر",
+  "clear": "واضح",
+  "no": "لا",
+  "intelligent": "ذكي",
+  "solar": "شمسي",
+  "system": "مجموعة / نظام",
+  "detect": "يكتشف",
+  "farther": "أبعد",
+  "away": "بعيداً",
+  "detected": "رُصدت",
+  "or": "أو",
+  "galaxy": "مجرة",
+  "none": "لا شيء منها",
+  "proved": "ثبت",
+  "yet": "ومع ذلك / بعد",
+  "most": "معظم",
+  "us": "نا / نحن",
+  "still": "ما زال",
+  "sky": "السماء",
+  "someone": "شخص ما",
+  "trying": "يحاول",
+  "contact": "يتصل بـ / تواصل"
+ }
+}

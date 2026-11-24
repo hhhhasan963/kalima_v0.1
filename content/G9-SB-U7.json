@@ -1,0 +1,310 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 7,
+ "label": "Unit 7",
+ "title": "No One Had Believed it was Possible — The Titanic",
+ "titleAr": "لم يصدق أحد أن ذلك ممكن — التيتانيك",
+ "sentences": [
+  [
+   "In 1912, the “Titanic” hit an iceberg on its first trip across the Atlantic.",
+   "في 1912، اصطدمت “التيتانيك” بجبل جليدي في رحلتها الأولى عبر الأطلسي.",
+   0
+  ],
+  [
+   "The Titanic was the largest ship that had ever travelled on the sea.",
+   "كانت التيتانيك أكبر سفينة سافرت على الإطلاق في البحر.",
+   0
+  ],
+  [
+   "It was carrying 2207 people, but it had taken on enough lifeboats for only 1178 people.",
+   "كانت تحمل 2207 أشخاص، لكنها كانت قد حملت قوارب نجاة تكفي لـ 1178 شخصاً فقط.",
+   0
+  ],
+  [
+   "Not more than 651 of the passengers were able to get into lifeboats.",
+   "لم يستطع أكثر من 651 من الركاب أن يركبوا قوارب النجاة.",
+   0
+  ],
+  [
+   "Some of the survivors had been in the icy water for hours when they were saved.",
+   "بعض الناجين كانوا في الماء المتجمد لساعات عندما أُنقذوا.",
+   0
+  ],
+  [
+   "Most of the passengers hadn’t lived long; 1502 people had lost their lives.",
+   "معظم الركاب لم يعيشوا طويلاً؛ فقد 1502 شخصاً حياتهم.",
+   0
+  ],
+  [
+   "But why was there such a great loss of life and so few survivors who were on the edge of death?",
+   "لكن لماذا كانت هناك خسارة كبيرة كهذه في الأرواح وناجون قليلون جداً كانوا على حافة الموت؟",
+   0
+  ],
+  [
+   "Nobody had prepared for such a tragedy.",
+   "لم يستعد أحد لمأساة كهذه.",
+   1
+  ],
+  [
+   "Nobody had believed that the Titanic could sink.",
+   "لم يصدق أحد أن التيتانيك يمكن أن تغرق.",
+   1
+  ],
+  [
+   "The steamship company had thought that its ship would be completely safe in all situations.",
+   "كانت شركة السفن البخارية قد ظنت أن سفينتها ستكون آمنة تماماً في جميع الحالات.",
+   1
+  ],
+  [
+   "They had followed an old rule for the number of lifeboats, so they had supplied lifeboats for only half the people.",
+   "كانوا قد اتبعوا قاعدة قديمة لعدد قوارب النجاة، فزودوا السفينة بقوارب نجاة لنصف الناس فقط.",
+   1
+  ],
+  [
+   "The passengers had not yet received their lifeboat numbers, nor had they practiced lifeboat drill before the accident.",
+   "لم يكن الركاب قد تلقوا بعد أرقام قوارب النجاة الخاصة بهم، ولا تدربوا على تمرين قوارب النجاة قبل الحادث.",
+   1
+  ],
+  [
+   "Many of them had not even dressed warmly, the ship had hit the iceberg late at night, and they did not believe they were in danger.",
+   "كثير منهم لم يرتدوا حتى ملابس دافئة، فقد اصطدمت السفينة بالجبل الجليدي في وقت متأخر من الليل، ولم يصدقوا أنهم في خطر.",
+   1
+  ],
+  [
+   "The ship had already received 6 ice warnings on its radio when it struck the iceberg.",
+   "كانت السفينة قد تلقت بالفعل 6 تحذيرات من الجليد على جهازها اللاسلكي عندما اصطدمت بالجبل الجليدي.",
+   1
+  ],
+  [
+   "Nevertheless, it had not changed its direction or its speed.",
+   "ومع ذلك، لم تغيّر اتجاهها أو سرعتها.",
+   1
+  ],
+  [
+   "A tragedy like the sinking of the Titanic should never happen again.",
+   "مأساة مثل غرق التيتانيك يجب ألا تحدث مرة أخرى أبداً.",
+   1
+  ]
+ ],
+ "questions": [
+  {
+   "q": "The Titanic hit an iceberg on its ___ trip across the Atlantic.",
+   "o": [
+    "last",
+    "first",
+    "second",
+    "fifth"
+   ],
+   "a": 1,
+   "e": "النص يقول: on its first trip across the Atlantic، أي في رحلتها الأولى."
+  },
+  {
+   "q": "How many people was the Titanic carrying?",
+   "o": [
+    "1178",
+    "651",
+    "2207",
+    "1502"
+   ],
+   "a": 2,
+   "e": "النص: It was carrying 2207 people، أي كانت تحمل 2207 أشخاص."
+  },
+  {
+   "q": "The Titanic had taken on enough lifeboats for only ___ people.",
+   "o": [
+    "1178",
+    "651",
+    "2207",
+    "1502"
+   ],
+   "a": 0,
+   "e": "النص: enough lifeboats for only 1178 people، أي قوارب تكفي لـ 1178 شخصاً فقط."
+  },
+  {
+   "q": "Why did the company supply lifeboats for only half the people?",
+   "o": [
+    "It wanted to save money on food.",
+    "The passengers refused to use them.",
+    "There was no space for more boats.",
+    "It had followed an old rule for the number of lifeboats."
+   ],
+   "a": 3,
+   "e": "النص: They had followed an old rule for the number of lifeboats، أي اتبعوا قاعدة قديمة لعدد القوارب."
+  },
+  {
+   "q": "How many ice warnings had the ship received on its radio?",
+   "o": [
+    "2",
+    "4",
+    "6",
+    "10"
+   ],
+   "a": 2,
+   "e": "النص: 6 ice warnings on its radio، أي ست تحذيرات من الجليد."
+  },
+  {
+   "q": "Nobody had believed that the Titanic could ___.",
+   "o": [
+    "fly",
+    "sink",
+    "stop",
+    "grow"
+   ],
+   "a": 1,
+   "e": "النص: Nobody had believed that the Titanic could sink، أي لم يصدق أحد أنها يمكن أن تغرق."
+  },
+  {
+   "q": "The passengers had practiced lifeboat drill before the accident.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: nor had they practiced lifeboat drill، أي لم يتدربوا على قوارب النجاة."
+  },
+  {
+   "q": "Some of the survivors had been in the icy water for hours when they were saved.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: هذه الجملة وردت في النص كما هي."
+  },
+  {
+   "q": "The writer thinks a tragedy like the sinking of the Titanic should never happen again.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: should never happen again، أي يجب ألا تحدث مرة أخرى."
+  },
+  {
+   "q": "Most of the passengers were able to get into lifeboats.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Not more than 651 of the passengers were able to get into lifeboats، أي لم يتمكن من ركوب القوارب سوى 651 راكباً من أصل 2207."
+  }
+ ],
+ "words": {
+  "in": "في",
+  "titanic": "التيتانيك",
+  "hit": "اصطدم / ضرب",
+  "an": "أداة نكرة",
+  "iceberg": "جبل جليدي",
+  "on": "على / في",
+  "its": "ـها (ملكية)",
+  "first": "الأولى / أول",
+  "trip": "رحلة",
+  "across": "عبر",
+  "atlantic": "الأطلسي",
+  "was": "كان / كانت",
+  "the": "أداة تعريف",
+  "largest": "أكبر",
+  "ship": "سفينة",
+  "that": "أن / التي",
+  "had": "قد / كان لديه",
+  "ever": "على الإطلاق",
+  "travelled": "سافرت / سارت",
+  "sea": "البحر",
+  "it": "هو / هي",
+  "carrying": "تحمل",
+  "people": "أشخاص / ناس",
+  "but": "لكن",
+  "taken": "حملت على متنها (take on)",
+  "enough": "كافٍ / يكفي",
+  "lifeboat": "قارب نجاة",
+  "for": "لـ / من أجل",
+  "only": "فقط",
+  "not": "لا / ليس",
+  "more": "أكثر",
+  "than": "من / ممّا",
+  "of": "من / لـ",
+  "passenger": "راكب",
+  "were": "كانوا / كانت",
+  "able": "قادر",
+  "to": "إلى / أن",
+  "get": "يركب (get into)",
+  "into": "يركب (get into)",
+  "some": "بعض",
+  "survivor": "ناجٍ",
+  "been": "كان / تواجد",
+  "icy": "متجمد / جليدي",
+  "water": "ماء",
+  "hour": "ساعة",
+  "when": "عندما",
+  "saved": "أُنقذوا",
+  "most": "معظم",
+  "hadn't": "لم يكن قد",
+  "lived": "عاشوا",
+  "long": "طويلاً",
+  "lost": "فقدوا / خسروا",
+  "their": "هم (ملكية)",
+  "lives": "حياة / أرواح",
+  "why": "لماذا",
+  "there": "هناك",
+  "such": "كهذا / مثل",
+  "great": "عظيم / كبير",
+  "loss": "خسارة",
+  "life": "حياة",
+  "and": "و",
+  "so": "جداً / لذلك",
+  "few": "قليل",
+  "who": "الذين / من",
+  "edge": "حافة",
+  "death": "الموت",
+  "nobody": "لا أحد",
+  "prepared": "استعد",
+  "tragedy": "مأساة",
+  "believed": "صدّق",
+  "could": "يمكن / استطاع",
+  "sink": "يغرق",
+  "steamship": "سفينة بخارية",
+  "company": "شركة",
+  "thought": "ظنّ / اعتقد",
+  "would": "سوف / كان ليـ",
+  "be": "يكون",
+  "completely": "تماماً",
+  "safe": "آمن",
+  "all": "جميع / كل",
+  "situation": "حالة / موقف",
+  "they": "هم",
+  "followed": "اتبعوا",
+  "old": "قديم",
+  "rule": "قاعدة",
+  "number": "عدد / رقم",
+  "supplied": "زوّدوا",
+  "half": "نصف",
+  "practiced": "تدربوا / مارسوا",
+  "yet": "بعد / حتى الآن",
+  "received": "تلقّى",
+  "nor": "ولا",
+  "drill": "تمرين / تدريب",
+  "before": "قبل",
+  "accident": "حادث",
+  "many": "كثير",
+  "them": "هم / لهم",
+  "even": "حتى",
+  "dressed": "ارتدوا ملابس",
+  "warmly": "بدفء",
+  "late": "متأخر",
+  "at": "في / عند",
+  "night": "الليل",
+  "did": "فعل (مساعد)",
+  "believe": "يصدّق",
+  "danger": "خطر",
+  "already": "بالفعل",
+  "ice": "جليد",
+  "warning": "تحذير",
+  "radio": "جهاز لاسلكي",
+  "struck": "اصطدمت",
+  "nevertheless": "ومع ذلك",
+  "changed": "غيّر",
+  "direction": "اتجاه",
+  "or": "أو",
+  "speed": "سرعة",
+  "a": "أداة نكرة",
+  "like": "مثل",
+  "sinking": "غرق",
+  "should": "يجب / ينبغي",
+  "never": "أبداً",
+  "happen": "يحدث",
+  "again": "مرة أخرى"
+ }
+}

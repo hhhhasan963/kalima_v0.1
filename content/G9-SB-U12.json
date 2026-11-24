@@ -1,0 +1,375 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 12,
+ "label": "Unit 12",
+ "title": "Let’s Communicate in a Different Way!",
+ "titleAr": "لنتواصل بطريقة مختلفة!",
+ "sentences": [
+  [
+   "Body language refers to the nonverbal signals that we use to communicate.",
+   "تشير لغة الجسد إلى الإشارات غير اللفظية التي نستخدمها للتواصل.",
+   0
+  ],
+  [
+   "According to experts, these nonverbal signals make up a huge part of our daily communication.",
+   "بحسب الخبراء، تشكّل هذه الإشارات غير اللفظية جزءاً ضخماً من تواصلنا اليومي.",
+   0
+  ],
+  [
+   "From our facial expressions to our body movements, the things we don’t say can still convey volumes of information.",
+   "من تعابير وجهنا إلى حركات جسدنا، الأشياء التي لا نقولها ما زال بإمكانها أن تنقل كماً هائلاً من المعلومات.",
+   0
+  ],
+  [
+   "It was suggested that body language itself may account for between 60 to 65% of all communication.",
+   "اقتُرح أن لغة الجسد نفسها قد تشكّل ما بين 60 إلى 65% من كل التواصل.",
+   0
+  ],
+  [
+   "A smile may indicate approval or happiness.",
+   "قد تدل الابتسامة على الموافقة أو السعادة.",
+   1
+  ],
+  [
+   "A frown can signal disapproval or unhappiness.",
+   "وقد يشير العبوس إلى الاستياء أو الحزن.",
+   1
+  ],
+  [
+   "In some cases, our facial expressions may reveal our true feelings about a particular situation.",
+   "في بعض الحالات، قد تكشف تعابير وجهنا عن مشاعرنا الحقيقية تجاه موقف معين.",
+   1
+  ],
+  [
+   "While you say that you are yourself feeling fine, the look on your face may tell people otherwise.",
+   "بينما تقول إنك تشعر أنك بخير، قد تخبر نظرة وجهك الناس بخلاف ذلك.",
+   1
+  ],
+  [
+   "Happiness, sadness, anger, surprise, disgust and fear are just a few examples of emotions that can be expressed through facial expressions.",
+   "السعادة والحزن والغضب والمفاجأة والاشمئزاز والخوف ليست سوى أمثلة قليلة على مشاعر يمكن التعبير عنها من خلال تعابير الوجه.",
+   1
+  ],
+  [
+   "The expression on a person’s face himself can even help determine if we trust or believe what he/she is saying.",
+   "إن التعبير على وجه الشخص نفسه يمكن أن يساعد حتى في تحديد ما إذا كنا نثق بما يقوله أو نصدقه.",
+   1
+  ],
+  [
+   "Facial expressions are also among the universal forms of body language.",
+   "تعابير الوجه هي أيضاً من بين الأشكال العالمية للغة الجسد.",
+   1
+  ],
+  [
+   "The expressions used to convey fear, anger, sadness, and happiness are similar throughout the world.",
+   "التعابير المستخدمة للتعبير عن الخوف والغضب والحزن والسعادة متشابهة في كل أنحاء العالم.",
+   1
+  ],
+  [
+   "The arms and legs can also themselves be useful in conveying nonverbal information.",
+   "يمكن للذراعين والساقين أيضاً أن تكون مفيدة في نقل المعلومات غير اللفظية.",
+   2
+  ],
+  [
+   "Crossing legs away from another person may indicate dislike or discomfort with that individual.",
+   "وضع الساقين متقاطعتين بعيداً عن شخص آخر قد يدل على عدم الإعجاب أو عدم الارتياح تجاه ذلك الشخص.",
+   2
+  ],
+  [
+   "Crossing the arms can indicate defence, being self-protective.",
+   "تقاطع الذراعين قد يدل على الدفاع، أي حماية النفس.",
+   2
+  ],
+  [
+   "Clasping the hands behind the back might indicate that a person is feeling bored, anxious, or even angry.",
+   "شبك اليدين خلف الظهر قد يدل على أن الشخص يشعر بالملل أو القلق أو حتى الغضب.",
+   2
+  ],
+  [
+   "Rapidly tapping his/her fingers can be a sign that a person is bored, impatient, or frustrated.",
+   "النقر السريع بالأصابع يمكن أن يكون علامة على أن الشخص يشعر بالملل أو نفاد الصبر أو الإحباط.",
+   2
+  ],
+  [
+   "Crossed legs can indicate that a person is feeling in need of privacy.",
+   "تقاطع الساقين قد يدل على أن الشخص يشعر بالحاجة إلى الخصوصية.",
+   2
+  ],
+  [
+   "So when you are evaluating somebody, pay attention to the body language, which could tell many unspoken words.",
+   "لذلك عندما تقيّم شخصاً ما، انتبه إلى لغة الجسد، التي قد تقول كلمات كثيرة غير منطوقة.",
+   3
+  ],
+  [
+   "Some research suggest that deaf people may be especially skilful at picking up visual traits in the actions of others through their body language because they are trained on using sign and body language.",
+   "تشير بعض الأبحاث إلى أن الصم قد يكونون ماهرين بشكل خاص في التقاط السمات البصرية في أفعال الآخرين من خلال لغة جسدهم لأنهم مدربون على استخدام لغة الإشارة ولغة الجسد.",
+   3
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Body language refers to the ___ signals that we use to communicate.",
+   "o": [
+    "verbal",
+    "written",
+    "nonverbal",
+    "musical"
+   ],
+   "a": 2,
+   "e": "النص: Body language refers to the nonverbal signals، أي الإشارات غير اللفظية."
+  },
+  {
+   "q": "Body language itself may account for between ___ of all communication.",
+   "o": [
+    "60 to 65%",
+    "10 to 15%",
+    "30 to 35%",
+    "90 to 95%"
+   ],
+   "a": 0,
+   "e": "النص: may account for between 60 to 65% of all communication."
+  },
+  {
+   "q": "A smile may indicate ___.",
+   "o": [
+    "anger or fear",
+    "approval or happiness",
+    "disgust or surprise",
+    "boredom or privacy"
+   ],
+   "a": 1,
+   "e": "النص: A smile may indicate approval or happiness، أي الموافقة أو السعادة."
+  },
+  {
+   "q": "Which emotions are expressed in similar ways throughout the world?",
+   "o": [
+    "Only happiness and surprise",
+    "Only sadness and fear",
+    "None of them",
+    "Fear, anger, sadness, and happiness"
+   ],
+   "a": 3,
+   "e": "النص: expressions used to convey fear, anger, sadness, and happiness are similar throughout the world."
+  },
+  {
+   "q": "Crossing the arms can indicate ___.",
+   "o": [
+    "happiness",
+    "defence",
+    "hunger",
+    "agreement"
+   ],
+   "a": 1,
+   "e": "النص: Crossing the arms can indicate defence، أي الدفاع أو حماية النفس."
+  },
+  {
+   "q": "Clasping the hands behind the back might indicate that a person is feeling ___.",
+   "o": [
+    "proud and excited",
+    "hungry and tired",
+    "bored, anxious, or even angry",
+    "calm and relaxed"
+   ],
+   "a": 2,
+   "e": "النص: feeling bored, anxious, or even angry، أي بالملل أو القلق أو حتى الغضب."
+  },
+  {
+   "q": "Facial expressions are among the universal forms of body language.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: Facial expressions are also among the universal forms of body language."
+  },
+  {
+   "q": "Rapidly tapping fingers can be a sign that a person is calm and relaxed.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إنه علامة على أن الشخص is bored, impatient, or frustrated، أي ملل أو نفاد صبر أو إحباط."
+  },
+  {
+   "q": "Deaf people may be especially skilful at picking up visual traits in the actions of others.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: deaf people may be especially skilful at picking up visual traits."
+  },
+  {
+   "q": "Body language makes up only a very small part of our daily communication.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: make up a huge part of our daily communication، أي جزءاً ضخماً من تواصلنا اليومي."
+  }
+ ],
+ "words": {
+  "body": "جسد",
+  "language": "لغة",
+  "refer": "يشير",
+  "to": "إلى / أن",
+  "the": "أداة تعريف",
+  "nonverbal": "غير لفظي",
+  "signal": "إشارة",
+  "that": "أن / التي",
+  "we": "نحن",
+  "use": "يستخدم",
+  "communicate": "يتواصل",
+  "according": "بحسب",
+  "expert": "خبير",
+  "these": "هذه",
+  "make": "يشكّل (make up)",
+  "up": "يشكّل (make up) / يلتقط (pick up)",
+  "a": "أداة نكرة",
+  "huge": "ضخم",
+  "part": "جزء",
+  "of": "من / لـ",
+  "our": "نا (ملكية)",
+  "daily": "يومي",
+  "communication": "التواصل",
+  "from": "من",
+  "facial": "وجهي",
+  "expression": "تعبير",
+  "movement": "حركة",
+  "thing": "شيء",
+  "don't": "لا",
+  "say": "يقول",
+  "can": "يستطيع / يمكن",
+  "still": "ما زال",
+  "convey": "ينقل / يعبّر عن",
+  "volume": "كمّ هائل",
+  "information": "معلومات",
+  "it": "هو / هي",
+  "was": "كان / كانت",
+  "suggested": "اقتُرح",
+  "itself": "نفسها",
+  "may": "قد",
+  "account": "يشكّل (account for)",
+  "for": "لـ / على",
+  "between": "بين",
+  "all": "جميع / كل",
+  "smile": "ابتسامة",
+  "indicate": "يدل على",
+  "approval": "موافقة",
+  "or": "أو",
+  "happiness": "السعادة",
+  "frown": "عبوس",
+  "disapproval": "استياء",
+  "unhappiness": "الحزن",
+  "in": "في",
+  "some": "بعض",
+  "case": "حالة",
+  "reveal": "يكشف",
+  "true": "حقيقي",
+  "feeling": "شعور / يشعر",
+  "about": "عن / حول",
+  "particular": "معين",
+  "situation": "موقف",
+  "while": "بينما",
+  "you": "أنت",
+  "are": "يكونون / هم",
+  "yourself": "نفسك",
+  "fine": "بخير",
+  "look": "نظرة",
+  "on": "على",
+  "your": "ك (ملكية)",
+  "face": "وجه",
+  "tell": "يخبر / يقول",
+  "people": "ناس / أشخاص",
+  "otherwise": "بخلاف ذلك",
+  "and": "و",
+  "sadness": "الحزن",
+  "anger": "الغضب",
+  "surprise": "مفاجأة",
+  "disgust": "الاشمئزاز",
+  "fear": "الخوف",
+  "just": "فقط / مجرد",
+  "few": "قليل",
+  "example": "مثال",
+  "emotion": "شعور / عاطفة",
+  "be": "يكون",
+  "expressed": "يُعبَّر عنه",
+  "through": "من خلال",
+  "person": "شخص",
+  "himself": "نفسه",
+  "even": "حتى",
+  "help": "يساعد",
+  "determine": "يحدد",
+  "if": "إذا / ما إذا",
+  "trust": "يثق",
+  "believe": "يصدّق",
+  "what": "ما / ماذا",
+  "he": "هو",
+  "she": "هي",
+  "is": "يكون / هو",
+  "saying": "يقول",
+  "also": "أيضاً",
+  "among": "من بين",
+  "universal": "عالمي",
+  "form": "شكل",
+  "used": "المستخدمة",
+  "similar": "متشابه",
+  "throughout": "في كل أنحاء",
+  "world": "العالم",
+  "arm": "ذراع",
+  "leg": "ساق",
+  "themselves": "أنفسهم / نفسها",
+  "useful": "مفيد",
+  "conveying": "نقل",
+  "crossing": "تقاطع / وضع متقاطع",
+  "away": "بعيداً",
+  "another": "آخر",
+  "dislike": "عدم إعجاب",
+  "discomfort": "عدم ارتياح",
+  "with": "مع / تجاه",
+  "individual": "فرد / شخص",
+  "defence": "دفاع",
+  "being": "كونه / يكون",
+  "self-protective": "حامٍ لنفسه",
+  "clasping": "شبك",
+  "hand": "يد",
+  "behind": "خلف",
+  "back": "الظهر",
+  "might": "ربما / قد",
+  "bored": "يشعر بالملل / ملول",
+  "anxious": "قلق",
+  "angry": "غاضب",
+  "rapidly": "بسرعة",
+  "tapping": "نقر",
+  "his": "ـه (ملكية)",
+  "her": "ـها (ملكية)",
+  "finger": "إصبع",
+  "sign": "علامة / إشارة",
+  "impatient": "نافد الصبر",
+  "frustrated": "محبط",
+  "crossed": "متقاطع",
+  "need": "حاجة",
+  "privacy": "خصوصية",
+  "so": "لذلك",
+  "when": "عندما",
+  "evaluating": "تقييم",
+  "somebody": "شخص ما",
+  "pay": "ينتبه (pay attention)",
+  "attention": "ينتبه (pay attention)",
+  "which": "التي / الذي",
+  "could": "قد / يمكن",
+  "many": "كثير",
+  "unspoken": "غير منطوق",
+  "word": "كلمة",
+  "research": "أبحاث",
+  "suggest": "يشير / يقترح",
+  "deaf": "أصم",
+  "especially": "بشكل خاص",
+  "skilful": "ماهر",
+  "at": "في / عند",
+  "picking": "التقاط (pick up)",
+  "visual": "بصري",
+  "trait": "سمة",
+  "action": "فعل",
+  "other": "آخر",
+  "their": "هم (ملكية)",
+  "because": "لأن",
+  "they": "هم",
+  "trained": "مدرَّب",
+  "using": "استخدام"
+ }
+}

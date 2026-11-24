@@ -1,0 +1,369 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "wb",
+ "unit": 6,
+ "label": "Unit 6",
+ "title": "All are Involved Without Exception",
+ "titleAr": "الجميع مشمولون دون استثناء",
+ "sentences": [
+  [
+   "Do you think that all individuals can make decisions?",
+   "هل تعتقد أن جميع الأفراد يستطيعون اتخاذ القرارات؟",
+   0
+  ],
+  [
+   "Here are some examples of successful people with Down’s Syndrome who have proved that they have been really good at making decisions and they achieved their aims.",
+   "إليك بعض الأمثلة لأشخاص ناجحين مصابين بمتلازمة داون أثبتوا أنهم كانوا بارعين حقاً في اتخاذ القرارات وحققوا أهدافهم.",
+   0
+  ],
+  [
+   "From an early age, Isabella Springmuhl Tejada decided to follow the footsteps of her grandmother who was a designer.",
+   "منذ سن مبكرة، قررت إيزابيلا سبرينغموهل تيخادا أن تتبع خطى جدتها التي كانت مصممة.",
+   1
+  ],
+  [
+   "As a child, Isabella would create clothes for her dolls, but playing eventually turned into work when she enrolled in a fashion course.",
+   "وهي طفلة، كانت إيزابيلا تصنع ملابس لدماها، لكن اللعب تحول في النهاية إلى عمل عندما التحقت بدورة في الأزياء.",
+   1
+  ],
+  [
+   "Her designs aimed specifically at people with Down Syndrome.",
+   "استهدفت تصاميمها تحديداً الأشخاص المصابين بمتلازمة داون.",
+   1
+  ],
+  [
+   "Springmuhl had her first big showcase in 2015, where she sold her complete collection.",
+   "أقامت سبرينغموهل أول عرض كبير لها في 2015، حيث باعت مجموعتها بالكامل.",
+   1
+  ],
+  [
+   "The success of her show garnered international attention, and in 2016 her designs were shown at London Fashion Week, which was followed by another exhibit in Rome.",
+   "نجاح عرضها اكتسب اهتماماً دولياً، وفي 2016 عُرضت تصاميمها في أسبوع لندن للموضة، وتبعه معرض آخر في روما.",
+   1
+  ],
+  [
+   "Sujeet Desai is from Buffalo, New York.",
+   "سوجيت ديساي من بافالو، نيويورك.",
+   2
+  ],
+  [
+   "He graduated from high school.",
+   "تخرج من المدرسة الثانوية.",
+   2
+  ],
+  [
+   "Two years later, he decided to study music and graduated from Berkshire Hills Music Academy.",
+   "بعد سنتين، قرر أن يدرس الموسيقا وتخرج من أكاديمية بيركشاير هيلز للموسيقا.",
+   2
+  ],
+  [
+   "Now he is a famous musician.",
+   "الآن هو موسيقي مشهور.",
+   2
+  ],
+  [
+   "All in all, Desai can play seven instruments.",
+   "إجمالاً، يستطيع ديساي العزف على سبع آلات.",
+   2
+  ],
+  [
+   "His greatest accomplishment so far was his 2015 performance at Carnegie Hall, for which he received a standing ovation.",
+   "أعظم إنجازاته حتى الآن كان أداؤه عام 2015 في قاعة كارنيغي، الذي نال عنه تصفيقاً حاراً وقوفاً.",
+   2
+  ],
+  [
+   "Pablo Pineda is an actor and educator most well-known for being the first European with Down Syndrome who made his decision to obtain a university degree.",
+   "بابلو بينيدا ممثل ومربٍّ اشتهر بأنه أول أوروبي مصاب بمتلازمة داون اتخذ قراره بالحصول على شهادة جامعية.",
+   3
+  ],
+  [
+   "In 2009, he won the Silver Shell Award at the International Film Festival for his role in YoTambien, a film about a university graduate with Down Syndrome.",
+   "في 2009، فاز بجائزة الصدفة الفضية في المهرجان السينمائي الدولي عن دوره في “أنا أيضاً”، وهو فيلم عن خريج جامعي مصاب بمتلازمة داون.",
+   3
+  ],
+  [
+   "Although he still acts, Pineda is currently working on implementing an international strategy to increase employment opportunities for people with disabilities.",
+   "ورغم أنه لا يزال يمثل، يعمل بينيدا حالياً على تنفيذ استراتيجية دولية لزيادة فرص العمل للأشخاص ذوي الإعاقة.",
+   3
+  ],
+  [
+   "People are able to challenge difficult circumstances and be successful.",
+   "الناس قادرون على تحدي الظروف الصعبة وأن ينجحوا.",
+   4
+  ],
+  [
+   "They can make the right decision if they are well-trained and if they intend to do so.",
+   "يمكنهم اتخاذ القرار الصحيح إن كانوا مدربين جيداً وإن كانوا ينوون ذلك.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Isabella Springmuhl Tejada decided to follow the footsteps of her ___.",
+   "o": [
+    "mother",
+    "grandmother",
+    "teacher",
+    "sister"
+   ],
+   "a": 1,
+   "e": "النص: to follow the footsteps of her grandmother، أي تتبع خطى جدتها."
+  },
+  {
+   "q": "Isabella’s designs aimed specifically at people with ___.",
+   "o": [
+    "a headache",
+    "a broken leg",
+    "Down Syndrome",
+    "no hair"
+   ],
+   "a": 2,
+   "e": "النص: aimed specifically at people with Down Syndrome، أي الأشخاص المصابين بمتلازمة داون."
+  },
+  {
+   "q": "In 2016, her designs were shown at ___ Fashion Week.",
+   "o": [
+    "Paris",
+    "Milan",
+    "New York",
+    "London"
+   ],
+   "a": 3,
+   "e": "النص: shown at London Fashion Week، أي في أسبوع لندن للموضة."
+  },
+  {
+   "q": "Sujeet Desai can play ___ instruments.",
+   "o": [
+    "seven",
+    "three",
+    "five",
+    "ten"
+   ],
+   "a": 0,
+   "e": "النص: Desai can play seven instruments، أي سبع آلات."
+  },
+  {
+   "q": "Desai received a standing ovation at ___.",
+   "o": [
+    "Buffalo",
+    "Carnegie Hall",
+    "Berkshire Hills",
+    "London Fashion Week"
+   ],
+   "a": 1,
+   "e": "النص: his 2015 performance at Carnegie Hall, for which he received a standing ovation."
+  },
+  {
+   "q": "Pablo Pineda is the first European with Down Syndrome who obtained a ___.",
+   "o": [
+    "driving licence",
+    "passport",
+    "university degree",
+    "big prize"
+   ],
+   "a": 2,
+   "e": "النص: to obtain a university degree، أي الحصول على شهادة جامعية."
+  },
+  {
+   "q": "Isabella sold her complete collection at her first big showcase in 2015.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: where she sold her complete collection."
+  },
+  {
+   "q": "Sujeet Desai did not study music.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: he decided to study music and graduated from Berkshire Hills Music Academy."
+  },
+  {
+   "q": "Pablo Pineda has stopped working and no longer acts.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول: Although he still acts، أي ما زال يمثل، ويعمل أيضاً على استراتيجية دولية."
+  },
+  {
+   "q": "The writer says people can make the right decision if they are well-trained and intend to do so.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول: They can make the right decision if they are well-trained and if they intend to do so."
+  }
+ ],
+ "words": {
+  "do": "يفعل / يفعل ذلك (do so)",
+  "you": "أنت",
+  "think": "يعتقد / يفكر",
+  "that": "أن / التي",
+  "all": "جميع / إجمالاً (all in all)",
+  "individual": "فرد / شخص",
+  "can": "يستطيع",
+  "make": "يتخذ / يجعل",
+  "decision": "قرار",
+  "here": "هنا",
+  "are": "يكونون / هم",
+  "some": "بعض",
+  "example": "مثال",
+  "of": "من / لـ",
+  "successful": "ناجح",
+  "people": "أشخاص / ناس",
+  "with": "مع / بـ",
+  "down": "داون",
+  "syndrome": "متلازمة",
+  "who": "الذي / من",
+  "have": "قد (مساعد) / يملك",
+  "proved": "أثبتوا",
+  "they": "هم",
+  "been": "كان / تم",
+  "really": "حقاً",
+  "good": "بارع في (good at)",
+  "at": "في / عند",
+  "making": "اتخاذ / صنع",
+  "and": "و",
+  "achieved": "حققوا",
+  "their": "هم (ملكية)",
+  "aim": "هدف / أهداف",
+  "from": "من",
+  "an": "أداة نكرة",
+  "early": "مبكرة (from an early age)",
+  "age": "سن / عمر",
+  "isabella": "إيزابيلا (اسم)",
+  "springmuhl": "سبرينغموهل (اسم)",
+  "tejada": "تيخادا (اسم)",
+  "decided": "قرر / قررت",
+  "to": "إلى / أن",
+  "follow": "يسير على خطى (follow the footsteps of)",
+  "the": "أداة تعريف",
+  "footstep": "خطى (follow the footsteps of)",
+  "her": "ها (ملكية)",
+  "grandmother": "جدة",
+  "was": "كان / كانت",
+  "a": "أداة نكرة",
+  "designer": "مصممة / مصمم",
+  "as": "كـ / بصفتها",
+  "child": "طفل",
+  "would": "كانت (اعتياد) / سوف",
+  "create": "يصنع / يخلق",
+  "clothes": "ملابس",
+  "for": "لـ / على",
+  "doll": "دمية",
+  "but": "لكن",
+  "playing": "اللعب / العزف",
+  "eventually": "في النهاية",
+  "turned": "تحول إلى (turn into)",
+  "into": "تحول إلى (turn into)",
+  "work": "عمل / يعمل",
+  "when": "عندما",
+  "she": "هي",
+  "enrolled": "التحقت بـ (enroll in)",
+  "in": "في",
+  "fashion": "الأزياء / الموضة",
+  "course": "دورة",
+  "design": "تصميم",
+  "aimed": "استهدف (aim at)",
+  "specifically": "تحديداً",
+  "had": "كان لديه / كان",
+  "first": "أولاً / الأول",
+  "big": "كبير",
+  "showcase": "عرض",
+  "where": "حيث / أين",
+  "sold": "باعت / باع",
+  "complete": "كامل / يكمل",
+  "collection": "مجموعة",
+  "success": "نجاح",
+  "show": "عرض / يُظهر",
+  "garnered": "اكتسب",
+  "international": "دولي",
+  "attention": "انتباه",
+  "were": "كانوا / كانت",
+  "shown": "عُرضت / أظهر",
+  "london": "لندن",
+  "week": "أسبوع",
+  "which": "التي / الذي",
+  "followed": "تلاه (be followed by)",
+  "by": "تلاه (be followed by)",
+  "another": "آخر",
+  "exhibit": "معرض",
+  "rome": "روما",
+  "sujeet": "سوجيت (اسم)",
+  "desai": "ديساي (اسم)",
+  "i": "أنا",
+  "buffalo": "بافالو (اسم)",
+  "new": "جديد",
+  "york": "يورك (اسم)",
+  "he": "هو",
+  "graduated": "تخرج من (graduate from)",
+  "high": "ثانوية / عالٍ",
+  "school": "مدرسة",
+  "two": "اثنان",
+  "year": "عام / سنة",
+  "later": "بعد / لاحقاً",
+  "study": "يدرس",
+  "music": "الموسيقا",
+  "berkshire": "بيركشاير (اسم)",
+  "hills": "هيلز (اسم)",
+  "academy": "أكاديمية",
+  "now": "الآن",
+  "famous": "مشهور",
+  "musician": "موسيقي",
+  "play": "يعزف / يلعب",
+  "seven": "سبعة",
+  "instrument": "آلة",
+  "his": "ـه (ملكية)",
+  "greatest": "أعظم",
+  "accomplishment": "إنجاز",
+  "so": "حتى الآن (so far) / ذلك (do so)",
+  "far": "حتى الآن (so far)",
+  "performance": "أداء",
+  "carnegie": "كارنيغي (اسم)",
+  "hall": "قاعة",
+  "received": "تلقّى",
+  "standing": "وقوفاً",
+  "ovation": "تصفيق حار",
+  "pablo": "بابلو (اسم)",
+  "pineda": "بينيدا (اسم)",
+  "actor": "ممثل",
+  "educator": "مربٍّ",
+  "most": "معظم",
+  "well-known": "مشهور",
+  "being": "كونها / كون",
+  "european": "أوروبي",
+  "made": "اتخذ / صنع",
+  "obtain": "يحصل على",
+  "university": "جامعة",
+  "degree": "شهادة / درجة",
+  "won": "فاز / فازت",
+  "silver": "فضي",
+  "shell": "صدفة",
+  "award": "جائزة",
+  "film": "فيلم",
+  "festival": "مهرجان",
+  "role": "دور",
+  "yotambien": "أنا أيضاً (اسم الفيلم)",
+  "about": "عن / حول",
+  "graduate": "خريج",
+  "although": "رغم أن",
+  "still": "ما زال",
+  "act": "يمثل / عمل",
+  "currently": "حالياً",
+  "working": "يعمل على (work on)",
+  "on": "يعمل على (work on)",
+  "implementing": "تنفيذ",
+  "strategy": "استراتيجية",
+  "increase": "زيادة / يزيد",
+  "employment": "توظيف / عمل",
+  "opportunities": "فرص",
+  "disabilities": "ذوو الإعاقة",
+  "able": "قادر على (be able to)",
+  "challenge": "يتحدى / تحدٍّ",
+  "difficult": "صعب",
+  "circumstance": "ظرف",
+  "be": "يكون",
+  "right": "صحيح",
+  "if": "إذا",
+  "well-trained": "مدرَّب جيداً",
+  "intend": "ينوي"
+ }
+}

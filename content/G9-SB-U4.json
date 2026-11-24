@@ -1,0 +1,319 @@
+{
+ "schema": 2,
+ "subject": "english",
+ "grade": 9,
+ "stream": null,
+ "book": "sb",
+ "unit": 4,
+ "label": "Unit 4",
+ "title": "Autonomous Vehicles",
+ "titleAr": "المركبات ذاتية القيادة",
+ "sentences": [
+  [
+   "Some people think that autonomous vehicles will change our lives for the better.",
+   "يعتقد بعض الناس أن المركبات ذاتية القيادة ستغيّر حياتنا نحو الأفضل.",
+   0
+  ],
+  [
+   "They think that they will be safer and transportation will be more efficient.",
+   "يظنون أنها ستكون أكثر أماناً وأن النقل سيكون أكثر كفاءة.",
+   0
+  ],
+  [
+   "However, others believe that autonomous vehicles will cause many problems that need to be solved before they are allowed to become a part of our daily lives.",
+   "لكن آخرين يعتقدون أن المركبات ذاتية القيادة ستسبب مشكلات كثيرة يجب حلها قبل أن يُسمح لها بأن تصبح جزءاً من حياتنا اليومية.",
+   0
+  ],
+  [
+   "First, driverless cars will increase unemployment.",
+   "أولاً، السيارات بلا سائق ستزيد البطالة.",
+   1
+  ],
+  [
+   "Thousands of drivers will lose their jobs if autonomous vehicles are allowed to take over the roads.",
+   "آلاف السائقين سيفقدون وظائفهم إذا سُمح للمركبات ذاتية القيادة بأن تسيطر على الطرق.",
+   1
+  ],
+  [
+   "Truck drivers, delivery drivers, taxi drivers and many other kinds of drivers will lose their jobs.",
+   "سائقو الشاحنات وسائقو التوصيل وسائقو التاكسي وأنواع كثيرة أخرى من السائقين سيفقدون وظائفهم.",
+   1
+  ],
+  [
+   "This increase in unemployment could cause serious social problems.",
+   "هذه الزيادة في البطالة قد تسبب مشكلات اجتماعية خطيرة.",
+   1
+  ],
+  [
+   "Second, companies and governments will lose money.",
+   "ثانياً، الشركات والحكومات ستخسر المال.",
+   2
+  ],
+  [
+   "For example, insurance companies now get about fifty percent of their income from car insurance.",
+   "مثلاً، تحصل شركات التأمين الآن على نحو خمسين بالمئة من دخلها من تأمين السيارات.",
+   2
+  ],
+  [
+   "Governments and cities, too, will lose much money from parking, speeding fines and petrol taxes.",
+   "الحكومات والمدن أيضاً ستخسر الكثير من المال من مواقف السيارات وغرامات السرعة وضرائب البنزين.",
+   2
+  ],
+  [
+   "Finally, there is no planning.",
+   "أخيراً، لا يوجد تخطيط.",
+   3
+  ],
+  [
+   "Dramatic change is coming, but governments haven’t begun thinking about it.",
+   "تغيير دراماتيكي قادم، لكن الحكومات لم تبدأ بالتفكير فيه.",
+   3
+  ],
+  [
+   "Only some American cities have done long-term planning.",
+   "فقط بعض المدن الأمريكية قامت بتخطيط طويل الأمد.",
+   3
+  ],
+  [
+   "Driverless cars could arrive by 2030, but most government officials and transport ministers are only worried about short-term problems.",
+   "قد تصل السيارات بلا سائق بحلول 2030، لكن معظم مسؤولي الحكومات ووزراء النقل يقلقون فقط من المشكلات قصيرة الأمد.",
+   3
+  ],
+  [
+   "In conclusion, it is possible that autonomous vehicles will not benefit society if they are introduced too quickly.",
+   "في الختام، من الممكن أن المركبات ذاتية القيادة لن تفيد المجتمع إذا أُدخلت بسرعة كبيرة.",
+   4
+  ],
+  [
+   "They may cause social chaos through unemployment, financial loss and lack of planning.",
+   "قد تسبب فوضى اجتماعية من خلال البطالة والخسارة المالية وغياب التخطيط.",
+   4
+  ],
+  [
+   "It is important that these issues are addressed before autonomous vehicles are allowed on our roads.",
+   "من المهم معالجة هذه القضايا قبل أن يُسمح للمركبات ذاتية القيادة بالسير على طرقنا.",
+   4
+  ]
+ ],
+ "questions": [
+  {
+   "q": "Some people believe that autonomous vehicles will make transportation more ___.",
+   "o": [
+    "efficient",
+    "expensive",
+    "dangerous",
+    "crowded"
+   ],
+   "a": 0,
+   "e": "يعتقد بعض الناس أن النقل سيكون أكثر كفاءة: transportation will be more efficient."
+  },
+  {
+   "q": "Which drivers are mentioned as likely to lose their jobs?",
+   "o": [
+    "Pilots and sailors",
+    "Truck, delivery and taxi drivers",
+    "Doctors and teachers",
+    "Farmers and builders"
+   ],
+   "a": 1,
+   "e": "ذكر النص: Truck drivers, delivery drivers, taxi drivers وأنواعاً أخرى من السائقين."
+  },
+  {
+   "q": "Insurance companies now get about ___ of their income from car insurance.",
+   "o": [
+    "ten percent",
+    "twenty-five percent",
+    "fifty percent",
+    "ninety percent"
+   ],
+   "a": 2,
+   "e": "النص يقول: about fifty percent of their income from car insurance."
+  },
+  {
+   "q": "Governments and cities will lose money from parking, speeding fines and ___.",
+   "o": [
+    "school fees",
+    "airport taxes",
+    "hospital bills",
+    "petrol taxes"
+   ],
+   "a": 3,
+   "e": "الجملة في النص: from parking, speeding fines and petrol taxes."
+  },
+  {
+   "q": "What does the writer say about planning for driverless cars?",
+   "o": [
+    "Most governments have a long-term plan.",
+    "Only some American cities have done long-term planning.",
+    "All cities stopped planning in 2030.",
+    "Transport ministers have planned everything."
+   ],
+   "a": 1,
+   "e": "النص يقول إن الحكومات لم تبدأ بالتفكير، وإن بعض المدن الأمريكية فقط قامت بتخطيط طويل الأمد."
+  },
+  {
+   "q": "Most government officials and transport ministers are only worried about ___ problems.",
+   "o": [
+    "long-term",
+    "social",
+    "short-term",
+    "financial"
+   ],
+   "a": 2,
+   "e": "النص: are only worried about short-term problems."
+  },
+  {
+   "q": "Driverless cars could arrive by 2030.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: النص يقول Driverless cars could arrive by 2030."
+  },
+  {
+   "q": "Governments have already made detailed plans for driverless cars.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن الحكومات لم تبدأ بالتفكير: governments haven’t begun thinking about it."
+  },
+  {
+   "q": "The writer says unemployment from driverless cars could cause serious social problems.",
+   "tf": 1,
+   "a": 0,
+   "e": "صح: This increase in unemployment could cause serious social problems."
+  },
+  {
+   "q": "The writer says autonomous vehicles will create thousands of new jobs for drivers.",
+   "tf": 1,
+   "a": 1,
+   "e": "خطأ: النص يقول إن آلاف السائقين سيفقدون وظائفهم: Thousands of drivers will lose their jobs."
+  }
+ ],
+ "words": {
+  "some": "بعض",
+  "people": "أشخاص / ناس",
+  "think": "يظن / يعتقد",
+  "that": "أن / الذي",
+  "autonomous": "ذاتي القيادة",
+  "vehicle": "مركبة",
+  "will": "سوف",
+  "change": "يغيّر / تغيير",
+  "our": "نا (ملكية)",
+  "lives": "حياة",
+  "for": "لأجل / لـ",
+  "the": "أداة تعريف",
+  "better": "أفضل",
+  "they": "هم",
+  "be": "يكون",
+  "safer": "أكثر أماناً",
+  "and": "و",
+  "transportation": "النقل",
+  "more": "أكثر",
+  "efficient": "كفؤ / فعّال",
+  "however": "لكن / مع ذلك",
+  "other": "آخر",
+  "believe": "يعتقد / يؤمن",
+  "cause": "يسبب",
+  "many": "كثير",
+  "problem": "مشكلة",
+  "need": "يحتاج / يجب",
+  "to": "إلى / أن",
+  "solved": "حُلّت",
+  "before": "قبل",
+  "are": "يكونون / هم",
+  "allowed": "مسموح / سُمح",
+  "become": "يصبح",
+  "a": "أداة نكرة",
+  "part": "جزء",
+  "of": "من / لـ",
+  "daily": "يومي",
+  "first": "أولاً",
+  "driverless": "بلا سائق",
+  "car": "سيارة",
+  "increase": "زيادة / يزيد",
+  "unemployment": "البطالة",
+  "thousand": "ألف",
+  "driver": "سائق",
+  "lose": "يفقد / يخسر",
+  "their": "هم (ملكية)",
+  "job": "وظيفة",
+  "if": "إذا",
+  "take": "يسيطر على (take over)",
+  "over": "يسيطر على (take over)",
+  "road": "طريق",
+  "truck": "شاحنة",
+  "delivery": "توصيل",
+  "taxi": "تاكسي",
+  "kind": "نوع",
+  "this": "هذا",
+  "in": "في",
+  "could": "قد / يمكن",
+  "serious": "خطير / جدي",
+  "social": "اجتماعي",
+  "second": "ثانياً",
+  "companies": "شركات",
+  "government": "حكومة",
+  "money": "مال",
+  "example": "مثال",
+  "insurance": "تأمين",
+  "now": "الآن",
+  "get": "يحصل على",
+  "about": "حول / نحو",
+  "fifty": "خمسون",
+  "percent": "بالمئة",
+  "income": "دخل",
+  "from": "من",
+  "cities": "مدن",
+  "too": "أيضاً / جداً",
+  "much": "كثير",
+  "parking": "مواقف السيارات",
+  "speeding": "السرعة الزائدة",
+  "fine": "غرامة",
+  "petrol": "بنزين",
+  "taxes": "ضرائب",
+  "finally": "أخيراً",
+  "there": "هناك",
+  "is": "يوجد / هو",
+  "no": "لا / ليس",
+  "planning": "تخطيط",
+  "dramatic": "دراماتيكي / جذري",
+  "coming": "قادم",
+  "but": "لكن",
+  "haven't": "لم / ليس لدينا",
+  "begun": "بدأ",
+  "thinking": "التفكير",
+  "it": "هو / هي",
+  "only": "فقط",
+  "american": "أمريكي",
+  "have": "يملك / قد",
+  "done": "فعل / أنجز",
+  "long-term": "طويل الأمد",
+  "by": "بحلول / بواسطة",
+  "2030": "2030",
+  "arrive": "يصل",
+  "most": "معظم",
+  "official": "مسؤول",
+  "transport": "نقل",
+  "minister": "وزير",
+  "worried": "قلق",
+  "short-term": "قصير الأمد",
+  "conclusion": "خاتمة / ختام",
+  "possible": "ممكن",
+  "not": "لا / ليس",
+  "benefit": "يفيد",
+  "society": "المجتمع",
+  "introduced": "أُدخلت / طُرحت",
+  "quickly": "بسرعة",
+  "may": "قد",
+  "chaos": "فوضى",
+  "through": "من خلال",
+  "financial": "مالي",
+  "loss": "خسارة",
+  "lack": "نقص / غياب",
+  "important": "مهم",
+  "these": "هذه",
+  "issue": "قضية",
+  "addressed": "عولجت",
+  "on": "على",
+  "thousands": "آلاف",
+  "governments": "حكومات"
+ }
+}
