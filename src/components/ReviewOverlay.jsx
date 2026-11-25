@@ -23,7 +23,9 @@ export default function ReviewOverlay({ onClose, onFinish }) {
 
   const k = list[Math.min(i, n - 1)];
   const m = mean(k) || '';
-  const s = allSentences.find((x) => x[0].toLowerCase().includes(k));
+  // بحدود الكلمة: لا تطابق «is» كلمة «praised»
+  const re = new RegExp("(^|[^A-Za-z0-9'’-])" + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + "($|[^A-Za-z0-9'’-])", 'i');
+  const s = allSentences.find((x) => re.test(x[0]));
   const xp = n * 3;
 
   const grade = (r) => {

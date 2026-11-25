@@ -91,6 +91,13 @@ export function mergeProgress(local, remote) {
   });
   out.bx = bx;
 
+  // مكان القراءة لكل درس: الأحدث يفوز
+  const rp = { ...(b.rp || {}) };
+  Object.entries(a.rp || {}).forEach(([k, v]) => {
+    if (!rp[k] || (v.t || 0) > (rp[k].t || 0)) rp[k] = v;
+  });
+  if (Object.keys(rp).length) out.rp = rp;
+
   // آخر درس وتبويب: من هذا الجهاز (الأحدث نشاطاً)
   if (a.last) out.last = a.last;
   if (a.lt) out.lt = a.lt;

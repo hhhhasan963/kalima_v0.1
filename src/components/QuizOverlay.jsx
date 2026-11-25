@@ -9,8 +9,8 @@ export default function QuizOverlay({ L, backTick, onClose, onFinish }) {
   const { patch } = useStore();
   const fx = useFx();
   const Q = L.Q;
-  const n = Q.length;
-  const [ord] = useState(() => shuffle(Q.map((_, i) => i)));
+  const [ord, setOrd] = useState(() => shuffle(Q.map((_, i) => i)));
+  const n = ord.length;
   const [t0] = useState(() => Date.now());
   const [i, setI] = useState(0);
   const [sc, setSc] = useState(0);
@@ -21,6 +21,10 @@ export default function QuizOverlay({ L, backTick, onClose, onFinish }) {
   const [exit, setExit] = useState(false);
   const [wrong, setWrong] = useState([]); // الأسئلة التي أخطأ فيها: { q, pick, ans, e }
   const [showMist, setShowMist] = useState(false);
+  // وضع «أعد محاولة أخطائك»: جلسة جديدة بالأسئلة الخاطئة فقط، بلا نقاط ولا تغيير للنتيجة المحفوظة
+  const [retry, setRetry] = useState(false);
+  const [baseXp, setBaseXp] = useState(0);
+  const [round, setRound] = useState(0);
 
   // زر الرجوع في الجهاز يفتح سؤال «تريد الخروج؟»
   const firstTick = useRef(backTick);
@@ -33,7 +37,7 @@ export default function QuizOverlay({ L, backTick, onClose, onFinish }) {
   const q = Q[ord[Math.min(i, n - 1)]];
   const opts = useMemo(
     () => (q.tf ? [{ t: 'True', i: 0 }, { t: 'False', i: 1 }] : shuffle(q.o.map((t, x) => ({ t, i: x })))),
-    [i] // eslint-disable-line
+    [i, round] // eslint-disable-line
   );
 
   const ansText = (qq, idx) => (qq.tf ? (idx === 0 ? 'True' : 'False') : qq.o[idx]);
@@ -48,22 +52,40 @@ export default function QuizOverlay({ L, backTick, onClose, onFinish }) {
       fx.good();
     } else {
       setCombo(0);
-      setWrong((w) => [...w, { q: q.q, pick: ansText(q, sel), ans: ansText(q, q.a), e: q.e }]);
+      setWrong((w) => [...w, { idx: ord[i], q: q.q, pick: ansText(q, sel), ans: ansText(q, q.a), e: q.e }]);
       fx.bad();
     }
   };
 
-  const pc = Math.round((sc / n) * 100);
-  const xp = sc * 10 + (pc >= 80 ? 20 : 0);
+  const pc = n ? Math.round((sc / n) * 100) : 0;
+  const xp = retry ? 0 : sc * 10 + (pc >= 80 ? 20 : 0);
+
+  const startRetry = () => {
+    const idxs = wrong.map((w) => w.idx);
+    if (!idxs.length) return;
+    if (!retry) setBaseXp(xp); // نقاط التمرين الأصلي تبقى كما هي
+    setRetry(true);
+    setOrd(shuffle(idxs));
+    setI(0);
+    setSc(0);
+    setSel(-1);
+    setOk(false);
+    setCombo(0);
+    setWrong([]);
+    setShowMist(false);
+    setPhase('pick');
+    setRound((r) => r + 1);
+  };
 
   const next = () => {
     if (i + 1 >= n) {
       setPhase('end');
-      patch((s) => {
-        const bs = s.bs || {};
-        return bs[L.id] >= sc ? {} : { bs: { ...bs, [L.id]: sc } };
-      });
-      if (pc >= 80) {
+      if (!retry)
+        patch((s) => {
+          const bs = s.bs || {};
+          return bs[L.id] >= sc ? {} : { bs: { ...bs, [L.id]: sc } };
+        });
+      if (retry ? sc === n : pc >= 80) {
         fx.burst();
         fx.good();
       }
@@ -114,13 +136,14 @@ export default function QuizOverlay({ L, backTick, onClose, onFinish }) {
   } else if (showMist) {
     footer = (
       <div className="lf" id="lf">
-        <button className="cb" id="cl" onClick={() => setShowMist(false)}>رجوع للملخص</button>
+        <button className="cb" id="rt" onClick={startRetry}>أعد محاولة أخطائك ({wrong.length})</button>
+        <button className="gh" id="cl" onClick={() => setShowMist(false)}>رجوع للملخص</button>
       </div>
     );
   } else {
     footer = (
       <div className="lf" id="lf">
-        <button className="cb" id="cl" onClick={() => onFinish(xp)}>استلم النقاط</button>
+        <button className="cb" id="cl" onClick={() => onFinish(retry ? baseXp : xp)}>استلم النقاط</button>
         {wrong.length > 0 && (
           <button className="gh" id="mist" onClick={() => setShowMist(true)}>راجع أخطاءك ({wrong.length})</button>
         )}
@@ -151,15 +174,34 @@ export default function QuizOverlay({ L, backTick, onClose, onFinish }) {
         ) : phase === 'end' ? (
           <div className="end qin">
             <div className="trophy"><Ico n={pc >= 80 ? 'trophy' : pc >= 50 ? 'spark' : 'book'} /></div>
-            <h2>{pc >= 80 ? 'ممتاز!' : pc >= 50 ? 'جيد!' : 'حاول مرة ثانية'}</h2>
-            <div className="mc">
-              <div style={{ '--c': '#d89b00' }}><small>XP</small><b>+{xp}</b></div>
-              <div style={{ '--c': '#1f8a5b' }}><small>الدقة</small><b>{pc}%</b></div>
-              <div style={{ '--c': '#1c8fd6' }}><small>الوقت</small><b>{time}</b></div>
-            </div>
+            <h2>
+              {retry
+                ? sc === n ? 'أصلحت كل أخطائك!' : 'أصلحت ' + sc + ' من ' + n
+                : pc >= 80 ? 'ممتاز!' : pc >= 50 ? 'جيد!' : 'حاول مرة ثانية'}
+            </h2>
+            {retry ? (
+              <>
+                <div className="mc">
+                  <div style={{ '--c': '#1f8a5b' }}><small>صحيحة</small><b>{sc}</b></div>
+                  <div style={{ '--c': '#d9482b' }}><small>المتبقية</small><b>{n - sc}</b></div>
+                  <div style={{ '--c': '#1c8fd6' }}><small>الدقة</small><b>{pc}%</b></div>
+                </div>
+                <p className="tip">إعادة المحاولة للتدريب فقط، ولا تضيف نقاطاً ولا تغيّر نتيجتك.</p>
+              </>
+            ) : (
+              <div className="mc">
+                <div style={{ '--c': '#d89b00' }}><small>XP</small><b>+{xp}</b></div>
+                <div style={{ '--c': '#1f8a5b' }}><small>الدقة</small><b>{pc}%</b></div>
+                <div style={{ '--c': '#1c8fd6' }}><small>الوقت</small><b>{time}</b></div>
+              </div>
+            )}
           </div>
         ) : (
-          <Fragment key={i}>
+          <Fragment key={round + '-' + i}>
+            <div className="qmeta">
+              <span className="qm">{q.tf ? 'صح / خطأ' : 'اختيار من متعدد'}</span>
+              {retry && <span className="qm rt">إعادة محاولة الأخطاء</span>}
+            </div>
             <p className="tip">{q.tf ? 'صح أم خطأ؟' : 'اختر الإجابة الصحيحة'}</p>
             <div className="card qin"><p className="en" style={{ margin: 0 }}>{q.q}</p></div>
             <div id="lo">

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useStore } from '../hooks/useStore.jsx';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { useFx } from '../hooks/useFx.jsx';
@@ -24,6 +24,13 @@ export default function ProfileView({ onTeach }) {
   const fx = useFx();
   const sp = useSpeech();
   const [confirm, setConfirm] = useState(false);
+
+  // تأكيد «مسح كل التقدم» يتراجع تلقائياً بعد 3 ثوانٍ
+  useEffect(() => {
+    if (!confirm) return;
+    const id = setTimeout(() => setConfirm(false), 3000);
+    return () => clearTimeout(id);
+  }, [confirm]);
 
   const lv = Math.floor(S.xp / 100) + 1;
   const pg = S.xp % 100;
@@ -87,9 +94,12 @@ export default function ProfileView({ onTeach }) {
           value={S.name || ''}
           onChange={(e) => patch({ name: e.target.value })}
         />
-        <p className="mu">المستوى {lv}</p>
+        <span className="lvl-badge">المستوى {lv}</span>
         <div className="bar"><i style={{ width: pg + '%' }} /></div>
-        <p className="mu">{100 - pg} نقطة للمستوى التالي</p>
+        <div className="xp-row">
+          <span><b>{pg}</b> / 100 XP</span>
+          <span>{100 - pg} نقطة للمستوى التالي</span>
+        </div>
       </div>
       <Stats />
       <p className="sec">الإعدادات</p>

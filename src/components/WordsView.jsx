@@ -73,9 +73,18 @@ function FlipCard({ k }) {
   );
 }
 
-export default function WordsView({ onReview }) {
+const FILTERS = [
+  ['all', 'الكل'],
+  ['due', 'للمراجعة'],
+  ['known', 'معروفة'],
+];
+
+export default function WordsView({ onReview, onStart }) {
   const { saved, dueList, clearWords } = useStore();
+  const [filter, setFilter] = useState('all');
   const d = dueList.length;
+  const counts = { all: saved.length, due: d, known: saved.length - d };
+  const shown = saved.filter((k) => filter === 'all' || (filter === 'due') === dueList.includes(k));
   return (
     <div id="wv" className="vw">
       <Hero title="كلماتي" sig={saved.length + ':' + d}>
@@ -87,7 +96,11 @@ export default function WordsView({ onReview }) {
         />
       </Hero>
       {!saved.length ? (
-        <div className="card">ما حفظت أي كلمة بعد. اضغط على كلمة في النص ثم اختر «احفظ الكلمة».</div>
+        <div className="card words-empty">
+          <div className="we-ic"><Ico n="cards" /></div>
+          <p>ما حفظت أي كلمة بعد.<br />اضغط على كلمة في النص ثم اختر «احفظ الكلمة».</p>
+          {onStart && <button className="cb" onClick={onStart}>ابدأ القراءة</button>}
+        </div>
       ) : (
         <>
           <div className="card rvc">
@@ -97,12 +110,25 @@ export default function WordsView({ onReview }) {
             </div>
             {d > 0 && <button className="cb" id="rvb" onClick={onReview}>ابدأ المراجعة</button>}
           </div>
-          <p className="tip">اضغط على البطاقة لتقلبها. اضغط مطوّلاً على ✕ لحذف الكلمة.</p>
-          <div className="fc">
-            {saved.map((k) => (
-              <FlipCard key={k} k={k} />
+          <div className="wf-bar" role="tablist" aria-label="تصفية الكلمات">
+            {FILTERS.map(([id, label]) => (
+              <button key={id} role="tab" aria-selected={filter === id} className={'wf-btn' + (filter === id ? ' on' : '')} onClick={() => setFilter(id)}>
+                {label} <span className="wcount">{counts[id]}</span>
+              </button>
             ))}
           </div>
+          <p className="tip">اضغط على البطاقة لتقلبها. اضغط مطوّلاً على ✕ لحذف الكلمة.</p>
+          {shown.length ? (
+            <div className="fc">
+              {shown.map((k) => (
+                <FlipCard key={k} k={k} />
+              ))}
+            </div>
+          ) : (
+            <div className="card words-empty">
+              <p>{filter === 'due' ? 'لا توجد كلمات للمراجعة الآن. أحسنت!' : 'لا توجد كلمات معروفة بعد. راجع كلماتك لتنتقل إلى هنا.'}</p>
+            </div>
+          )}
           <button className="btn" id="clr" onClick={clearWords}>مسح القائمة كلها</button>
         </>
       )}

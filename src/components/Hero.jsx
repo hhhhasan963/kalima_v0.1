@@ -53,6 +53,7 @@ export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', c
     h.style.height = 'auto';
     h.style.marginBottom = '';
     HH.current = h.offsetHeight;
+    h.dataset.hh = HH.current; // يقرأها App لتثبيت التمرير عند تبديل التبويب
     upd();
   }, [upd]);
 

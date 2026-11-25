@@ -14,7 +14,9 @@ export default function AchievementsView() {
     ['bulb', 'أول كلمة', 'احفظ كلمة', saved.length >= 1],
     ['book', '10 كلمات', 'احفظ 10 كلمات', saved.length >= 10],
     ['fire', '3 أيام', 'ادرس 3 أيام متتالية', S.st >= 3],
+    ['fire', '7 أيام', 'ادرس 7 أيام متتالية', S.st >= 7],
     ['star', '100 نقطة', 'اجمع 100 XP', S.xp >= 100],
+    ['star', '500 نقطة', 'اجمع 500 XP', S.xp >= 500],
     ['trophy', 'علامة كاملة', 'جاوب كل أسئلة درس صح', full],
   ];
   const n = A.filter((a) => a[3]).length;
@@ -23,7 +25,13 @@ export default function AchievementsView() {
       <Hero title="الإنجازات">
         <HeroText badge="جوائزك" title="الإنجازات" sub="اجمع الشارات كلما تقدّمت" />
       </Hero>
-      <p className="tip">فتحت {n} من {A.length} إنجازات</p>
+      <div className="ach-progress">
+        <div className="ach-top">
+          <h3>تقدّمك في الإنجازات</h3>
+          <span className="ach-frac">{n}/{A.length}</span>
+        </div>
+        <div className="bar"><i style={{ width: (n / A.length) * 100 + '%' }} /></div>
+      </div>
       <div className="gr">
         {A.map((a, i) => (
           <div key={i} className={'bd' + (a[3] ? ' on' : '')} style={{ '--i': i }}>

@@ -35,3 +35,95 @@
 
 /* أيقونة ملوّنة داخل الدائرة الخضراء (مراجعة الكلمات): بيضاء لتبقى واضحة */
 .un .n .ico{background:#fff}
+
+/* ===================== V0.02 ===================== */
+
+/* ── القراءة: تلميح، أزرار الفقرات، الترجمة ── */
+.read-hint{display:flex;align-items:flex-start;gap:10px;background:linear-gradient(135deg,#f2c94c2e,#f2c94c10);border:1px solid #f2c94c80;border-radius:12px;padding:10px 14px;margin-bottom:14px;font-size:14px;color:var(--ink);animation:in .4s .3s both}
+.read-hint .ico{flex:none;font-size:20px;margin-top:2px}
+.read-hint p{margin:0;line-height:1.6}
+.read-hint b{display:block;margin-bottom:1px}
+#text .para{margin:0}
+#text .prow{display:flex;gap:8px;justify-content:flex-end;margin:0 0 6px}
+#text .pbtn,#text .tbtn{position:relative;display:flex;align-items:center;gap:6px;margin:0;padding:2px 12px 2px 10px;border:1px solid var(--line);background:var(--card);color:var(--mut);border-radius:999px;font:600 13px/1.7 var(--font);direction:rtl;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#text .pbtn::before,#text .tbtn::before{content:'';position:absolute;inset:-10px -4px -6px}
+#text .pbtn .pi{font-size:13px;line-height:1;display:inline-flex}
+#text .pbtn.act{background:#ea2b2b;border-color:#ea2b2b;color:#fff}
+#text .pbtn.act.paused{background:var(--ok);border-color:var(--ok)}
+#text .tbtn.on{background:var(--ok);border-color:var(--ok);color:#fff}
+#text .ptr{direction:rtl;text-align:right;font-size:16px;line-height:1.9;margin:0 0 10px;padding:8px 12px;border-radius:10px;background:#1f8a5b14;border-inline-start:3px solid var(--ok);color:var(--ink)}
+/* موجة متحرّكة على أزرار الاستماع أثناء القراءة */
+.btn.on::after,#text .pbtn.act:not(.paused)::after{content:'';display:inline-block;width:23px;height:14px;margin-inline-start:8px;vertical-align:-2px;
+ background:linear-gradient(currentColor,currentColor) 0 50%/3px 40% no-repeat,linear-gradient(currentColor,currentColor) 5px 50%/3px 80% no-repeat,linear-gradient(currentColor,currentColor) 10px 50%/3px 55% no-repeat,linear-gradient(currentColor,currentColor) 15px 50%/3px 100% no-repeat,linear-gradient(currentColor,currentColor) 20px 50%/3px 45% no-repeat;
+ animation:eq 1s ease-in-out infinite}
+@keyframes eq{0%,100%{background-size:3px 30%,3px 90%,3px 50%,3px 100%,3px 40%}50%{background-size:3px 100%,3px 35%,3px 95%,3px 30%,3px 85%}}
+@media(prefers-reduced-motion:reduce){.btn.on::after,#text .pbtn.act::after{animation:none}}
+/* داخل الدرس: التبديل بين النص/الترجمة/الأسئلة لا يعيد حركة الدخول (تظهر كومضة) */
+body[data-v=lesson] section.on,body[data-v=lesson] #text .en,body[data-v=lesson] #cmpList .card,body[data-v=lesson] section .qin{animation:none!important}
+
+/* ── المشغّل العائم ── */
+#rpl{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,14px);width:min(calc(100% - 28px),380px);z-index:32;display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:999px;background:var(--board);color:#fff;box-shadow:0 14px 30px -10px #000b,0 0 0 1px #ffffff1f inset;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,transform .25s cubic-bezier(.2,.9,.3,1),visibility 0s linear .25s}
+#rpl.on{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0);transition-delay:0s}
+body:not([data-v=lesson]) #rpl{display:none}
+#rpl button{flex:none;width:46px;height:46px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;color:#fff;padding:0;-webkit-tap-highlight-color:transparent;transition:transform .1s}
+#rpl button:active{transform:scale(.92)}
+#rpl #rpP{background:var(--chalk);color:#1b2a26}
+#rpl #rpS{background:#ea2b2b}
+#rpl svg{width:22px;height:22px;fill:currentColor;display:block}
+#rpl .rpi{flex:1;min-width:0;display:flex;flex-direction:column;gap:7px;font:700 13px/1.2 var(--font);text-align:center}
+#rpl .rpb{display:block;height:4px;border-radius:2px;background:#ffffff33;overflow:hidden}
+#rpl .rpb i{display:block;height:100%;width:0;border-radius:2px;background:var(--chalk);transition:width .3s}
+@media(min-width:900px){#rpl{bottom:24px;left:calc((100% - var(--sbw,260px))/2)}}
+
+/* ── الكويز ── */
+.qmeta{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 8px}
+.qm{display:inline-block;padding:2px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--mut);font-size:12.5px;font-weight:700}
+.qm.rt{background:#d89b0022;border-color:#d89b00;color:#9a6c00}
+[data-theme="dark"] .qm.rt{color:#f2c94c}
+.opt.ok{animation:pop .35s,okflash .7s}
+@keyframes okflash{0%{box-shadow:0 0 0 0 #1f8a5b88}100%{box-shadow:0 0 0 14px #1f8a5b00}}
+
+/* ── الكلمات: فلاتر وحالة فارغة ── */
+.wf-bar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.wf-btn{position:relative;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:13.5px;font-weight:600;font-family:inherit;color:var(--mut);cursor:pointer;transition:all .15s}
+.wf-btn::before{content:'';position:absolute;inset:-4px}
+.wf-btn.on{background:var(--ok);border-color:var(--ok);color:#fff}
+.wcount{display:inline-block;background:var(--line);color:var(--ink);border-radius:999px;font-size:11px;font-weight:700;padding:0 7px;margin-inline-start:4px;vertical-align:middle}
+.wf-btn.on .wcount{background:#ffffff33;color:#fff}
+.words-empty{text-align:center;padding:30px 20px;color:var(--mut)}
+.words-empty .we-ic{font-size:52px;margin-bottom:10px;color:var(--ok)}
+.words-empty p{margin:0 0 16px;font-size:15px;line-height:1.8}
+
+/* ── الإنجازات والملف الشخصي ── */
+.ach-progress{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:16px;animation:in .4s both}
+.ach-progress .ach-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.ach-progress h3{margin:0;font-size:16px}
+.ach-progress .ach-frac{font:700 20px var(--en);color:var(--ok)}
+.ach-progress .bar{height:10px;border-radius:6px;margin:0;overflow:hidden}
+.ach-progress .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--ok),#2ecc8a);border-radius:6px;transition:width .6s cubic-bezier(.3,.9,.3,1);animation:grow-bar .8s cubic-bezier(.3,.9,.3,1) both}
+@keyframes grow-bar{from{width:0!important}}
+.card.pf{text-align:center;padding-bottom:20px}
+.card.pf .av{box-shadow:0 0 0 3px var(--card),0 0 0 6px var(--chalk)}
+.card.pf input#nm{text-align:center;font-size:17px;font-weight:700;margin:10px 0 6px}
+.lvl-badge{display:inline-block;background:linear-gradient(135deg,var(--ok),#2a9d6b);color:#fff;border-radius:999px;padding:3px 14px;font-size:13px;font-weight:700;margin:4px 0 12px}
+.xp-row{display:flex;justify-content:space-between;gap:8px;color:var(--mut);font-size:13px;margin-top:-6px}
+.xp-row b{color:var(--ink)}
+
+/* ── الرئيسية: بطاقة التحية وتحسينات بصرية ── */
+.greet{background:var(--card);border:1px solid var(--line);border-inline-start:4px solid var(--chalk);border-radius:16px;padding:12px 16px;margin-bottom:14px;color:var(--ink);display:flex;align-items:center;justify-content:space-between;gap:12px;animation:in .4s both;box-shadow:0 10px 20px -16px #000}
+.greet .gl{flex:1;min-width:0}
+.greet h2{margin:0 0 2px;font:700 18px/1.5 var(--font)}
+.greet p{margin:0;font-size:14px;line-height:1.6;color:var(--mut)}
+.greet .ga{font-size:34px;line-height:1;flex:none}
+@media(max-width:360px){.greet h2{font-size:16px}.greet .ga{font-size:28px}}
+.st3 div{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.st3 div::before{content:'';position:absolute;inset:0;opacity:.09;pointer-events:none;background:linear-gradient(160deg,var(--c,var(--ok)),transparent 70%)}
+.st3 div:nth-child(1){--c:#f2994a}.st3 div:nth-child(2){--c:#f2c94c}.st3 div:nth-child(3){--c:#2d9cdb}
+.un .n{background:linear-gradient(145deg,#2fa36f,var(--ok))}
+.un .go{background:#1f8a5b1c;border-radius:999px;padding:3px 12px;font-size:13.5px}
+.un .bar,.bk .bar{height:9px}
+.logo{box-shadow:0 6px 0 #0f332d,0 0 0 3px #ffffff14,0 0 0 6px #f2c94c33;position:relative}
+.logo::after{content:'';position:absolute;inset:4px 4px auto 4px;height:38%;border-radius:16px 16px 40% 40%;background:linear-gradient(#ffffff2b,transparent);pointer-events:none}
+.prog-wrap{display:flex;align-items:center;gap:8px;margin-top:8px}
+.prog-wrap .bar{flex:1;margin:0!important}
+.prog-pct{flex:none;min-width:34px;text-align:left;color:var(--mut);font:700 12.5px var(--en)}

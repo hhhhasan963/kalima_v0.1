@@ -34,6 +34,23 @@ function HomeHero() {
   );
 }
 
+// بطاقة تحية بحسب الوقت، باسم المستخدم، مع رسالة عن تقدّمه
+function Greeting() {
+  const { S } = useStore();
+  const h = new Date().getHours();
+  const hi = h < 5 ? 'مساء النور' : h < 12 ? 'صباح الخير' : h < 17 ? 'مرحباً' : h < 21 ? 'مساء الخير' : 'مساء النور';
+  const msg = S.st > 1 ? S.st + ' أيام متتالية، استمر!' : S.xp > 0 ? 'لديك ' + S.xp + ' نقطة، أكمل التقدّم.' : 'يلا نبدأ أول درس.';
+  return (
+    <div className="greet">
+      <div className="gl">
+        <h2>{hi}{S.name ? ' يا ' + S.name : ''}</h2>
+        <p>{msg}</p>
+      </div>
+      <span className="ga"><Ico n={S.st > 1 ? 'fire' : 'spark'} /></span>
+    </div>
+  );
+}
+
 function GuestBar() {
   const { guest, leaveGuest } = useAuth();
   if (!guest) return null;
@@ -97,6 +114,7 @@ export default function Home({ onBook, onReview, onResume }) {
   return (
     <div id="home">
       <HomeHero />
+      <Greeting />
       <Stats />
       <GuestBar />
       {rl && (
@@ -134,7 +152,10 @@ export default function Home({ onBook, onReview, onResume }) {
             <div className="t">
               <b>{b.title}</b>
               <span>{b.subtitle}</span>
-              <div className="bar"><i style={{ width: (ls.length ? Math.round((done / ls.length) * 100) : 0) + '%' }} /></div>
+              <div className="prog-wrap">
+                <div className="bar"><i style={{ width: (ls.length ? Math.round((done / ls.length) * 100) : 0) + '%' }} /></div>
+                <span className="prog-pct">{ls.length ? Math.round((done / ls.length) * 100) : 0}%</span>
+              </div>
             </div>
             <span className="go">{done}/{ls.length} ›</span>
           </button>

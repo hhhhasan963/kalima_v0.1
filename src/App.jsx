@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { StoreProvider, useStore } from './hooks/useStore.jsx';
 import { AuthProvider, useAuth } from './hooks/useAuth.jsx';
@@ -12,6 +12,8 @@ import { SpeechProvider, useSpeech } from './hooks/useSpeech.jsx';
 import { useRoute } from './hooks/useRoute.js';
 import { useTabSwipe } from './hooks/useTabSwipe.js';
 import { useEdgeBack } from './hooks/useEdgeBack.js';
+import { useReadPos } from './hooks/useReadPos.js';
+import ReadPlayer from './components/ReadPlayer.jsx';
 import Onboarding from './components/Onboarding.jsx';
 import { listenBack } from './lib/native.js';
 import BottomNav from './components/BottomNav.jsx';
@@ -156,23 +158,56 @@ function Shell() {
     document.documentElement.style.setProperty('--fs', (S.fs || 21) + 'px');
   }, [S.fs]);
 
+  // إغلاق النافذة: إن كانت القراءة أُوقفت مؤقتاً تلقائياً بسبب نقر كلمة نستأنفها (بعد 250ms)
   const closeSheet = useCallback(() => {
     setSheetOpen(false);
     sp.stopIf('sheet');
-  }, [sp.stopIf]); // eslint-disable-line
+    setTimeout(sp.resumeAuto, 250);
+  }, [sp.stopIf, sp.resumeAuto]); // eslint-disable-line
 
   const openWord = (w, id, rect) => {
     setSheet((s) => ({ w, id, rect, nonce: (s?.nonce || 0) + 1 }));
     setSheetOpen(true);
+    sp.softPause(); // نقر كلمة أثناء القراءة ← إيقاف مؤقت (يُستأنف عند إغلاق النافذة)
     sp.say(w, 'sheet');
   };
 
+  // ثبات الهيرو عند التنقل بين التبويبات: حجم الهيرو دالة في scrollY، والقسم الأقصر يجعل المتصفح يقصّ scrollY إلى 0 فيقفز الهيرو.
+  // لذلك نحفظ المكان قبل التبديل، ونضمن ارتفاعاً كافياً للصفحة، ثم نثبّت التمرير (تحت الهيرو المصغّر إن كان مصغّراً).
+  const tabFix = useRef(null);
   const changeTab = (t) => {
     sp.stop();
     closeSheet();
+    if (t !== tab) {
+      const hero = document.querySelector('header.hero2');
+      tabFix.current = { y: window.scrollY, hh: hero ? +hero.dataset.hh || 0 : 0 };
+    }
     setTab(t);
     patch({ lt: t }); // آخر تبويب فتحته (لزر «تابع من حيث توقفت»)
   };
+  useLayoutEffect(() => {
+    const f = tabFix.current;
+    if (!f) return;
+    tabFix.current = null;
+    const collapsed = Math.max(0, f.hh - 52);
+    const target = f.hh && f.y > collapsed ? collapsed : f.y;
+    const mn = document.querySelector('main');
+    if (mn) {
+      mn.style.minHeight = '0px';
+      const rest = document.documentElement.scrollHeight - mn.offsetHeight;
+      mn.style.minHeight = Math.max(0, target + innerHeight - rest) + 'px';
+    }
+    window.scrollTo(0, target);
+  }, [tab]);
+  // مغادرة الدرس: نزيل الحد الأدنى للارتفاع
+  useEffect(() => {
+    if (isLesson) return;
+    const mn = document.querySelector('main');
+    if (mn) mn.style.minHeight = '';
+  }, [isLesson]);
+
+  // تذكّر مكان القراءة لكل درس
+  useReadPos({ lessonId, tab, S, patch, toast });
 
   // يفتح آخر درس وعلى نفس التبويب
   const resume = () => {
@@ -215,13 +250,13 @@ function Shell() {
   const finishQuiz = (xp) => {
     setOverlay(null);
     if (xp) addXP(xp);
-    bigToast(xp ? <><Ico n="spark" /> تمت إضافة +{xp} XP · مجموعك {S.xp + xp}</> : 'حاول مرة ثانية لتجمع نقاطاً');
+    bigToast(xp ? <><Ico n="spark" /> تمت إضافة <bdi>+{xp} XP</bdi> · مجموعك <bdi>{S.xp + xp}</bdi></> : 'حاول مرة ثانية لتجمع نقاطاً');
     go('home');
   };
   const finishReview = (xp) => {
     setOverlay(null);
     addXP(xp);
-    bigToast(<><Ico n="spark" /> تمت إضافة +{xp} XP · مجموعك {S.xp + xp}</>);
+    bigToast(<><Ico n="spark" /> تمت إضافة <bdi>+{xp} XP</bdi> · مجموعك <bdi>{S.xp + xp}</bdi></>);
     go('words');
   };
 
@@ -291,7 +326,7 @@ function Shell() {
           onLocked={() => setLockOpen(true)}
           onSoon={() => setSoonOpen(true)}
         />
-        <WordsView onReview={openReview} />
+        <WordsView onReview={openReview} onStart={resume} />
         <AchievementsView />
         <ProfileView onTeach={() => go('teach')} />
         {isTeacher && <TeacherView />}
@@ -323,6 +358,7 @@ function Shell() {
               selId={sheetOpen ? sheet?.id : null}
               onWord={openWord}
               onBackground={closeSheet}
+              active={isLesson && tab === 'read'}
             />
           </section>
           <section id="cmp" className={tab === 'cmp' ? 'on' : ''}>
@@ -335,6 +371,7 @@ function Shell() {
       </div>
 
       <WordSheet sheet={sheet} open={sheetOpen} onClose={closeSheet} words={L.W} />
+      <ReadPlayer />
       <ProgressBar />
 
       <BottomNav
