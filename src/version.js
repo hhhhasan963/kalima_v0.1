@@ -1,2 +1,2 @@
 // رقم إصدار التطبيق. يُعرض في شاشة الدخول والملف الشخصي. للزيادة: npm run bump
-export const APP_VERSION = 'V0.02';
+export const APP_VERSION = 'V0.03';

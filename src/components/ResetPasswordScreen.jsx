@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { APP_VERSION } from '../version.js';
+import logo from '../assets/logo.svg';
 
 // تظهر بعد أن يضغط المستخدم رابط «استعادة كلمة المرور» في بريده
 export default function ResetPasswordScreen() {
@@ -31,7 +32,9 @@ export default function ResetPasswordScreen() {
   return (
     <div className="auth">
       <div className="auth-box">
-        <div className="logo">ك</div>
+        <div className="logo">
+          <img src={logo} alt="كلمة" />
+        </div>
         <h1>كلمة</h1>
         <p className="mu">اختيار كلمة مرور جديدة</p>
         <form className="card auth-card" onSubmit={submit} noValidate>

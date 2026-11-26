@@ -1,7 +1,7 @@
 /* ===== V0.01: شاشات الترحيب + مراجعة الأخطاء + تلميح السحب ===== */
 
 /* شاشات الترحيب */
-.ob{position:fixed;inset:0;z-index:90;background:var(--bg);display:grid;place-items:center;padding:calc(20px + env(safe-area-inset-top,0px)) 20px calc(20px + env(safe-area-inset-bottom,0px));overflow:auto}
+.ob{position:fixed;inset:0;z-index:90;background:var(--bg);display:grid;place-items:center;padding:calc(20px + var(--sat)) 20px calc(20px + var(--sab));overflow:auto}
 .ob-box{width:100%;max-width:420px;text-align:center;animation:in .35s both}
 .ob-box .logo{width:92px;height:92px;margin:0 auto 18px;border-radius:26px;background:linear-gradient(145deg,#2f7266,#1f4d45);color:var(--chalk);display:grid;place-items:center;font:700 54px/1 var(--font);box-shadow:0 7px 0 #0f332d}
 .ob-ic{width:92px;height:92px;margin:0 auto 18px;border-radius:50%;background:var(--chalk);display:grid;place-items:center;font-size:44px;color:var(--board);box-shadow:0 6px 0 #c9a21f}
@@ -62,7 +62,7 @@
 body[data-v=lesson] section.on,body[data-v=lesson] #text .en,body[data-v=lesson] #cmpList .card,body[data-v=lesson] section .qin{animation:none!important}
 
 /* ── المشغّل العائم ── */
-#rpl{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,14px);width:min(calc(100% - 28px),380px);z-index:32;display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:999px;background:var(--board);color:#fff;box-shadow:0 14px 30px -10px #000b,0 0 0 1px #ffffff1f inset;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,transform .25s cubic-bezier(.2,.9,.3,1),visibility 0s linear .25s}
+#rpl{position:fixed;left:50%;bottom:calc(84px + var(--sab));transform:translate(-50%,14px);width:min(calc(100% - 28px),380px);z-index:32;display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:999px;background:var(--board);color:#fff;box-shadow:0 14px 30px -10px #000b,0 0 0 1px #ffffff1f inset;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,transform .25s cubic-bezier(.2,.9,.3,1),visibility 0s linear .25s}
 #rpl.on{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0);transition-delay:0s}
 body:not([data-v=lesson]) #rpl{display:none}
 #rpl button{flex:none;width:46px;height:46px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;color:#fff;padding:0;-webkit-tap-highlight-color:transparent;transition:transform .1s}
@@ -127,3 +127,27 @@ body:not([data-v=lesson]) #rpl{display:none}
 .prog-wrap{display:flex;align-items:center;gap:8px;margin-top:8px}
 .prog-wrap .bar{flex:1;margin:0!important}
 .prog-pct{flex:none;min-width:34px;text-align:left;color:var(--mut);font:700 12.5px var(--en)}
+
+/* ===================== V0.03: شريط الحالة والهيرو (مثل نسخة PWA) ===================== */
+/* --sat/--sab = أبعاد شريط الحالة وشريط التنقل. على الجوال (Capacitor + viewport-fit=cover) تكون الصفحة تحت شريط الحالة */
+:root{--sat:max(env(safe-area-inset-top,0px),var(--safe-area-inset-top,0px));--sab:max(env(safe-area-inset-bottom,0px),var(--safe-area-inset-bottom,0px));--sbc:#1f4d45}
+:root[data-theme="dark"]{--sbc:#0d2420}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sbc:#0d2420}}
+/* خلفية شريط الحالة: لون ثابت أخضر داكن (كلون theme-color في PWA) فوق كل شيء، بارتفاع الشريط فقط */
+:root::before{content:'';position:fixed;top:0;left:0;right:0;height:var(--sat);background:var(--sbc);z-index:200;pointer-events:none}
+
+/* هيرو عائم: زوايا مدوّرة كاملة، وعنوان متحرّك (.ht) ينتقل إلى الشريط عند التمرير */
+.hero2{border-radius:24px}
+.hero2 .hbar{justify-content:space-between}
+.hero2 .ht{position:absolute;left:0;top:0;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;pointer-events:none;opacity:0;z-index:1;white-space:normal;flex:none;color:var(--chalk)}
+.hero2 .ht>span{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:8;overflow:hidden}
+.hero2 .lg{display:inline-flex;width:32px;height:32px;opacity:0}
+.hero2 .lg img{width:100%;height:100%;display:block}
+
+/* الشعار الرسمي (SVG جاهز بخلفية وزوايا): نلغي الخلفية القديمة والحلقة */
+.logo,.auth-box .logo,.ob-box .logo{background:none!important;box-shadow:none!important;border-radius:0!important;padding:0;display:block;font:inherit}
+.logo::after{display:none!important}
+.logo img{width:100%;height:100%;display:block;object-fit:contain;filter:drop-shadow(0 6px 10px #0006)}
+.hh .logo{width:78px;height:78px}
+.auth-box .logo{width:92px;height:92px;margin:0 auto 6px}
+.ob-box .logo{width:120px;height:120px;margin:0 auto 14px}

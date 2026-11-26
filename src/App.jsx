@@ -198,6 +198,12 @@ function Shell() {
       mn.style.minHeight = Math.max(0, target + innerHeight - rest) + 'px';
     }
     window.scrollTo(0, target);
+    // إن بقي فرق بسيط (بكسلات) لأن ارتفاع الصفحة يتأثر بحالة الهيرو، نزيد الحد الأدنى بمقدار الفرق ونعيد التمرير
+    const miss = target - window.scrollY;
+    if (mn && miss > 0.5) {
+      mn.style.minHeight = (parseFloat(mn.style.minHeight) || 0) + miss + 1 + 'px';
+      window.scrollTo(0, target);
+    }
   }, [tab]);
   // مغادرة الدرس: نزيل الحد الأدنى للارتفاع
   useEffect(() => {

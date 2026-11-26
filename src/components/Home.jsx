@@ -4,6 +4,7 @@ import { useAuth } from '../hooks/useAuth.jsx';
 import { useFx } from '../hooks/useFx.jsx';
 import Hero from './Hero.jsx';
 import { ICON_PATHS, Ico } from './Icons.jsx';
+import logo from '../assets/logo.svg';
 
 export const APP = 'كلمة';
 const TAB_NAMES = { read: 'النص', cmp: 'الترجمة', quiz: 'التمرين' };
@@ -24,7 +25,9 @@ function HomeHero() {
   return (
     <Hero back={false} title={APP}>
       <div className="hh">
-        <div className="logo">ك</div>
+        <div className="logo">
+          <img src={logo} alt="كلمة" />
+        </div>
         <div>
           <h1>{APP}</h1>
           <p>تعلّم الإنكليزية كلمة بكلمة</p>

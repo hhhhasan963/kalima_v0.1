@@ -17,14 +17,11 @@ export async function haptic(kind) {
   } catch {}
 }
 
-// تهيئة الواجهة الأصلية عند الإقلاع (شريط الحالة + إخفاء شاشة البداية)
+// تهيئة الواجهة الأصلية عند الإقلاع.
+// شريط الحالة: على أندرويد 15+ تُرسم الصفحة تحته دائماً (edge-to-edge) ولا يعمل setBackgroundColor،
+// فلونه يأتي من CSS (:root::before بارتفاع --sat وبلون --sbc)، وأيقونات الشريط الفاتحة من إعداد SystemBars في capacitor.config.json.
 export async function initNative() {
   if (!isNative) return;
-  try {
-    const { StatusBar, Style } = await import('@capacitor/status-bar');
-    await StatusBar.setStyle({ style: Style.Dark });
-    if (Capacitor.getPlatform() === 'android') await StatusBar.setBackgroundColor({ color: '#1f4d45' });
-  } catch {}
   try {
     const { SplashScreen } = await import('@capacitor/splash-screen');
     await SplashScreen.hide();

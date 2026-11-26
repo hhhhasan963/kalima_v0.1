@@ -84,3 +84,8 @@ base64 -w0 release.jks     # الناتج يوضع في سر KEYSTORE_BASE64
 
 **التنزيل:** تبويب Actions ▸ اختر التشغيل ▸ Artifacts في آخر الصفحة.
 ملاحظة: Google Play يطلب ملف AAB وليس APK؛ عند النشر على المتجر نضيف workflow لـ `bundleRelease`.
+
+## الشعار وشريط الحالة
+
+- الشعار: `public/logo.svg` (نسخة منه في `src/assets/`). أيقونات أندرويد وشاشات البداية مولَّدة منه في `android/app/src/main/res/`. إذا غيّرت الشعار أعد توليدها (الأيقونة التكيّفية: خلفية متدرجة `drawable/ic_launcher_bg_gradient.xml` + رمز بحجم 84% داخل منطقة الأمان).
+- شريط الحالة على أندرويد: لونه من `:root::before` في `src/extras.css` (المتغير `--sbc`). لتغيير لونه غيّر `--sbc` ولون `statusBarColor` في `android/app/src/main/res/values/styles.xml` للأجهزة الأقدم.

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../hooks/useAuth.jsx';
 import { authUrlError } from '../lib/supabase.js';
 import { APP_VERSION } from '../version.js';
+import logo from '../assets/logo.svg';
 
 // رسائل الخطأ بالعربية
 function arabicError(err) {
@@ -85,7 +86,9 @@ export default function AuthScreen() {
   return (
     <div className="auth">
       <div className="auth-box">
-        <div className="logo">ك</div>
+        <div className="logo">
+          <img src={logo} alt="كلمة" />
+        </div>
         <h1>كلمة</h1>
         <p className="mu">تعلّم الإنكليزية كلمة بكلمة</p>
 

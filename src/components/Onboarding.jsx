@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useStore } from '../hooks/useStore.jsx';
 import { Ico } from './Icons.jsx';
+import logo from '../assets/logo.svg';
 
 // شاشات الترحيب للطالب الجديد: ترحيب ← الاسم ← جاهز
 export default function Onboarding() {
@@ -15,7 +16,9 @@ export default function Onboarding() {
       <div className="ob-box" key={step}>
         {step === 0 && (
           <>
-            <div className="logo">ك</div>
+            <div className="logo">
+          <img src={logo} alt="كلمة" />
+        </div>
             <h1>أهلاً بك في «كلمة»</h1>
             <p>تعلّم الإنكليزية كلمة بكلمة: اقرأ، استمع، احفظ الكلمات، وجرّب نفسك.</p>
             <button className="cb" onClick={() => setStep(1)}>هيا نبدأ</button>
