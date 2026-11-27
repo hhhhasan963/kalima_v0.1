@@ -1,7 +1,9 @@
 /* ===== نظام التصميم V0.01: خط Cairo + أيقونات SVG + أحجام لمس (منقول من نسخة PWA) ===== */
 /* ===== نظام التصميم: خطوط، ألوان، أحجام لمس ===== */
 @font-face{font-family:Cairo;font-weight:200 1000;font-display:swap;src:url(./assets/Cairo.woff) format("woff")}
-:root{--font:Cairo,system-ui,-apple-system,"Segoe UI","Noto Sans Arabic",Tahoma,sans-serif;--en:ui-rounded,"SF Pro Rounded",Nunito,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--r-s:10px;--r-m:14px;--r-l:20px}
+/* نسخة من Cairo للحروف العربية فقط: تُستعمل داخل خط --en (عناوين الهيرو وغيرها) فيبقى الإنكليزي بخطه ويُرسم العربي بـ Cairo بدل خط النظام */
+@font-face{font-family:"Cairo Arabic";font-weight:200 1000;font-display:swap;src:url(./assets/Cairo.woff) format("woff");unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDFF,U+FE70-FEFF,U+200C-200F}
+:root{--font:Cairo,system-ui,-apple-system,"Segoe UI","Noto Sans Arabic",Tahoma,sans-serif;--en:"Cairo Arabic",ui-rounded,"SF Pro Rounded",Nunito,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--r-s:10px;--r-m:14px;--r-l:20px}
 html,body{overflow-anchor:none}
 #bn button{line-height:1.3}
 html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
