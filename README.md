@@ -89,3 +89,9 @@ base64 -w0 release.jks     # الناتج يوضع في سر KEYSTORE_BASE64
 
 - الشعار: `public/logo.svg` (نسخة منه في `src/assets/`). أيقونات أندرويد وشاشات البداية مولَّدة منه في `android/app/src/main/res/`. إذا غيّرت الشعار أعد توليدها (الأيقونة التكيّفية: خلفية متدرجة `drawable/ic_launcher_bg_gradient.xml` + رمز بحجم 84% داخل منطقة الأمان).
 - شريط الحالة على أندرويد: لونه من `:root::before` في `src/extras.css` (المتغير `--sbc`). لتغيير لونه غيّر `--sbc` ولون `statusBarColor` في `android/app/src/main/res/values/styles.xml` للأجهزة الأقدم.
+
+## تحديث التطبيق على الجوال
+
+- كل نسخة debug تُوقَّع بنفس المفتاح (`android/app/kalima-debug.keystore`) فتتحدث فوق النسخة المثبّتة بلا حذف. لا تغيّر هذا الملف ولا تحذفه، وإلا عاد خطأ «التطبيق غير مثبّت».
+- ارفع رقم الإصدار في `src/version.js` مع كل نسخة (`npm run bump`)؛ `versionCode` يُحسب منه تلقائياً (الرئيسي×1000 + الفرعي).
+- للنسخة الموقّعة النهائية (release) استخدم workflow `android-release.yml` بمفتاحك الخاص، ولا تخلط التوقيعين على نفس الجهاز.

@@ -99,3 +99,6 @@ app/src/main/assets/public
 app/src/main/assets/capacitor.config.json
 app/src/main/assets/capacitor.plugins.json
 app/src/main/res/xml/config.xml
+
+# مفتاح التوقيع التجريبي الثابت للنسخ debug (ليس سرّياً): يبقى ضمن المستودع حتى يُوقَّع كل APK بنفس المفتاح
+!app/kalima-debug.keystore

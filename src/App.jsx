@@ -287,6 +287,19 @@ function Shell() {
     nav,
   };
 
+  // فشل النطق على الجوال: نعرض السبب مرة واحدة (غالباً محرّك Text-to-Speech أو بيانات اللغة الإنكليزية غير مثبّتة)
+  const ttsErrShown = useRef(false);
+  useEffect(() => {
+    const f = (e) => {
+      if (ttsErrShown.current) return;
+      ttsErrShown.current = true;
+      toastRef.current('تعذّر النطق على هذا الجهاز. تحقّق من محرّك Text-to-Speech وبيانات اللغة الإنكليزية (الملف الشخصي ← فحص الصوت).', 6000);
+      console.warn('TTS error:', e.detail);
+    };
+    window.addEventListener('kalima-tts-error', f);
+    return () => window.removeEventListener('kalima-tts-error', f);
+  }, []);
+
   // السحب من الحافة اليمنى = رجوع (داخل التمرين/المراجعة يمرّ عبر حارس الرجوع نفسه)
   const handleBack = () => {
     const g = guardRef.current;

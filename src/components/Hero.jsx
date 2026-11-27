@@ -37,6 +37,8 @@ const rel = (el, top) => {
   return { x, y };
 };
 
+const BAR_LOGO = 44; // حجم الشعار في الشريط المصغّر
+
 // بطاقة علوية «عائمة» (هامش 12px وزوايا مدوّرة) تتحوّل مع التمرير إلى شريط بعرض الشاشة وارتفاع 52px مثبّت أعلى الصفحة،
 // والعنوان نفسه ينتقل من مكانه الكبير إلى الشريط (منقول من نسخة PWA).
 export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', children }) {
@@ -46,6 +48,7 @@ export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', c
   const HM = useRef({ t: 0, l: 0, r: 0 }); // هوامش البطاقة الأصلية من CSS
   const HS = useRef(null); // موضع العنوان الكبير
   const FT = useRef(0);
+  const HL = useRef(null); // هندسة الشعار: من مكانه الكبير إلى خانته في الشريط
   const { goBack, dark, toggleTheme, v, nav } = useContext(UiContext);
 
   // q = مقدار «الطفو»: 12px عند الأعلى ثم 0 عند التصاقها بالحافة. top يضيف شريط الحالة (--sat)
@@ -81,8 +84,16 @@ export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', c
     h.style.setProperty('--ln', 1 - p);
     const f = Math.max(0, 1 - p * 2.2);
     h.querySelectorAll('.hbody .badge,.hbody p,.hbody .meta,.hbody .logo').forEach((x) => (x.style.opacity = f));
-    const lg = h.querySelector('.lg');
-    if (lg) lg.style.opacity = Math.max(0, (p - 0.6) / 0.4);
+    // الشعار نفسه يتحرّك ويصغر من مكانه الكبير إلى خانته في الشريط (لا يختفي ويظهر في مكان آخر)
+    const hl = h.querySelector('.hl');
+    const L0 = HL.current;
+    if (hl && L0) {
+      const s = L0.s + (BAR_LOGO - L0.s) * p;
+      hl.style.width = hl.style.height = s + 'px';
+      hl.style.left = L0.x + (L0.tx - L0.x) * p + 'px';
+      hl.style.top = L0.y + (L0.ty - L0.y) * p + 'px';
+      hl.style.opacity = 1;
+    }
     const ht = h.querySelector('.ht');
     const S0 = HS.current;
     if (ht && S0) {
@@ -134,6 +145,21 @@ export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', c
       ht.style.lineHeight = isNaN(lh) ? '1.3' : (lh / fs).toFixed(3);
       t.style.visibility = 'hidden'; // العنوان الكبير يحلّ محله .ht المتحرّك
     }
+    const lgEl = h.querySelector('.hbody .logo');
+    const hl = h.querySelector('.hl');
+    if (hl && lgEl) {
+      const o = rel(lgEl, h);
+      const hs = h.querySelector('.hs');
+      const W1 = h.clientWidth;
+      // الخانة الهدف: بداية الشريط (يمين في RTL)
+      const tx = hs && hs.offsetWidth > 8 ? rel(hs, h).x + hs.offsetWidth / 2 - BAR_LOGO / 2 : W1 - 12 - BAR_LOGO;
+      HL.current = { x: o.x, y: o.y, s: lgEl.offsetWidth, tx, ty: (52 - BAR_LOGO) / 2 };
+      lgEl.style.visibility = 'hidden'; // الشعار الكبير يحلّ محلّه .hl المتحرّك
+      hl.style.display = 'block';
+    } else if (hl) {
+      HL.current = null;
+      hl.style.display = 'none';
+    }
     upd();
   }, [upd]); // eslint-disable-line
 
@@ -164,11 +190,7 @@ export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', c
             <button className="chip" aria-label="رجوع" onClick={goBack}>
               <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" /></svg>
             </button>
-          ) : (
-            <span className="lg">
-              <img src={logo} alt="" />
-            </span>
-          )}
+          ) : null}
         </span>
         <span className="ht" aria-label={title}>
           <span ref={htText} />
@@ -178,6 +200,11 @@ export default function Hero({ tag: Tag = 'div', back = true, title, sig = '', c
         </button>
       </div>
       <div className="hbody">{children}</div>
+      {!back && (
+        <span className="hl" aria-hidden="true">
+          <img src={logo} alt="" />
+        </span>
+      )}
     </Tag>
   );
 }

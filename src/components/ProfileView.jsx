@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useStore } from '../hooks/useStore.jsx';
 import { useAuth } from '../hooks/useAuth.jsx';
-import { useFx } from '../hooks/useFx.jsx';
+import { audioState, useFx } from '../hooks/useFx.jsx';
+import { isNative } from '../lib/native.js';
+import { ttsDiagnose, ttsOpenInstall } from '../lib/tts.js';
 import { useSpeech } from '../hooks/useSpeech.jsx';
 import { Stats } from './Home.jsx';
 import { APP_VERSION } from '../version.js';
@@ -24,6 +26,7 @@ export default function ProfileView({ onTeach }) {
   const fx = useFx();
   const sp = useSpeech();
   const [confirm, setConfirm] = useState(false);
+  const [diag, setDiag] = useState(null);
 
   // تأكيد «مسح كل التقدم» يتراجع تلقائياً بعد 3 ثوانٍ
   useEffect(() => {
@@ -143,6 +146,37 @@ export default function ProfileView({ onTeach }) {
           />
         </div>
       </div>
+      {isNative && (
+        <div className="card diag">
+          <h3>فحص الصوت</h3>
+          <p className="tip">إذا لم تسمع نطقاً أو مؤثرات، اضغط الأزرار وأرسل لي النتيجة.</p>
+          <div className="diag-btns">
+            <button
+              className="btn"
+              onClick={async () => {
+                setDiag(['جارٍ الفحص…']);
+                sp.say('Hello, this is a test.', 'diag');
+                setDiag(await ttsDiagnose());
+              }}
+            >
+              اختبار النطق
+            </button>
+            <button
+              className="btn"
+              onClick={() => {
+                fx.good(true);
+                setDiag(['حالة المؤثرات: ' + audioState()]);
+              }}
+            >
+              اختبار المؤثرات
+            </button>
+            <button className="btn" onClick={ttsOpenInstall}>
+              بيانات صوت اللغة
+            </button>
+          </div>
+          {diag && <pre className="diag-out">{diag.join('\n')}</pre>}
+        </div>
+      )}
       <button
         className="btn"
         id="rs"

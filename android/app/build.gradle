@@ -1,14 +1,36 @@
 apply plugin: 'com.android.application'
 
+// رقم الإصدار من src/version.js (مثلاً 'V0.03') ← versionName يظهر في إعدادات أندرويد مطابقاً لما داخل التطبيق،
+// وversionCode = الرئيسي*1000 + الفرعي (V0.03 ← 3، V1.01 ← 1001) فيزيد مع كل إصدار ويسمح بالتحديث فوق النسخة المثبّتة.
+def kalimaVersionName = 'V0.00'
+def kalimaVersionCode = 1
+def kalimaVerFile = file('../../src/version.js')
+if (kalimaVerFile.exists()) {
+    def kalimaMatch = (kalimaVerFile.text =~ /V(\d+)\.(\d+)/)
+    if (kalimaMatch.find()) {
+        kalimaVersionName = kalimaMatch.group(0)
+        kalimaVersionCode = kalimaMatch.group(1).toInteger() * 1000 + kalimaMatch.group(2).toInteger()
+    }
+}
+
 android {
     namespace = "com.kalima.app"
     compileSdk = rootProject.ext.compileSdkVersion
+    // مفتاح توقيع ثابت للنسخ التجريبية (debug). بدونه يولّد GitHub مفتاحاً جديداً في كل تشغيل فيرفض أندرويد التحديث («التطبيق غير مثبّت»).
+    signingConfigs {
+        debug {
+            storeFile file('kalima-debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
     defaultConfig {
         applicationId "com.kalima.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode kalimaVersionCode
+        versionName kalimaVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -17,6 +39,9 @@ android {
         }
     }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'

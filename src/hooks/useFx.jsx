@@ -1,9 +1,22 @@
-import { createContext, useCallback, useContext, useRef, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
 import { useStore } from './useStore.jsx';
 import { haptic } from '../lib/native.js';
 
 const FxContext = createContext(null);
 let AC;
+
+// WebView على أندرويد لا يسمح بتشغيل Web Audio قبل لمسة من المستخدم: ننشئ السياق ونشغّل نغمة صامتة عند أول لمسة
+export function unlockAudio() {
+  try {
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+    if (AC.state === 'suspended') AC.resume();
+    const s = AC.createBufferSource();
+    s.buffer = AC.createBuffer(1, 1, 22050);
+    s.connect(AC.destination);
+    s.start(0);
+  } catch {}
+}
+export const audioState = () => (AC ? AC.state : 'لم يُنشأ بعد');
 
 export function FxProvider({ children }) {
   const { S, patch } = useStore();
@@ -12,6 +25,16 @@ export function FxProvider({ children }) {
   const hapRef = useRef(S.hap !== 0);
   hapRef.current = S.hap !== 0;
   const buzz = (k) => hapRef.current && haptic(k);
+
+  useEffect(() => {
+    const ev = ['pointerdown', 'touchend', 'keydown'];
+    const f = () => {
+      unlockAudio();
+      ev.forEach((e) => window.removeEventListener(e, f, true));
+    };
+    ev.forEach((e) => window.addEventListener(e, f, true));
+    return () => ev.forEach((e) => window.removeEventListener(e, f, true));
+  }, []);
   const [items, setItems] = useState([]);
   const [pop, setPop] = useState(0);
   const idRef = useRef(0);
@@ -93,7 +116,7 @@ export function FxProvider({ children }) {
     },
     [patch, push]
   );
-  const toast = useCallback((text) => push({ kind: 'toast', text }, 2000), [push]);
+  const toast = useCallback((text, ms = 2000) => push({ kind: 'toast', text }, ms), [push]);
   const bigToast = useCallback((text) => push({ kind: 'big', text }, 2700), [push]);
   const burst = useCallback(() => {
     winRef.current = true;
