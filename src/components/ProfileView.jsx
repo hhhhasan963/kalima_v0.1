@@ -154,9 +154,8 @@ export default function ProfileView({ onTeach }) {
             <button
               className="btn"
               onClick={async () => {
-                setDiag(['جارٍ الفحص…']);
-                sp.say('Hello, this is a test.', 'diag');
-                setDiag(await ttsDiagnose());
+                setDiag([]);
+                await ttsDiagnose((l) => setDiag((d) => [...(d || []), l]));
               }}
             >
               اختبار النطق
@@ -170,7 +169,13 @@ export default function ProfileView({ onTeach }) {
             >
               اختبار المؤثرات
             </button>
-            <button className="btn" onClick={ttsOpenInstall}>
+            <button
+              className="btn"
+              onClick={async () => {
+                setDiag(['جارٍ المحاولة…']);
+                setDiag([await ttsOpenInstall()]);
+              }}
+            >
               بيانات صوت اللغة
             </button>
           </div>

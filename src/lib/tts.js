@@ -23,9 +23,44 @@ function webSpeak(text, rate, onend, onerror) {
   speechSynthesis.speak(u);
 }
 
+// مهلة لأي استدعاء أصلي: بعض حالات الفشل في الإضافة لا ترفض الوعد أبداً بل يبقى معلّقاً
+const withTimeout = (p, ms, label) =>
+  Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error('لا استجابة خلال ' + ms / 1000 + ' ثوانٍ (' + label + ')')), ms))]);
+
+// هل إضافة النطق الأصلية تستجيب فعلاً؟ نفحصها مرة واحدة ونحتفظ بالنتيجة: 'ok' أو 'dead'
+let nativeState = 'unknown';
+let nativeWhy = '';
+async function checkNative(force) {
+  if (!force && nativeState !== 'unknown') return nativeState === 'ok';
+  try {
+    const T = await withTimeout(getPlugin(), 4000, 'تحميل الإضافة');
+    await withTimeout(T.isLanguageSupported({ lang: 'en-US' }), 3000, 'isLanguageSupported');
+    nativeState = 'ok';
+    nativeWhy = '';
+  } catch (e) {
+    nativeState = 'dead';
+    nativeWhy = msg(e);
+  }
+  return nativeState === 'ok';
+}
+
 async function nativeSpeak(text, rate, onend, onerror) {
   const my = ++gen;
   let last = '';
+  // 1) إضافة لا تستجيب (تعلّق بلا خطأ): ننتقل فوراً إلى speechSynthesis داخل الـWebView ونُبلغ بالسبب مرة واحدة
+  if (!(await checkNative())) {
+    if (my !== gen) return;
+    window.dispatchEvent(new CustomEvent('kalima-tts-error', { detail: 'الإضافة الأصلية لا تستجيب: ' + nativeWhy }));
+    try {
+      if (typeof speechSynthesis !== 'undefined' && typeof SpeechSynthesisUtterance !== 'undefined') {
+        webSpeak(text, rate, onend, onerror);
+        return;
+      }
+    } catch {}
+    if (onerror) onerror();
+    return;
+  }
+  // 2) الإضافة تستجيب: en-US ثم en-GB ثم en، مع إعادة محاولة (المحرّك قد لا يكون جاهزاً عند أول طلب)
   try {
     const T = await getPlugin();
     for (const lang of LANGS) {
@@ -38,7 +73,6 @@ async function nativeSpeak(text, rate, onend, onerror) {
         } catch (e) {
           last = msg(e);
           if (my !== gen) return;
-          // «اللغة غير مدعومة» قد تكون لأن المحرّك لم يكتمل تشغيله بعد: نمهله ثم نعيد قبل الانتقال للغة التالية
           if (attempt === 0) await sleep(400);
         }
       }
@@ -47,7 +81,6 @@ async function nativeSpeak(text, rate, onend, onerror) {
     last = msg(e);
   }
   if (my !== gen) return;
-  // آخر محاولة: speechSynthesis داخل الـWebView
   try {
     if (typeof speechSynthesis !== 'undefined' && typeof SpeechSynthesisUtterance !== 'undefined') {
       webSpeak(text, rate, onend, onerror);
@@ -78,42 +111,75 @@ export function cancelSpeech() {
   speechSynthesis.cancel();
 }
 
-// تشخيص النطق (يُعرض في الملف الشخصي على الجوال)
-export async function ttsDiagnose() {
-  const out = ['المنصة: ' + (isNative ? Capacitor.getPlatform() : 'ويب')];
-  if (!isNative) {
-    out.push('speechSynthesis: ' + ('speechSynthesis' in window ? 'موجود' : 'غير موجود'));
+// تشخيص النطق (يُعرض في الملف الشخصي على الجوال). log(line) يُستدعى مع كل خطوة حتى يرى المستخدم التقدّم ولو علّقت خطوة.
+export async function ttsDiagnose(log = () => {}) {
+  const L = (s) => log(s);
+  L('المنصة: ' + (isNative ? Capacitor.getPlatform() : 'ويب'));
+  const m = navigator.userAgent.match(/Chrome\/([\d.]+)/);
+  L('محرّك الـWebView: ' + (m ? 'Chrome ' + m[1] : navigator.userAgent.slice(0, 60)));
+  if (isNative) {
+    let avail = '؟';
     try {
-      out.push('عدد الأصوات: ' + speechSynthesis.getVoices().length);
+      avail = Capacitor.isPluginAvailable('TextToSpeech') ? 'نعم' : 'لا (تُستخدم نسخة الويب بدلها)';
     } catch {}
-    return out;
+    L('إضافة النطق مسجّلة أصلياً: ' + avail);
+    try {
+      const names = ((window.Capacitor && window.Capacitor.PluginHeaders) || []).map((h) => h.name);
+      L('الإضافات الأصلية المسجّلة: ' + (names.join(', ') || '(لا شيء)'));
+    } catch {}
   }
+  // speechSynthesis في الـWebView
   try {
+    if ('speechSynthesis' in window) {
+      let n = speechSynthesis.getVoices().length;
+      if (!n) {
+        await new Promise((r) => {
+          speechSynthesis.onvoiceschanged = () => r();
+          setTimeout(r, 2000);
+        });
+        n = speechSynthesis.getVoices().length;
+      }
+      L('speechSynthesis: موجود، عدد الأصوات = ' + n);
+    } else L('speechSynthesis: غير موجود');
+  } catch (e) {
+    L('speechSynthesis: خطأ ' + msg(e));
+  }
+  if (!isNative) return;
+  nativeState = 'unknown';
+  L('فحص استجابة إضافة النطق الأصلية…');
+  const ok = await checkNative(true);
+  L(ok ? 'الإضافة الأصلية تستجيب ✓' : 'الإضافة الأصلية لا تستجيب ✗: ' + nativeWhy);
+  if (ok) {
     const T = await getPlugin();
     for (const lang of LANGS) {
       try {
-        const r = await T.isLanguageSupported({ lang });
-        out.push(lang + ': ' + (r.supported ? 'مدعومة' : 'غير مدعومة'));
+        const r = await withTimeout(T.isLanguageSupported({ lang }), 3000, lang);
+        L(lang + ': ' + (r.supported ? 'مدعومة' : 'غير مدعومة'));
       } catch (e) {
-        out.push(lang + ': خطأ ' + msg(e));
+        L(lang + ': ' + msg(e));
       }
     }
     try {
-      const l = await T.getSupportedLanguages();
-      out.push('عدد لغات المحرّك: ' + l.languages.length);
+      const l = await withTimeout(T.getSupportedLanguages(), 3000, 'getSupportedLanguages');
+      L('عدد لغات المحرّك: ' + l.languages.length);
     } catch (e) {
-      out.push('getSupportedLanguages: ' + msg(e));
+      L('getSupportedLanguages: ' + msg(e));
     }
-  } catch (e) {
-    out.push('تعذّر تحميل إضافة النطق: ' + msg(e));
   }
-  return out;
+  // تجربة نطق فعلية
+  L('تجربة نطق: «Hello»…');
+  let settled = false;
+  setTimeout(() => !settled && L('لا يوجد رد من النطق بعد 8 ثوانٍ'), 8000);
+  speakText('Hello, this is a test.', 0.85, () => ((settled = true), L('انتهى النطق بنجاح ✓')), () => ((settled = true), L('فشل النطق ✗')));
 }
 
-// يفتح شاشة تثبيت بيانات الصوت في أندرويد
+// يفتح شاشة تثبيت بيانات الصوت في أندرويد؛ يرجع نصاً بالنتيجة
 export async function ttsOpenInstall() {
   try {
-    const T = await getPlugin();
-    await T.openInstall();
-  } catch {}
+    const T = await withTimeout(getPlugin(), 4000, 'تحميل الإضافة');
+    await withTimeout(T.openInstall(), 4000, 'openInstall');
+    return 'تم فتح شاشة بيانات الصوت';
+  } catch (e) {
+    return 'تعذّر فتح شاشة بيانات الصوت: ' + msg(e);
+  }
 }

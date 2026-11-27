@@ -293,7 +293,7 @@ function Shell() {
     const f = (e) => {
       if (ttsErrShown.current) return;
       ttsErrShown.current = true;
-      toastRef.current('تعذّر النطق على هذا الجهاز. تحقّق من محرّك Text-to-Speech وبيانات اللغة الإنكليزية (الملف الشخصي ← فحص الصوت).', 6000);
+      toastRef.current('تعذّر النطق: ' + String(e.detail || '').slice(0, 90) + ' — افتح الملف الشخصي ← فحص الصوت.', 7000);
       console.warn('TTS error:', e.detail);
     };
     window.addEventListener('kalima-tts-error', f);
