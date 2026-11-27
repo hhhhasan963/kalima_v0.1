@@ -84,13 +84,23 @@ export function AuthProvider({ children }) {
     if (!r.error) setRecovery(false);
     return r;
   }, []);
+  // يمسح الدروس المحفوظة بالجهاز عند الخروج حتى لا تبقى لمن لم يعد مسجّلاً
+  const clearContentCache = () => {
+    try {
+      Object.keys(localStorage)
+        .filter((k) => k.startsWith('kalima:v2:') || k.startsWith('kalima:teacher:'))
+        .forEach((k) => localStorage.removeItem(k));
+    } catch {}
+  };
   const cancelRecovery = useCallback(async () => {
     setRecovery(false);
     await supabase.auth.signOut();
+    clearContentCache();
   }, []);
   const signOut = useCallback(async () => {
     setOfflineUser(null);
     await supabase.auth.signOut();
+    clearContentCache();
   }, []);
 
   const user = (session && session.user) || offlineUser || null;

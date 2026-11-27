@@ -425,6 +425,13 @@ function Shell() {
 function Gate() {
   const { configured, loading, user, guest, recovery } = useAuth();
   if (loading) return <div className="splash">جارٍ التحميل…</div>;
+  // بدون إعداد Supabase لا يعمل التطبيق (حتى لا يُفتح بكل الدروس بلا دخول)
+  if (!configured)
+    return (
+      <div className="splash" role="alert" style={{ padding: 24, textAlign: 'center' }}>
+        خطأ في إعداد التطبيق: لا يوجد اتصال بالخادم. تواصل مع المطوّر.
+      </div>
+    );
   if (configured && recovery) return <ResetPasswordScreen />; // بعد رابط «نسيت كلمة المرور»
   if (configured && !user && !guest) return <AuthScreen />;
   // الزائر: الدروس المفتوحة فقط، وتقدّمه على الجهاز بدون مزامنة

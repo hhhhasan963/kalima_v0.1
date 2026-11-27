@@ -56,12 +56,19 @@ const out = lessons.map((o) => {
   };
 });
 
+// الدرس الأول (أصغر رقم وحدة) من كل كتاب فقط
+const firstOf = {};
+out.forEach((l) => {
+  if (!(l.book in firstOf) || l.unit < firstOf[l.book].unit) firstOf[l.book] = l;
+});
+const bundled = Object.values(firstOf);
+
 const dictFile = join(dir, 'dictionary.json');
 const dict = existsSync(dictFile) ? JSON.parse(readFileSync(dictFile, 'utf8')) : {};
 
 const js =
   '// ملف مولَّد تلقائياً من content/*.json بالأمر: npm run build:bundled — لا تعدّله يدوياً\n' +
-  'export const LESSONS = ' + JSON.stringify(out) + ';\n' +
+  '// يُضمَّن الدرس الأول من كل كتاب فقط (نسخة احتياطية لأول تشغيل بلا إنترنت)، والبقية تأتي من Supabase\nexport const LESSONS = ' + JSON.stringify(bundled) + ';\n' +
   'export const DICT = ' + JSON.stringify(dict) + ';\n';
 writeFileSync(join(root, 'src/data/lessons.generated.js'), js);
-console.log(`✓ ${out.length} درساً + ${Object.keys(dict).length} كلمة في القاموس ← src/data/lessons.generated.js (${(js.length / 1024).toFixed(0)} KB)`);
+console.log(`✓ ${bundled.length} درساً مضمّناً من ${out.length} + ${Object.keys(dict).length} كلمة في القاموس ← src/data/lessons.generated.js (${(js.length / 1024).toFixed(0)} KB)`);
