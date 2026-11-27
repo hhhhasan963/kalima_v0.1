@@ -5,11 +5,14 @@ import { Capacitor } from '@capacitor/core';
 import { isNative } from './native.js';
 
 const LANGS = ['en-US', 'en-GB', 'en'];
-let plugin = null;
+// ⚠ مهم: كائن إضافة Capacitor (Proxy) يرد على أي خاصية بما فيها `then`، فإذا أعدناه من دالة async أو مرّرناه إلى await
+// عدّه JavaScript وعداً واستدعى then عليه فيعلّق إلى الأبد (هذا كان سبب تعطّل النطق في APK).
+// لذلك نحمله دائماً داخل حاوية عادية { T } ولا نرجعه مباشرة.
 let gen = 0; // يُلغي المحاولات المتأخرة عند طلب نطق جديد أو إيقاف
+let holder = null;
 const getPlugin = async () => {
-  if (!plugin) plugin = (await import('@capacitor-community/text-to-speech')).TextToSpeech;
-  return plugin;
+  if (!holder) holder = { T: (await import('@capacitor-community/text-to-speech')).TextToSpeech };
+  return holder;
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const msg = (e) => (e && (e.message || e.errorMessage)) || String(e);
@@ -33,7 +36,7 @@ let nativeWhy = '';
 async function checkNative(force) {
   if (!force && nativeState !== 'unknown') return nativeState === 'ok';
   try {
-    const T = await withTimeout(getPlugin(), 4000, 'تحميل الإضافة');
+    const { T } = await withTimeout(getPlugin(), 4000, 'تحميل الإضافة');
     await withTimeout(T.isLanguageSupported({ lang: 'en-US' }), 3000, 'isLanguageSupported');
     nativeState = 'ok';
     nativeWhy = '';
@@ -62,7 +65,7 @@ async function nativeSpeak(text, rate, onend, onerror) {
   }
   // 2) الإضافة تستجيب: en-US ثم en-GB ثم en، مع إعادة محاولة (المحرّك قد لا يكون جاهزاً عند أول طلب)
   try {
-    const T = await getPlugin();
+    const { T } = await getPlugin();
     for (const lang of LANGS) {
       for (let attempt = 0; attempt < 2; attempt++) {
         if (my !== gen) return;
@@ -105,7 +108,7 @@ export function speakText(text, rate, onend, onerror) {
 export function cancelSpeech() {
   gen++;
   if (isNative) {
-    getPlugin().then((T) => T.stop()).catch(() => {});
+    getPlugin().then(({ T }) => T.stop()).catch(() => {});
     return;
   }
   speechSynthesis.cancel();
@@ -150,7 +153,7 @@ export async function ttsDiagnose(log = () => {}) {
   const ok = await checkNative(true);
   L(ok ? 'الإضافة الأصلية تستجيب ✓' : 'الإضافة الأصلية لا تستجيب ✗: ' + nativeWhy);
   if (ok) {
-    const T = await getPlugin();
+    const { T } = await getPlugin();
     for (const lang of LANGS) {
       try {
         const r = await withTimeout(T.isLanguageSupported({ lang }), 3000, lang);
@@ -176,7 +179,7 @@ export async function ttsDiagnose(log = () => {}) {
 // يفتح شاشة تثبيت بيانات الصوت في أندرويد؛ يرجع نصاً بالنتيجة
 export async function ttsOpenInstall() {
   try {
-    const T = await withTimeout(getPlugin(), 4000, 'تحميل الإضافة');
+    const { T } = await withTimeout(getPlugin(), 4000, 'تحميل الإضافة');
     await withTimeout(T.openInstall(), 4000, 'openInstall');
     return 'تم فتح شاشة بيانات الصوت';
   } catch (e) {
