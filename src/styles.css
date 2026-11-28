@@ -4,7 +4,7 @@ box-sizing:border-box;padding-top:var(--sat);padding-bottom:var(--sab)}
 :root[data-theme="dark"]{--bg:#101a18;--card:#182623;--ink:#e6f0ed;--mut:#9fb5af;--line:#2c403c}
 html{scroll-padding-top:var(--sat)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.9 "Segoe UI",Tahoma,system-ui,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.9 "Cairo Arabic","Segoe UI",Tahoma,system-ui,sans-serif}
 header{background:var(--board);color:#fff;padding:18px 16px 12px;text-align:center}
 header h1{margin:0;font:700 26px/1.3 var(--en);direction:ltr;color:var(--chalk)}
 header p{margin:2px 0 0;font-size:15px;opacity:.85}
@@ -58,7 +58,7 @@ main{padding-top:18px}
 #opts{counter-reset:o}
 .opt{counter-increment:o;display:flex;gap:12px;align-items:center;border-radius:14px;font-size:19px;transition:transform .1s}
 .opt:active{transform:scale(.985)}
-.opt::before{content:counter(o,upper-alpha);flex:none;width:30px;height:30px;border-radius:50%;background:var(--bg);border:1.5px solid var(--line);display:grid;place-items:center;font:700 14px sans-serif}
+.opt::before{content:counter(o,upper-alpha);flex:none;width:30px;height:30px;border-radius:50%;background:var(--bg);border:1.5px solid var(--line);display:grid;place-items:center;font:700 14px "Cairo Arabic",sans-serif}
 .opt.ok::before{content:"✓";background:var(--ok);color:#fff;border-color:var(--ok)}
 .opt.no::before{content:"✗";background:var(--bad);color:#fff;border-color:var(--bad)}
 .bar{height:8px}
@@ -86,7 +86,7 @@ header{padding-top:52px}
 .hud div{display:flex;gap:8px}
 .chip{background:#0000002e;border:0;border-radius:999px;padding:3px 12px;font:700 14px/1.6 inherit;font-family:inherit;color:#fff;cursor:pointer}
 .chip.pop{animation:pop .45s}
-.fly{position:fixed;top:64px;left:0;right:0;margin:auto;width:max-content;background:var(--board);color:var(--chalk);font:700 18px sans-serif;padding:2px 14px;border-radius:999px;z-index:30;pointer-events:none;animation:fly .9s forwards}
+.fly{position:fixed;top:64px;left:0;right:0;margin:auto;width:max-content;background:var(--board);color:var(--chalk);font:700 18px "Cairo Arabic",sans-serif;padding:2px 14px;border-radius:999px;z-index:30;pointer-events:none;animation:fly .9s forwards}
 @keyframes fly{from{opacity:0;transform:translateY(12px)}25%{opacity:1}to{opacity:0;transform:translateY(-26px)}}
 #pgb{position:fixed;top:var(--sat);right:0;height:3px;width:0;background:var(--chalk);z-index:30}
 @keyframes in{from{opacity:0;transform:translateY(12px)}}
@@ -146,7 +146,7 @@ header{margin:12px 12px 0;border-radius:20px;padding:22px 16px 26px}
 .lt .bar{flex:1;margin:0;height:14px;border-radius:7px}
 .lt .bar i{background:var(--ok);border-radius:7px;width:0}
 .x{width:36px;height:36px;border-radius:50%;border:0;background:var(--card);color:var(--mut);font-size:18px;cursor:pointer}
-#lc{font:700 14px sans-serif;color:var(--mut);direction:ltr}
+#lc{font:700 14px "Cairo Arabic",sans-serif;color:var(--mut);direction:ltr}
 #lbody{flex:1;overflow:auto;padding:6px 16px 20px;max-width:640px;width:100%;margin:0 auto}
 .lf{padding:14px 16px calc(14px + var(--sab));border-top:2px solid var(--line);background:var(--card);display:flex;flex-direction:column;gap:8px;animation:in .25s both}
 .lf>*{max-width:608px;width:100%;margin:0 auto}
@@ -355,7 +355,7 @@ body.home:not([data-v=home]) #bk{display:inline-block}
 body[data-v=home] #bk{display:inline-block;visibility:hidden}
 .hero2{background:radial-gradient(circle at 15% 0,#2f7266 0,transparent 55%),radial-gradient(circle at 95% 100%,#2a5d54 0,transparent 50%),var(--board);color:#fff;border-radius:20px;padding:22px 16px 28px;text-align:center;position:relative;overflow:hidden;margin:0 0 18px}
 .hero2::after{content:'';position:absolute;inset:auto 22% 12px;height:3px;border-radius:2px;background:var(--chalk);opacity:.75;transform:rotate(-1deg)}
-.hero2 h1{margin:0;font:700 32px/1.3 'Segoe UI',Tahoma,sans-serif;color:var(--chalk);text-shadow:0 2px 0 #0004}
+.hero2 h1{margin:0;font:700 32px/1.3 "Cairo Arabic",'Segoe UI',Tahoma,sans-serif;color:var(--chalk);text-shadow:0 2px 0 #0004}
 .hero2 p{margin:2px 0 0;font-size:16px;opacity:.9;color:#fff}
 .hh.hero2{display:flex;align-items:center;text-align:start;gap:14px;padding:18px 18px 28px}
 .hh.hero2 h1{font-size:34px}
